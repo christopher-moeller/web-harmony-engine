@@ -1,0 +1,15 @@
+# Dockerfile
+FROM node:20-alpine
+
+# copy the app, note .dockerignore
+COPY . /usr/src/nuxt-app/
+
+# create destination directory
+RUN mkdir -p /usr/src/nuxt-app
+WORKDIR /usr/src/nuxt-app
+
+ENV PROD_API_URL=http://api:8080
+
+EXPOSE 3000
+
+CMD [ "node", "server/index.mjs" ]

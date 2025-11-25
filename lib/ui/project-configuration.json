@@ -1,0 +1,1241 @@
+{
+  "projectMeta" : {
+    "projectShortName" : "Core",
+    "projectLongName" : "Core Framework",
+    "iconName" : "bx-loader-circle"
+  },
+  "routerPages" : {
+    "pages" : [ {
+      "id" : "index",
+      "isCorePage" : true,
+      "path" : "/",
+      "englishLabel" : "Index",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "confirmEmail",
+      "isCorePage" : true,
+      "path" : "/confirmEmail",
+      "englishLabel" : "Confirm E-Mail",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "forbidden",
+      "isCorePage" : true,
+      "path" : "/forbidden",
+      "englishLabel" : "Forbidden",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "pageNotFound",
+      "isCorePage" : true,
+      "path" : "/pageNotFound",
+      "englishLabel" : "Page not found",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "forgotPassword",
+      "isCorePage" : true,
+      "path" : "/forgotPassword",
+      "englishLabel" : "Forgot Password",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "login",
+      "isCorePage" : true,
+      "path" : "/login",
+      "englishLabel" : "Login",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "register",
+      "isCorePage" : true,
+      "path" : "/register",
+      "englishLabel" : "Register",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "registerByInvitation",
+      "isCorePage" : true,
+      "path" : "/registerByInvitation",
+      "englishLabel" : "Register by Invitation",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "resetPasswordByEmail",
+      "isCorePage" : true,
+      "path" : "/resetPasswordByEmail",
+      "englishLabel" : "Reset Password By E-Mail",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "about",
+      "isCorePage" : true,
+      "path" : "/about",
+      "englishLabel" : "About",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "imprint",
+      "isCorePage" : true,
+      "path" : "/imprint",
+      "englishLabel" : "Imprint",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "privacyNotice",
+      "isCorePage" : true,
+      "path" : "/privacyNotice",
+      "englishLabel" : "Privacy Notice",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "language",
+      "isCorePage" : true,
+      "path" : "/language",
+      "englishLabel" : "Language",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "account",
+      "isCorePage" : true,
+      "path" : "/account",
+      "englishLabel" : "Account",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_USER_PERSONAL_ACCOUNT_CRUD" ]
+      }
+    }, {
+      "id" : "app-home",
+      "isCorePage" : true,
+      "path" : "/app/home",
+      "englishLabel" : "Home",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_HOME_ACCESS" ]
+      }
+    }, {
+      "id" : "app-language",
+      "isCorePage" : true,
+      "path" : "/app/language",
+      "englishLabel" : "Language",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_USER_PERSONAL_ACCOUNT_CRUD" ]
+      }
+    }, {
+      "id" : "app-account",
+      "isCorePage" : true,
+      "path" : "/app/account",
+      "englishLabel" : "Account",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_USER_PERSONAL_ACCOUNT_CRUD" ]
+      }
+    }, {
+      "id" : "app-personalNotifications",
+      "isCorePage" : true,
+      "path" : "/app/personalNotifications",
+      "englishLabel" : "Personal Notifications",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_PERSONAL_NOTIFICATIONS" ]
+      }
+    }, {
+      "id" : "app-personalNotifications-id",
+      "isCorePage" : true,
+      "path" : "/app/personalNotifications/[id]",
+      "englishLabel" : "Notification",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_PERSONAL_NOTIFICATIONS" ]
+      }
+    }, {
+      "id" : "app-users",
+      "isCorePage" : true,
+      "path" : "/app/users",
+      "englishLabel" : "Users",
+      "frontendComponent" : {
+        "componentPath" : "/components/view/GenericNavigationPage.vue",
+        "isCoreComponent" : true
+      },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_ACTOR_RIGHTS_CRUD", "CORE_REGISTRATION_CRUD", "CORE_USER_ROLES_CRUD", "CORE_USERS_CRUD" ]
+      }
+    }, {
+      "id" : "app-users-actorRights",
+      "isCorePage" : true,
+      "path" : "/app/users/actorRights",
+      "englishLabel" : "Rights",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_ACTOR_RIGHTS_CRUD" ]
+      }
+    }, {
+      "id" : "app-users-actorRights-id",
+      "isCorePage" : true,
+      "path" : "/app/users/actorRights/[id]",
+      "englishLabel" : "Right",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_ACTOR_RIGHTS_CRUD" ]
+      }
+    }, {
+      "id" : "app-users-registrations",
+      "isCorePage" : true,
+      "path" : "/app/users/registrations",
+      "englishLabel" : "Registrations",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_REGISTRATION_CRUD" ]
+      }
+    }, {
+      "id" : "app-users-registrations-id",
+      "isCorePage" : true,
+      "path" : "/app/users/registrations/[id]",
+      "englishLabel" : "Registrations",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_REGISTRATION_CRUD" ]
+      }
+    }, {
+      "id" : "app-users-registrations-sendInvitation",
+      "isCorePage" : true,
+      "path" : "/app/users/registrations/sendInvitation",
+      "englishLabel" : "Send Invitation",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_REGISTRATION_SEND_INVITATIONS" ]
+      }
+    }, {
+      "id" : "app-users-userRoles",
+      "isCorePage" : true,
+      "path" : "/app/users/userRoles",
+      "englishLabel" : "Roles",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_USER_ROLES_CRUD" ]
+      }
+    }, {
+      "id" : "app-users-userRoles-id",
+      "isCorePage" : true,
+      "path" : "/app/users/userRoles/[id]",
+      "englishLabel" : "Role",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_USER_ROLES_CRUD" ]
+      }
+    }, {
+      "id" : "app-users-users",
+      "isCorePage" : true,
+      "path" : "/app/users/users",
+      "englishLabel" : "Users",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_USERS_CRUD" ]
+      }
+    }, {
+      "id" : "app-users-users-id",
+      "isCorePage" : true,
+      "path" : "/app/users/users/[id]",
+      "englishLabel" : "User",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_USERS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin",
+      "isCorePage" : true,
+      "path" : "/app/admin",
+      "englishLabel" : "Admin",
+      "frontendComponent" : {
+        "componentPath" : "/components/view/GenericNavigationPage.vue",
+        "isCoreComponent" : true
+      },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_APPLICATION_STATUS_RESET", "CORE_APPLICATION_STATUS_SAVE", "CORE_SERVER_INFO_READ", "CORE_LOGS_READ", "CORE_CRON_JOBS_CRUD", "CORE_EMAIL_CRUD_RIGHTS", "CORE_FILES_CRUD", "CORE_HARMONY_EVENT_CRUD", "CORE_I18N_ENTITY_ATTRIBUTE_CRUD", "CORE_I18N_KEY_ENTRY_CRUD", "CORE_APPLICATION_EXCEPTIONS_CRUD", "CORE_REPORT_USER_ERRORS_CRUD", "CORE_NOTIFICATION_EVENT_TYPE_CRUD", "CORE_NOTIFICATIONS", "CORE_REGISTRY_CRUD", "CORE_SECURE_KEYS_CRUD", "CORE_SERVER_TASKS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-applicationStatus",
+      "isCorePage" : true,
+      "path" : "/app/admin/applicationStatus",
+      "englishLabel" : "Application Status",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_APPLICATION_STATUS_RESET", "CORE_APPLICATION_STATUS_SAVE" ]
+      }
+    }, {
+      "id" : "app-admin-applicationVersion",
+      "isCorePage" : true,
+      "path" : "/app/admin/applicationVersion",
+      "englishLabel" : "Application Version",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_SERVER_INFO_READ" ]
+      }
+    }, {
+      "id" : "app-admin-logs",
+      "isCorePage" : true,
+      "path" : "/app/admin/logs",
+      "englishLabel" : "Logs",
+      "frontendComponent" : {
+        "componentPath" : "/components/view/GenericNavigationPage.vue",
+        "isCoreComponent" : true
+      },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_LOGS_READ", "CORE_STARTUP_LOGS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-logs-api",
+      "isCorePage" : true,
+      "path" : "/app/admin/logs/api",
+      "englishLabel" : "API",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_LOGS_READ" ]
+      }
+    }, {
+      "id" : "app-admin-logs-startupLogs",
+      "isCorePage" : true,
+      "path" : "/app/admin/logs/startupLogs",
+      "englishLabel" : "Startup Logs",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_STARTUP_LOGS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-logs-startupLogs-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/logs/startupLogs/[id]",
+      "englishLabel" : "Startup Logs",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_STARTUP_LOGS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-cronJobs",
+      "isCorePage" : true,
+      "path" : "/app/admin/cronJobs",
+      "englishLabel" : "Cron Jobs",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_CRON_JOBS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-cronJobs-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/cronJobs/[id]",
+      "englishLabel" : "Cron Job",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_CRON_JOBS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-emails",
+      "isCorePage" : true,
+      "path" : "/app/admin/emails",
+      "englishLabel" : "E-Mails",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_EMAIL_CRUD_RIGHTS" ]
+      }
+    }, {
+      "id" : "app-admin-emails-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/emails/[id]",
+      "englishLabel" : "E-Mail",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_EMAIL_CRUD_RIGHTS" ]
+      }
+    }, {
+      "id" : "app-admin-files",
+      "isCorePage" : true,
+      "path" : "/app/admin/files",
+      "englishLabel" : "Files",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_FILES_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-files-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/files/[id]",
+      "englishLabel" : "File",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_FILES_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-harmonyEvents",
+      "isCorePage" : true,
+      "path" : "/app/admin/harmonyEvents",
+      "englishLabel" : "Harmony Events",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_HARMONY_EVENT_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-harmonyEvents-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/harmonyEvents/[id]",
+      "englishLabel" : "Harmony Event",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_HARMONY_EVENT_CRUD" ]
+      }
+    }, {
+      "id" : "app-i18n",
+      "isCorePage" : true,
+      "path" : "/app/admin/i18n",
+      "englishLabel" : "I18n",
+      "frontendComponent" : {
+        "componentPath" : "/components/view/GenericNavigationPage.vue",
+        "isCoreComponent" : true
+      },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_I18N_ENTITY_ATTRIBUTE_CRUD", "CORE_I18N_KEY_ENTRY_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-i18n-entityAttributes",
+      "isCorePage" : true,
+      "path" : "/app/admin/i18n/entityAttributes",
+      "englishLabel" : "Entity Attributes",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_I18N_ENTITY_ATTRIBUTE_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-i18n-entityAttributes-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/i18n/entityAttributes/[id]",
+      "englishLabel" : "Entity Attribute",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_I18N_ENTITY_ATTRIBUTE_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-i18n-keyEntries",
+      "isCorePage" : true,
+      "path" : "/app/admin/i18n/keyEntries",
+      "englishLabel" : "Key Entries",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_I18N_KEY_ENTRY_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-i18n-keyEntries-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/i18n/keyEntries/[id]",
+      "englishLabel" : "Key Entry",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_I18N_KEY_ENTRY_CRUD" ]
+      }
+    }, {
+      "id" : "app-error",
+      "isCorePage" : true,
+      "path" : "/app/admin/error",
+      "englishLabel" : "Error",
+      "frontendComponent" : {
+        "componentPath" : "/components/view/GenericNavigationPage.vue",
+        "isCoreComponent" : true
+      },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_APPLICATION_EXCEPTIONS_CRUD", "CORE_REPORT_USER_ERRORS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-error-applicationExceptions",
+      "isCorePage" : true,
+      "path" : "/app/admin/error/applicationExceptions",
+      "englishLabel" : "Application Exceptions",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_APPLICATION_EXCEPTIONS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-error-applicationExceptions-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/error/applicationExceptions/[id]",
+      "englishLabel" : "Application Exception",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_APPLICATION_EXCEPTIONS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-error-reportUserErrors",
+      "isCorePage" : true,
+      "path" : "/app/admin/error/reportUserErrors",
+      "englishLabel" : "Report User Errors",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_REPORT_USER_ERRORS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-error-reportUserErrors-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/error/reportUserErrors/[id]",
+      "englishLabel" : "Report User Error",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_REPORT_USER_ERRORS_CRUD" ]
+      }
+    }, {
+      "id" : "app-notifications",
+      "isCorePage" : true,
+      "path" : "/app/admin/notifications",
+      "englishLabel" : "Notifications",
+      "frontendComponent" : {
+        "componentPath" : "/components/view/GenericNavigationPage.vue",
+        "isCoreComponent" : true
+      },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_NOTIFICATION_EVENT_TYPE_CRUD", "CORE_NOTIFICATIONS" ]
+      }
+    }, {
+      "id" : "app-admin-notifications-eventTypes",
+      "isCorePage" : true,
+      "path" : "/app/admin/notifications/eventTypes",
+      "englishLabel" : "Event Types",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_NOTIFICATION_EVENT_TYPE_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-notifications-eventTypes-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/notifications/eventTypes/[id]",
+      "englishLabel" : "Event Type",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_NOTIFICATION_EVENT_TYPE_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-notifications-notifications",
+      "isCorePage" : true,
+      "path" : "/app/admin/notifications/notifications",
+      "englishLabel" : "Notifications",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_NOTIFICATIONS" ]
+      }
+    }, {
+      "id" : "app-admin-notifications-notifications-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/notifications/notifications/[id]",
+      "englishLabel" : "Notification",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_NOTIFICATIONS" ]
+      }
+    }, {
+      "id" : "app-admin-registryItems",
+      "isCorePage" : true,
+      "path" : "/app/admin/registryItems",
+      "englishLabel" : "Registry Items",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_REGISTRY_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-registryItems-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/registryItems/[id]",
+      "englishLabel" : "Registry Item",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_REGISTRY_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-secureKeys",
+      "isCorePage" : true,
+      "path" : "/app/admin/secureKeys",
+      "englishLabel" : "Secure Keys",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_SECURE_KEYS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-secureKeys-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/secureKeys/[id]",
+      "englishLabel" : "Secure Key",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_SECURE_KEYS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-serverTasks",
+      "isCorePage" : true,
+      "path" : "/app/admin/serverTasks",
+      "englishLabel" : "Server Tasks",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_SERVER_TASKS_CRUD" ]
+      }
+    }, {
+      "id" : "app-admin-serverTasks-id",
+      "isCorePage" : true,
+      "path" : "/app/admin/serverTasks/[id]",
+      "englishLabel" : "Server Task",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : false,
+        "isAndConnected" : false,
+        "rights" : [ "CORE_SERVER_TASKS_CRUD" ]
+      }
+    } ],
+    "navigationTree" : {
+      "items" : [ {
+        "pageId" : "app-finance",
+        "englishLabel" : "Finance",
+        "link" : "/app/finance",
+        "icon" : "bx-money-withdraw",
+        "accessRule" : {
+          "isPublic" : false,
+          "isAndConnected" : false,
+          "rights" : [ "LIFE_FINANCE" ]
+        },
+        "children" : [ ]
+      }, {
+        "pageId" : "app-home",
+        "englishLabel" : "Home",
+        "link" : "/app/home",
+        "icon" : "bx-home",
+        "accessRule" : {
+          "isPublic" : false,
+          "isAndConnected" : false,
+          "rights" : [ "CORE_HOME_ACCESS" ]
+        },
+        "children" : [ ]
+      }, {
+        "pageId" : "app-users",
+        "englishLabel" : "Users",
+        "link" : "/app/users",
+        "icon" : "bx-group",
+        "accessRule" : {
+          "isPublic" : false,
+          "isAndConnected" : false,
+          "rights" : [ "CORE_ACTOR_RIGHTS_CRUD", "CORE_REGISTRATION_CRUD", "CORE_USER_ROLES_CRUD", "CORE_USERS_CRUD" ]
+        },
+        "children" : [ {
+          "pageId" : "app-users-actorRights",
+          "englishLabel" : "Rights",
+          "link" : "/app/users/actorRights",
+          "icon" : "bx-paragraph",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_ACTOR_RIGHTS_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-users-actorRights-id",
+            "englishLabel" : "Right",
+            "link" : "/app/users/actorRights/[id]",
+            "icon" : "bx-paragraph",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_ACTOR_RIGHTS_CRUD" ]
+            },
+            "children" : [ ]
+          } ]
+        }, {
+          "pageId" : "app-users-registrations",
+          "englishLabel" : "Registrations",
+          "link" : "/app/users/registrations",
+          "icon" : "bx-user-plus",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_REGISTRATION_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-users-registrations-id",
+            "englishLabel" : "Registrations",
+            "link" : "/app/users/registrations/[id]",
+            "icon" : "bx-user-plus",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_REGISTRATION_CRUD" ]
+            },
+            "children" : [ ]
+          }, {
+            "pageId" : "app-users-registrations-sendInvitation",
+            "englishLabel" : "Send Invitation",
+            "link" : "/app/users/registrations/sendInvitation",
+            "icon" : "bx-user-plus",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_REGISTRATION_SEND_INVITATIONS" ]
+            },
+            "children" : [ ]
+          } ]
+        }, {
+          "pageId" : "app-users-userRoles",
+          "englishLabel" : "Roles",
+          "link" : "/app/users/userRoles",
+          "icon" : "bxs-group",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_USER_ROLES_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-users-userRoles-id",
+            "englishLabel" : "Role",
+            "link" : "/app/users/userRoles/[id]",
+            "icon" : "bxs-group",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_USER_ROLES_CRUD" ]
+            },
+            "children" : [ ]
+          } ]
+        }, {
+          "pageId" : "app-users-users",
+          "englishLabel" : "Users",
+          "link" : "/app/users/users",
+          "icon" : "bxs-user-detail",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_USERS_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-users-users-id",
+            "englishLabel" : "User",
+            "link" : "/app/users/users/[id]",
+            "icon" : "bxs-user-detail",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_USERS_CRUD" ]
+            },
+            "children" : [ ]
+          } ]
+        } ]
+      }, {
+        "pageId" : "app-admin",
+        "englishLabel" : "Admin",
+        "link" : "/app/admin",
+        "icon" : "bx-cog",
+        "accessRule" : {
+          "isPublic" : false,
+          "isAndConnected" : false,
+          "rights" : [ "CORE_APPLICATION_STATUS_RESET", "CORE_APPLICATION_STATUS_SAVE", "CORE_SERVER_INFO_READ", "CORE_LOGS_READ", "CORE_CRON_JOBS_CRUD", "CORE_EMAIL_CRUD_RIGHTS", "CORE_FILES_CRUD", "CORE_HARMONY_EVENT_CRUD", "CORE_I18N_ENTITY_ATTRIBUTE_CRUD", "CORE_I18N_KEY_ENTRY_CRUD", "CORE_APPLICATION_EXCEPTIONS_CRUD", "CORE_REPORT_USER_ERRORS_CRUD", "CORE_NOTIFICATION_EVENT_TYPE_CRUD", "CORE_NOTIFICATIONS", "CORE_REGISTRY_CRUD", "CORE_SECURE_KEYS_CRUD", "CORE_SERVER_TASKS_CRUD" ]
+        },
+        "children" : [ {
+          "pageId" : "app-admin-applicationStatus",
+          "englishLabel" : "Application Status",
+          "link" : "/app/admin/applicationStatus",
+          "icon" : "bxs-traffic",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_APPLICATION_STATUS_RESET", "CORE_APPLICATION_STATUS_SAVE" ]
+          },
+          "children" : [ ]
+        }, {
+          "pageId" : "app-admin-logs",
+          "englishLabel" : "Logs",
+          "link" : "/app/admin/logs",
+          "icon" : "bxs-spreadsheet",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_LOGS_READ" ]
+          },
+          "children" : [ ]
+        }, {
+          "pageId" : "app-admin-applicationVersion",
+          "englishLabel" : "Application Version",
+          "link" : "/app/admin/applicationVersion",
+          "icon" : "bx-git-compare",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_SERVER_INFO_READ" ]
+          },
+          "children" : [ ]
+        }, {
+          "pageId" : "app-admin-cronJobs",
+          "englishLabel" : "Cron Jobs",
+          "link" : "/app/admin/cronJobs",
+          "icon" : "bx-repeat",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_CRON_JOBS_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-admin-cronJobs-id",
+            "englishLabel" : "Cron Job",
+            "link" : "/app/admin/cronJobs/[id]",
+            "icon" : "bx-repeat",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_CRON_JOBS_CRUD" ]
+            },
+            "children" : [ ]
+          } ]
+        }, {
+          "pageId" : "app-admin-emails",
+          "englishLabel" : "E-Mails",
+          "link" : "/app/admin/emails",
+          "icon" : "bx-envelope",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_EMAIL_CRUD_RIGHTS" ]
+          },
+          "children" : [ {
+            "pageId" : "app-admin-emails-id",
+            "englishLabel" : "E-Mail",
+            "link" : "/app/admin/emails/[id]",
+            "icon" : "bx-envelope",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_EMAIL_CRUD_RIGHTS" ]
+            },
+            "children" : [ ]
+          } ]
+        }, {
+          "pageId" : "app-admin-files",
+          "englishLabel" : "Files",
+          "link" : "/app/admin/files",
+          "icon" : "bx-file-blank",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_FILES_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-admin-files-id",
+            "englishLabel" : "File",
+            "link" : "/app/admin/files/[id]",
+            "icon" : "bx-file-blank",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_FILES_CRUD" ]
+            },
+            "children" : [ ]
+          } ]
+        }, {
+          "pageId" : "app-admin-harmonyEvents",
+          "englishLabel" : "Harmony Events",
+          "link" : "/app/admin/harmonyEvents",
+          "icon" : "bxs-hot",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_HARMONY_EVENT_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-admin-harmonyEvents-id",
+            "englishLabel" : "Harmony Event",
+            "link" : "/app/admin/harmonyEvents/[id]",
+            "icon" : "bxs-hot",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_HARMONY_EVENT_CRUD" ]
+            },
+            "children" : [ ]
+          } ]
+        }, {
+          "pageId" : "app-error",
+          "englishLabel" : "Error",
+          "link" : "/app/admin/error",
+          "icon" : "bx-bug-alt",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_APPLICATION_EXCEPTIONS_CRUD", "CORE_REPORT_USER_ERRORS_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-admin-error-applicationExceptions",
+            "englishLabel" : "Application Exceptions",
+            "link" : "/app/admin/error/applicationExceptions",
+            "icon" : "bxs-error",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_APPLICATION_EXCEPTIONS_CRUD" ]
+            },
+            "children" : [ {
+              "pageId" : "app-admin-error-applicationExceptions-id",
+              "englishLabel" : "Application Exception",
+              "link" : "/app/admin/error/applicationExceptions/[id]",
+              "icon" : "bxs-error",
+              "accessRule" : {
+                "isPublic" : false,
+                "isAndConnected" : false,
+                "rights" : [ "CORE_APPLICATION_EXCEPTIONS_CRUD" ]
+              },
+              "children" : [ ]
+            } ]
+          }, {
+            "pageId" : "app-admin-error-reportUserErrors",
+            "englishLabel" : "Report User Errors",
+            "link" : "/app/admin/error/reportUserErrors",
+            "icon" : "bxs-user-voice",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_REPORT_USER_ERRORS_CRUD" ]
+            },
+            "children" : [ {
+              "pageId" : "app-admin-error-reportUserErrors-id",
+              "englishLabel" : "Report User Error",
+              "link" : "/app/admin/error/reportUserErrors/[id]",
+              "icon" : "bxs-user-voice",
+              "accessRule" : {
+                "isPublic" : false,
+                "isAndConnected" : false,
+                "rights" : [ "CORE_REPORT_USER_ERRORS_CRUD" ]
+              },
+              "children" : [ ]
+            } ]
+          } ]
+        }, {
+          "pageId" : "app-i18n",
+          "englishLabel" : "I18n",
+          "link" : "/app/admin/i18n",
+          "icon" : "bxs-plane-alt",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_I18N_ENTITY_ATTRIBUTE_CRUD", "CORE_I18N_KEY_ENTRY_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-admin-i18n-entityAttributes",
+            "englishLabel" : "Entity Attributes",
+            "link" : "/app/admin/i18n/entityAttributes",
+            "icon" : "bxs-key",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_I18N_ENTITY_ATTRIBUTE_CRUD" ]
+            },
+            "children" : [ {
+              "pageId" : "app-admin-i18n-entityAttributes-id",
+              "englishLabel" : "Entity Attribute",
+              "link" : "/app/admin/i18n/entityAttributes/[id]",
+              "icon" : "bxs-key",
+              "accessRule" : {
+                "isPublic" : false,
+                "isAndConnected" : false,
+                "rights" : [ "CORE_I18N_ENTITY_ATTRIBUTE_CRUD" ]
+              },
+              "children" : [ ]
+            } ]
+          }, {
+            "pageId" : "app-admin-i18n-keyEntries",
+            "englishLabel" : "Key Entries",
+            "link" : "/app/admin/i18n/keyEntries",
+            "icon" : "bx-table",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_I18N_KEY_ENTRY_CRUD" ]
+            },
+            "children" : [ {
+              "pageId" : "app-admin-i18n-keyEntries-id",
+              "englishLabel" : "Key Entry",
+              "link" : "/app/admin/i18n/keyEntries/[id]",
+              "icon" : "bx-table",
+              "accessRule" : {
+                "isPublic" : false,
+                "isAndConnected" : false,
+                "rights" : [ "CORE_I18N_KEY_ENTRY_CRUD" ]
+              },
+              "children" : [ ]
+            } ]
+          } ]
+        }, {
+          "pageId" : "app-notifications",
+          "englishLabel" : "Notifications",
+          "link" : "/app/admin/notifications",
+          "icon" : "bxs-bell",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_NOTIFICATION_EVENT_TYPE_CRUD", "CORE_NOTIFICATIONS" ]
+          },
+          "children" : [ {
+            "pageId" : "app-admin-notifications-eventTypes",
+            "englishLabel" : "Event Types",
+            "link" : "/app/admin/notifications/eventTypes",
+            "icon" : "bx-notification",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_NOTIFICATION_EVENT_TYPE_CRUD" ]
+            },
+            "children" : [ {
+              "pageId" : "app-admin-notifications-eventTypes-id",
+              "englishLabel" : "Event Type",
+              "link" : "/app/admin/notifications/eventTypes/[id]",
+              "icon" : "bx-notification",
+              "accessRule" : {
+                "isPublic" : false,
+                "isAndConnected" : false,
+                "rights" : [ "CORE_NOTIFICATION_EVENT_TYPE_CRUD" ]
+              },
+              "children" : [ ]
+            } ]
+          }, {
+            "pageId" : "app-admin-notifications-notifications",
+            "englishLabel" : "Notifications",
+            "link" : "/app/admin/notifications/notifications",
+            "icon" : "bxs-envelope",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_NOTIFICATIONS" ]
+            },
+            "children" : [ {
+              "pageId" : "app-admin-notifications-notifications-id",
+              "englishLabel" : "Notification",
+              "link" : "/app/admin/notifications/notifications/[id]",
+              "icon" : "bxs-envelope",
+              "accessRule" : {
+                "isPublic" : false,
+                "isAndConnected" : false,
+                "rights" : [ "CORE_NOTIFICATIONS" ]
+              },
+              "children" : [ ]
+            } ]
+          } ]
+        }, {
+          "pageId" : "app-admin-registryItems",
+          "englishLabel" : "Registry Items",
+          "link" : "/app/admin/registryItems",
+          "icon" : "bx-edit-alt",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_REGISTRY_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-admin-registryItems-id",
+            "englishLabel" : "Registry Item",
+            "link" : "/app/admin/registryItems/[id]",
+            "icon" : "bx-edit-alt",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_REGISTRY_CRUD" ]
+            },
+            "children" : [ ]
+          } ]
+        }, {
+          "pageId" : "app-admin-secureKeys",
+          "englishLabel" : "Secure Keys",
+          "link" : "/app/admin/secureKeys",
+          "icon" : "bx-key",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_SECURE_KEYS_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-admin-secureKeys-id",
+            "englishLabel" : "Secure Key",
+            "link" : "/app/admin/secureKeys/[id]",
+            "icon" : "bx-key",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_SECURE_KEYS_CRUD" ]
+            },
+            "children" : [ ]
+          } ]
+        }, {
+          "pageId" : "app-admin-serverTasks",
+          "englishLabel" : "Server Tasks",
+          "link" : "/app/admin/serverTasks",
+          "icon" : "bx-task",
+          "accessRule" : {
+            "isPublic" : false,
+            "isAndConnected" : false,
+            "rights" : [ "CORE_SERVER_TASKS_CRUD" ]
+          },
+          "children" : [ {
+            "pageId" : "app-admin-serverTasks-id",
+            "englishLabel" : "Server Task",
+            "link" : "/app/admin/serverTasks/[id]",
+            "icon" : "bx-task",
+            "accessRule" : {
+              "isPublic" : false,
+              "isAndConnected" : false,
+              "rights" : [ "CORE_SERVER_TASKS_CRUD" ]
+            },
+            "children" : [ ]
+          } ]
+        } ]
+      } ]
+    }
+  }
+}

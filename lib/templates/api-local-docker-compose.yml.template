@@ -1,0 +1,17 @@
+version: '1'
+services:
+  # for local development only a database is needed
+  db:
+    container_name: local-{{postgresDB}}-db
+    image: postgres:16
+    restart: always
+    environment:
+      - POSTGRES_DB={{postgresDB}}
+      - POSTGRES_USER={{postgresUser}}
+      - POSTGRES_PASSWORD={{postgresPassword}}
+    ports:
+      - 15432:5432
+    volumes:
+      - database-volume:/var/lib/postgresql/data/
+volumes:
+  database-volume:

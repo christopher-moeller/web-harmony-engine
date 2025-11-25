@@ -1,0 +1,6 @@
+[
+  {
+    "coreImport": "/components/view/HarmonyViewLogo.vue",
+    "projectImport": "/components/view/DemoViewLogo.vue"
+  }
+]

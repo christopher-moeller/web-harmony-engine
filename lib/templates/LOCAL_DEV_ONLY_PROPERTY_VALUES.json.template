@@ -1,0 +1,22 @@
+{
+  "secureKeys": {
+    "importEntries": true,
+    "entries": [
+      {
+        "name": "E_MAIL_SERVER_MAIL_ADDRESS",
+        "key": "not-set-currently"
+      },
+      {
+        "name": "E_MAIL_SERVER_HOST",
+        "key": "not-set-currently"
+      },
+      {
+        "name": "E_MAIL_SERVER_PASSWORD",
+        "key": "not-set-currently"
+      }
+    ]
+  },
+  "defaultAdminPassword": "*",
+  "frontendCoreDevPath": "{{frontendCoreDevPath}}",
+  "frontendProjectDevPath": "{{frontendProjectDevPath}}"
+}

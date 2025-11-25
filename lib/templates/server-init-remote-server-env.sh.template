@@ -1,0 +1,1 @@
+scp -r server-env root@185.97.146.45:/home/{{appName}}-app

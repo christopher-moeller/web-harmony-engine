@@ -1,0 +1,96 @@
+package com.webharmony.starter.builder.files.api;
+
+import com.webharmony.core.utils.tuple.Tuple2;
+import com.webharmony.starter.builder.ProjectBuildingContext;
+import com.webharmony.starter.builder.VirtualFile;
+
+public class ApiPomXmlFile extends VirtualFile {
+
+    @SuppressWarnings("all")
+    private static final String TEMPLATE = """
+            <?xml version="1.0" encoding="UTF-8"?>
+            <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+            	<modelVersion>4.0.0</modelVersion>
+            	<parent>
+            		<groupId>org.springframework.boot</groupId>
+            		<artifactId>spring-boot-starter-parent</artifactId>
+            		<version>3.1.1</version>
+            		<relativePath/> <!-- lookup parent from repository -->
+            	</parent>
+            	<groupId>{{groupId}}</groupId>
+             	<artifactId>{{artifactId}}</artifactId>
+             	<version>0.0.1-SNAPSHOT</version>
+             	<name>{{appName}}</name>
+            	<properties>
+            		<java.version>17</java.version>
+            		<querydsl.version>5.0.0</querydsl.version>
+            	</properties>
+                        
+            	<dependencies>
+                    <dependency>
+                        <groupId>com.webharmony</groupId>
+                        <artifactId>core</artifactId>
+                        <version>0.0.1-SNAPSHOT</version>
+                        <exclusions>
+                            <exclusion>
+                                <groupId>com.querydsl</groupId>
+                                <artifactId>querydsl-apt</artifactId>
+                            </exclusion>
+                            <exclusion>
+                                <groupId>com.querydsl</groupId>
+                                <artifactId>querydsl-jpa</artifactId>
+                            </exclusion>
+                        </exclusions>
+                    </dependency>
+            		<dependency>
+            			<groupId>org.projectlombok</groupId>
+            			<artifactId>lombok</artifactId>
+            			<optional>true</optional>
+            		</dependency>
+            		<dependency>
+            			<groupId>com.querydsl</groupId>
+            			<artifactId>querydsl-apt</artifactId>
+            			<version>${querydsl.version}</version>
+            			<classifier>jakarta</classifier>
+            			<scope>provided</scope>
+            		</dependency>
+            		<dependency>
+            			<groupId>com.querydsl</groupId>
+            			<artifactId>querydsl-jpa</artifactId>
+            			<version>${querydsl.version}</version>
+            			<classifier>jakarta</classifier>
+            		</dependency>
+                        
+            		<dependency>
+            			<groupId>com.h2database</groupId>
+            			<artifactId>h2</artifactId>
+            			<scope>runtime</scope>
+            		</dependency>
+            	</dependencies>
+                        
+            	<build>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.springframework.boot</groupId>
+                            <artifactId>spring-boot-maven-plugin</artifactId>
+                        </plugin>
+                    </plugins>
+                </build>
+            </project>
+            """;
+
+    public ApiPomXmlFile() {
+        super("pom.xml");
+    }
+
+    @Override
+    public String createFileContent(ProjectBuildingContext projectBuildingContext) {
+        return resolveTemplateContent(TEMPLATE,
+                Tuple2.of("groupId", "com.webharmony."+projectBuildingContext.getTechnicalName()),
+                Tuple2.of("artifactId", projectBuildingContext.getTechnicalName()),
+                Tuple2.of("appName", projectBuildingContext.getProjectLongName())
+        );
+    }
+
+}

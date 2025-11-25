@@ -1,0 +1,56 @@
+[
+  {
+    "classId": "com.webharmony.core.api.rest.controller.utils.dispacher.InMemoryDtoCrudDispatcher",
+    "keyId": "Notimplementedyet",
+    "placeholders": [],
+    "description": null,
+    "codeLocation": "BACKEND",
+    "isCoreEntry": true,
+    "translationEntries": [
+      {
+        "language": "GERMAN",
+        "translation": "Aktuell nicht implmementiert"
+      },
+      {
+        "language": "ENGLISH",
+        "translation": "Not implemented yet"
+      }
+    ]
+  },
+  {
+    "classId": "com.webharmony.core.api.rest.controller.utils.dispacher.EntityCrudDispatcher",
+    "keyId": "Notimplemented{test}yet",
+    "placeholders": ["test"],
+    "description": null,
+    "codeLocation": "BACKEND",
+    "isCoreEntry": true,
+    "translationEntries": [
+      {
+        "language": "GERMAN",
+        "translation": "Aktuell nicht {test} implmementiert"
+      },
+      {
+        "language": "ENGLISH",
+        "translation": "Not implemented {test} yet"
+      }
+    ]
+  },
+  {
+    "classId": "UserOverview",
+    "keyId": "E-Mail",
+    "placeholders": [],
+    "description": null,
+    "codeLocation": "FRONTEND",
+    "isCoreEntry": true,
+    "translationEntries": [
+      {
+        "language": "GERMAN",
+        "translation": "E-Mail"
+      },
+      {
+        "language": "ENGLISH",
+        "translation": "E-Mail"
+      }
+    ]
+  }
+]

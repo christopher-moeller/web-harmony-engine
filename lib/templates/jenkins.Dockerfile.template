@@ -1,0 +1,32 @@
+FROM jenkins/jenkins:lts
+
+# Install Docker CLI
+USER root
+RUN apt-get update && \
+    apt-get install -y apt-transport-https ca-certificates curl gnupg2 software-properties-common && \
+    apt-get install -y docker.io
+
+# Create the docker group and add the Jenkins user to it
+RUN usermod -aG docker jenkins
+
+# Optional: Install sudo in case you need to run commands as sudo
+RUN apt-get install -y sudo && \
+    echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
+
+RUN jenkins-plugin-cli --plugin-file /usr/share/jenkins/ref/plugins.txt --plugins
+
+COPY api-build-pipeline.groovy /var/jenkins_home/init.groovy.d/api-build-pipeline.jenkinsscript
+COPY ui-build-pipeline.groovy /var/jenkins_home/init.groovy.d/ui-build-pipeline.jenkinsscript
+COPY nginx-build-pipeline.groovy /var/jenkins_home/init.groovy.d/nginx-build-pipeline.jenkinsscript
+COPY init_pipeline_jobs.groovy /var/jenkins_home/init.groovy.d/init_pipeline_jobs.groovy
+
+# Copy the entrypoint script
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
+
+USER jenkins
+
+# Use the custom entrypoint script
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]

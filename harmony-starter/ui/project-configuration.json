@@ -1,0 +1,56 @@
+{
+  "projectMeta" : {
+    "projectShortName" : "Starter",
+    "projectLongName" : "Harmony Starter"
+  },
+  "routerPages" : {
+    "pages" : [ {
+      "id" : "index",
+      "isCorePage" : false,
+      "path" : "/",
+      "englishLabel" : "Index",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "forbidden",
+      "isCorePage" : false,
+      "path" : "/forbidden",
+      "englishLabel" : "Forbidden",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "pageNotFound",
+      "isCorePage" : false,
+      "path" : "/pageNotFound",
+      "englishLabel" : "Page not found",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    }, {
+      "id" : "language",
+      "isCorePage" : false,
+      "path" : "/language",
+      "englishLabel" : "Language",
+      "frontendComponent" : { },
+      "accessRuleConfigJson" : {
+        "isPublic" : true,
+        "isAndConnected" : true,
+        "rights" : [ ]
+      }
+    } ],
+    "navigationTree" : {
+      "items" : [ ]
+    }
+  }
+}

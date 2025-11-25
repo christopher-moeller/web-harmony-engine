@@ -1,0 +1,102 @@
+pipeline {
+    agent any
+
+    environment {
+            DOCKER_REGISTRY = 'docker.io'
+            DOCKER_REPOSITORY = 'christophermoeller/{{imageName}}'
+        }
+
+    stages {
+
+        stage('Cleanup Workspace') {
+            steps {
+                cleanWs()
+            }
+        }
+
+        stage('Setup SSH Known Hosts') {
+            steps {
+                // Ensure the .ssh directory exists
+                sh '''
+                    mkdir -p /var/jenkins_home/.ssh
+                    ssh-keyscan -t rsa github.com >> /var/jenkins_home/.ssh/known_hosts
+                    chmod 600 /var/jenkins_home/.ssh/known_hosts
+                '''
+            }
+        }
+
+        stage('Checkout') {
+            steps {
+                script {
+                    dir('web/engine') {
+                        git url: 'git@github.com:christopher-moeller/web-harmony-engine.git', branch: 'main', credentialsId: 'github-harmony-access'
+                    }
+                    dir('web/projects/{{projectName}}') {
+                        git url: 'git@github.com:christopher-moeller/{{projectName}}.git', branch: 'main', credentialsId: 'github-harmony-access'
+                    }
+                }
+                stash name: 'workspace', includes: '**/*'
+            }
+        }
+
+        stage('Build Frontend') {
+            agent {
+                docker {
+                    image 'node:20'
+                }
+            }
+
+            steps {
+                unstash 'workspace'
+                script {
+                    dir('web/engine/ui') {
+                        sh 'npm install'
+                        sh 'npm run build'
+                    }
+
+                    dir('web/projects/{{projectName}}/ui') {
+                        sh 'npm install'
+                        sh 'npm run build'
+                    }
+                }
+                stash name: 'workspace', includes: '**/*'
+            }
+        }
+
+        stage('Copy Resources') {
+            steps {
+                unstash 'workspace'
+                script {
+                    def destDir = "${env.WORKSPACE}/image"
+                    sh "mkdir -p ${destDir}"
+
+                    def outputDir = "web/projects/{{projectName}}/ui/.output"
+                    sh "cp -r ${outputDir}/* ${destDir}/"
+
+                    def uiDockerfile = "web/projects/{{projectName}}/docker/server/ui.Dockerfile"
+                    sh "mv ${uiDockerfile} ${destDir}/Dockerfile"
+                }
+            }
+        }
+
+        stage('Docker Login') {
+                    steps {
+                        withCredentials([usernamePassword(credentialsId: 'dockerhub-credentials', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
+                            sh 'echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin $DOCKER_REGISTRY'
+                        }
+                    }
+                }
+
+                stage('Build Docker Image') {
+                    steps {
+                        script {
+                            dir('image') {
+                                sh "docker buildx create --use"
+                                sh "docker buildx build --platform linux/amd64,linux/arm64 -t $DOCKER_REPOSITORY:latest --push ."
+                            }
+                        }
+                    }
+                }
+
+    }
+}

@@ -1,0 +1,33 @@
+## How to Set Up a New Jenkins Credential (SSH with Private Key)
+
+### Step 1: Access Jenkins Credentials
+
+1. Log in to your Jenkins instance.
+2. On the left-hand side menu, click on **"Manage Jenkins"**.
+3. From the list of options, select **"Manage Credentials"**.
+
+### Step 2: Select the Credential Domain
+
+1. In the **"Manage Credentials"** page, choose the appropriate domain where you want to store the credential. If unsure, use **"(global)"** for global credentials.
+2. Click on the **"(global)"** link or the specific domain where you want to add the credential.
+
+### Step 3: Add a New Credential
+
+1. On the **"Global credentials"** (or your selected domain) page, click on **"Add Credentials"** on the left-hand side.
+2. A form will appear for adding a new credential.
+
+### Step 4: Configure the SSH Credential
+
+1. In the **"Kind"** dropdown menu, select **"SSH Username with private key"**.
+2. Fill in the details as follows:
+    - **Username**: Enter your GitHub username or the name associated with the SSH key.
+    - **Private Key**: Choose **"Enter directly"**.
+    - **Key**: Paste your SSH private key into the text area. Ensure the key is in the correct format (starting with `-----BEGIN RSA PRIVATE KEY-----`).
+    - **Passphrase**: (Optional) If your SSH key has a passphrase, enter it here. If not, leave this field empty.
+3. In the **"ID"** field (optional), type `github-harmony-access`.
+4. In the **"Description"** field (optional but recommended), enter a description such as "SSH key for GitHub access for Harmony project".
+
+### Step 5: Save the Credential
+
+1. After filling in all the necessary information, click **"OK"**.
+2. You should now see the new credential listed under **"Global credentials"** (or the selected domain) with the ID `github-harmony-access`.

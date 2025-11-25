@@ -1,0 +1,54 @@
+pipeline {
+    agent any
+
+    environment {
+        DOCKER_REGISTRY = 'docker.io'
+        DOCKER_REPOSITORY = 'christophermoeller/{{imageName}}'
+    }
+
+    stages {
+
+        stage('Cleanup Workspace') {
+            steps {
+                cleanWs()
+            }
+        }
+
+        stage('Setup SSH Known Hosts') {
+            steps {
+                // Ensure the .ssh directory exists
+                sh '''
+                    mkdir -p /var/jenkins_home/.ssh
+                    ssh-keyscan -t rsa github.com >> /var/jenkins_home/.ssh/known_hosts
+                    chmod 600 /var/jenkins_home/.ssh/known_hosts
+                '''
+            }
+        }
+
+        stage('Checkout') {
+            steps {
+                git url: 'git@github.com:christopher-moeller/{{projectName}}.git', branch: 'main', credentialsId: 'github-harmony-access'
+            }
+        }
+
+        stage('Docker Login') {
+            steps {
+                withCredentials([usernamePassword(credentialsId: 'dockerhub-credentials', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
+                    sh 'echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin $DOCKER_REGISTRY'
+                }
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    dir('docker/server/nginx') {
+                        sh "docker buildx create --use"
+                        sh "docker buildx build --platform linux/amd64,linux/arm64 -t $DOCKER_REPOSITORY:latest --push ."
+                    }
+                }
+            }
+        }
+
+    }
+}

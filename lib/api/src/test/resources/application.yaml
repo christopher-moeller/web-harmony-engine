@@ -1,0 +1,30 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    hibernate:
+      ddl-auto: create
+  profiles:
+    active: test
+  flyway:
+    enabled: false
+
+frontend:
+  url: 'http://localhost:3000'
+
+backend:
+  use-ssl: false
+  use-custom-domain: false
+  custom-domain: example.com
+
+authentication:
+  default-admin-email: example@@admin.com
+  jwt:
+    devPrefix: jwt@
+    expirationHours: 24
+    jwtType: Bearer
+    tokenHeaderField: Authentication
+    jwtDevEnabled: true
+
+email:
+  sendEmails: false

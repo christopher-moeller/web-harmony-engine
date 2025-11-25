@@ -1,0 +1,6 @@
+{
+  "secureKeys" : null,
+  "defaultAdminPassword" : "*",
+  "frontendCoreDevPath" : "/Users/cmoeller/dev/WebHarmony/web-harmony-engine/lib/ui",
+  "frontendProjectDevPath" : "/Users/cmoeller/dev/WebHarmony/web-harmony-engine/harmony-starter/ui"
+}

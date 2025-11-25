@@ -1,0 +1,3442 @@
+[ {
+  "classId" : "com.webharmony.core.service.data.UserCrudService",
+  "keys" : [ {
+    "id" : "user_with_email_'{email}'_not_found",
+    "placeholders" : [ "email" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "User with email '{email}' not found",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:79:79" ]
+  }, {
+    "id" : "actor_{actorname}_is_not_connected_to_a_user",
+    "placeholders" : [ "actorName" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Actor {actorName} is not connected to a user",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:128:62" ]
+  }, {
+    "id" : "actor_{actorname}_is_not_a_user",
+    "placeholders" : [ "actorName" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Actor {actorName} is not a user",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:132:58" ]
+  }, {
+    "id" : "reset_your_password_for_{appname}",
+    "placeholders" : [ "appName" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Reset your password for {appName}",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:155:47" ]
+  }, {
+    "id" : "reset_password",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Reset Password",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:156:42" ]
+  }, {
+    "id" : "you_have_created_a_reset_request_for_your_password._if_you_want_to_change_your_password_click_on_the_link_below.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "You have created a reset request for your password. If you want to change your password click on the link below.",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:157:42" ]
+  }, {
+    "id" : "reset",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Reset",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:146:16", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:152:21", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:155:47", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:156:42", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:158:42", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:160:42", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:166:31", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:173:30", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:174:60", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:176:27", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:184:49", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:186:57", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserCrudService.java:203:45" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.utils.notifications.events.CronJobExecutedNotification",
+  "keys" : [ {
+    "id" : "cron_job_{label}_was_successfully_executed",
+    "placeholders" : [ "label" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Cron Job {label} was successfully executed",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/utils/notifications/events/CronJobExecutedNotification.java:46:41" ]
+  }, {
+    "id" : "cron_job_{label}_finished_with_errors",
+    "placeholders" : [ "label" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Cron Job {label} finished with errors",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/utils/notifications/events/CronJobExecutedNotification.java:47:34" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.context.AppStatusDetector",
+  "keys" : [ {
+    "id" : "currently_all_non-public_http_requests_are_blocked_for_non_admins._please_change_this_in_the_registry.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Currently all non-public HTTP Requests are blocked for non admins. Please change this in the registry.",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/context/AppStatusDetector.java:28:50" ]
+  }, {
+    "id" : "secure_key_'{key}'_is_empty",
+    "placeholders" : [ "key" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Secure key '{key}' is empty",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/context/AppStatusDetector.java:33:50" ]
+  }, {
+    "id" : "there_are_{count}_not_translated_i18n_key_entries",
+    "placeholders" : [ "count" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "There are {count} not translated i18n key entries",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/context/AppStatusDetector.java:38:50" ]
+  }, {
+    "id" : "there_are_{count}_not_translated_i18n_entity_attributes",
+    "placeholders" : [ "count" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "There are {count} not translated i18n entity attributes",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/context/AppStatusDetector.java:43:50" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.NotEmptyTextFieldValidator",
+  "keys" : [ {
+    "id" : "field_cannot_be_empty",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Field cannot be empty",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/NotEmptyTextFieldValidator.java:23:65" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keys" : [ {
+    "id" : "invitation_to_{appname}",
+    "placeholders" : [ "appName" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Invitation to {appName}",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:152:47" ]
+  }, {
+    "id" : "invitation",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Invitation",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:6:72", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:8:72", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:113:20", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:116:48", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:120:54", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:124:17", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:148:26", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:152:47", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:153:42", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:158:70", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:168:31", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:179:28", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:187:36", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:192:57", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:393:31", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:398:28" ]
+  }, {
+    "id" : "sign_up",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Sign Up",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:155:42" ]
+  }, {
+    "id" : "wrong_email_address_for_registration",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Wrong email address for registration",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:206:62" ]
+  }, {
+    "id" : "confirm_your_account",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Confirm your account",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:246:47" ]
+  }, {
+    "id" : "confirm_your_e-mail_address",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Confirm your E-Mail address",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:247:42" ]
+  }, {
+    "id" : "to_confirm_your_account,_please_click_on_the_link_below",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "To confirm your account, please click on the link below",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:248:42" ]
+  }, {
+    "id" : "confirm",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Confirm",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:212:12", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:228:12", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:242:21", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:246:47", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:247:42", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:249:42", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:267:48", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:274:62", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:276:47", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:278:31", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:287:36", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:292:51", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:309:62" ]
+  }, {
+    "id" : "confirm_registration_request",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Confirm registration request",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:292:51" ]
+  }, {
+    "id" : "registration_request_for_new_user",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Registration request for new user",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:293:46" ]
+  }, {
+    "id" : "please_confirm_the_request_by_clicking_on_the_link_below.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Please confirm the request by clicking on the link below.",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:294:46" ]
+  }, {
+    "id" : "to_request",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "To Request",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:295:46" ]
+  }, {
+    "id" : "your_account_is_now_created",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Your account is now created",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:347:47", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:348:42" ]
+  }, {
+    "id" : "you_can_now_login_to_the_application.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "You can now login to the application.",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:349:42" ]
+  }, {
+    "id" : "to_{appname}",
+    "placeholders" : [ "appName" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "To {appName}",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:350:42", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:364:46" ]
+  }, {
+    "id" : "new_user_account_created",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "New user account created",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:361:51", "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:362:46" ]
+  }, {
+    "id" : "the_user_with_the_e-mail_{email}_has_now_an_active_account.",
+    "placeholders" : [ "email" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "The user with the E-Mail {email} has now an active account.",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:363:46" ]
+  }, {
+    "id" : "registration_is_in_wrong_state._expected:_{expected}_actual:_{actual}",
+    "placeholders" : [ "expected", "actual" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Registration is in wrong state. Expected: {expected} Actual: {actual}",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:390:31" ]
+  }, {
+    "id" : "someone",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "someone",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:395:130" ]
+  }, {
+    "id" : "welcome,_{firstnameofinvitor}_invited_you_to_the_core_app._if_you_want_to_accept_the_invitation_you_can_click_on_the_button_bellow.",
+    "placeholders" : [ "firstnameOfInvitor" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Welcome, \\n\\n{firstnameOfInvitor} invited you to the core app. If you want to accept the invitation you can click on the button bellow.",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/UserRegistrationService.java:396:51" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UserEmailOnlyExistsInRegistrationValidator",
+  "keys" : [ {
+    "id" : "e-mail_already_exists",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail already exists",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/UserEmailOnlyExistsInRegistrationValidator.java:38:65" ]
+  }, {
+    "id" : "e-mail_is_not_allowed_for_registration",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail is not allowed for registration",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/UserEmailOnlyExistsInRegistrationValidator.java:42:65" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.ServerTaskCrudService",
+  "keys" : [ {
+    "id" : "not_executed_yet",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Not executed yet",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/ServerTaskCrudService.java:40:43" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.context.AppStatusHolder",
+  "keys" : [ {
+    "id" : "application_is_starting",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Application is starting",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/context/AppStatusHolder.java:56:70" ]
+  }, {
+    "id" : "technical_problems:_please_log_in_as_administrator_to_grant_access_to_the_application.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Technical Problems: Please log in as administrator to grant access to the application.",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/context/AppStatusHolder.java:70:45" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.api.rest.interceptors.AuthorizationInterceptor",
+  "keys" : [ {
+    "id" : "at_least_one_of_the_following_rights_are_required:_{missingrights}",
+    "placeholders" : [ "missingRights" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "At least one of the following rights are required: {missingRights}",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/interceptors/AuthorizationInterceptor.java:45:51" ]
+  }, {
+    "id" : "following_rights_are_required:_{missingrights}",
+    "placeholders" : [ "missingRights" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Following rights are required: {missingRights}",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/interceptors/AuthorizationInterceptor.java:47:51" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.HexColorTextFieldValidator",
+  "keys" : [ {
+    "id" : "field_cannot_be_empty",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Field cannot be empty",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/HexColorTextFieldValidator.java:23:65" ]
+  }, {
+    "id" : "value_is_not_a_valid_hex_color",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Value is not a valid hex color",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/HexColorTextFieldValidator.java:28:65" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.CronTriggerFieldValidator",
+  "keys" : [ {
+    "id" : "not_a_valid_cron_expression",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Not a valid cron expression",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/CronTriggerFieldValidator.java:24:65" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.XmlStringFieldValidator",
+  "keys" : [ {
+    "id" : "xml_is_not_valid",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "XML is not valid",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/XmlStringFieldValidator.java:30:65" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.WebContentDtoValidator",
+  "keys" : [ {
+    "id" : "content_area_not_found",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Content area not found",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/validation/WebContentDtoValidator.java:64:69" ]
+  }, {
+    "id" : "content_area_is_already_used",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Content area is already used",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/validation/WebContentDtoValidator.java:86:69" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UniqueResourceFieldValidator",
+  "keys" : [ {
+    "id" : "field_is_not_unique",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Field is not unique",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/UniqueResourceFieldValidator.java:46:65" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.appresources.AppResourceService",
+  "keys" : [ {
+    "id" : "resource_with_name_'{resourcename}'_not_found",
+    "placeholders" : [ "resourceName" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Resource with name '{resourceName}' not found",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/appresources/AppResourceService.java:128:73" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.utils.PasswordValidationMethods",
+  "keys" : [ {
+    "id" : "password_must_be_less_than_20_and_more_than_8_characters_in_length.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password must be less than 20 and more than 8 characters in length.",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/utils/PasswordValidationMethods.java:42:65" ]
+  }, {
+    "id" : "password_must_have_at_least_one_uppercase_character",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password must have at least one uppercase character",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/utils/PasswordValidationMethods.java:47:65" ]
+  }, {
+    "id" : "password_must_have_at_least_one_lowercase_character",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password must have at least one lowercase character",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/utils/PasswordValidationMethods.java:52:65" ]
+  }, {
+    "id" : "password_must_have_at_least_one_number",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password must have at least one number",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/utils/PasswordValidationMethods.java:57:65" ]
+  }, {
+    "id" : "password_must_have_at_least_one_special_character_among_@#$%",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password must have at least one special character among @#$%",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/utils/PasswordValidationMethods.java:62:65" ]
+  }, {
+    "id" : "password_is_empty",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password is empty",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/utils/PasswordValidationMethods.java:67:31" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserRegistrationVMValidation",
+  "keys" : [ {
+    "id" : "password_fields_are_not_identical",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password fields are not identical",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/validation/UserRegistrationVMValidation.java:51:56" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.api.rest.controller.utils.RestRequestParams",
+  "keys" : [ {
+    "id" : "invalid_parameter_'{parameter}'._type_'{type}'_cannot_be_converted_to_number.",
+    "placeholders" : [ "parameter", "type" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Invalid parameter '{parameter}'. Type '{type}' cannot be converted to number.",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/controller/utils/RestRequestParams.java:72:66" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.NotNullFieldValidator",
+  "keys" : [ {
+    "id" : "field_cannot_be_empty",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Field cannot be empty",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/NotNullFieldValidator.java:22:65" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.LimitTextLengthValidator",
+  "keys" : [ {
+    "id" : "max._text_length_is_{maxlength}",
+    "placeholders" : [ "maxLength" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "max. text length is {maxLength}",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/LimitTextLengthValidator.java:31:65" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UserPasswordValidator",
+  "keys" : [ {
+    "id" : "password_is_incorrect",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password is incorrect",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/UserPasswordValidator.java:31:69" ]
+  }, {
+    "id" : "current_actor_{actorid}_is_not_a_user",
+    "placeholders" : [ "actorId" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Current actor {actorId} is not a user",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/UserPasswordValidator.java:34:58" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.authentication.AuthenticationService",
+  "keys" : [ {
+    "id" : "technical_problems:_only_users_with_special_rights_have_access",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Technical Problems: Only users with special rights have access",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/authentication/AuthenticationService.java:118:53" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.FileService",
+  "keys" : [ {
+    "id" : "size_of_all_files_is_too_large",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Size of all files is too large",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/FileService.java:183:69" ]
+  }, {
+    "id" : "file_'{filename}_is_too_large'",
+    "placeholders" : [ "fileName" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "File '{fileName} is too large'",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/FileService.java:190:69" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.utils.AbstractEntityCrudService",
+  "keys" : [ {
+    "id" : "entity_'{entityclass}'_with_id_'{entityid}'_not_found",
+    "placeholders" : [ "entityClass", "entityId" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Entity '{entityClass}' with id '{entityId}' not found",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/utils/AbstractEntityCrudService.java:167:79" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UniqueResourceI18nFieldValidator",
+  "keys" : [ {
+    "id" : "field_is_not_unique",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Field is not unique",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/UniqueResourceI18nFieldValidator.java:68:65" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserPersonalAccountChangePasswordVMValidation",
+  "keys" : [ {
+    "id" : "password_fields_are_not_identical",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password fields are not identical",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/validation/UserPersonalAccountChangePasswordVMValidation.java:34:56" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.appviewmodels.ViewModelService",
+  "keys" : [ {
+    "id" : "viewmodel_with_name_'{viewmodelname}'_not_found",
+    "placeholders" : [ "viewModelName" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "ViewModel with name '{viewModelName}' not found",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/appviewmodels/ViewModelService.java:84:73" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserDtoValidation",
+  "keys" : [ {
+    "id" : "main_role_must_be_set,_when_roles_are_set",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Main Role must be set, when roles are set",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/validation/UserDtoValidation.java:50:90" ]
+  }, {
+    "id" : "main_role_not_exists_in_all_roles",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Main Role not exists in all roles",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/validation/UserDtoValidation.java:54:57" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.EmailFieldValidator",
+  "keys" : [ {
+    "id" : "e-mail_is_not_valid!",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail is not valid!",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/EmailFieldValidator.java:23:65" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.api.rest.controller.utils.dispacher.InMemoryDtoCrudDispatcher",
+  "keys" : [ {
+    "id" : "entry_with_id_'{id}'_not_found",
+    "placeholders" : [ "id" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Entry with id '{id}' not found",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/controller/utils/dispacher/InMemoryDtoCrudDispatcher.java:93:73" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.tasks.ServerTaskService",
+  "keys" : [ {
+    "id" : "servertask_with_id_'{id}'_does_not_exist",
+    "placeholders" : [ "id" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "ServerTask with id '{id}' does not exist",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/tasks/ServerTaskService.java:129:73" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.TokenService",
+  "keys" : [ {
+    "id" : "token_'{tokenvalue}'_not_found",
+    "placeholders" : [ "tokenValue" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Token '{tokenValue}' not found",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/TokenService.java:43:73" ]
+  }, {
+    "id" : "token_is_not_valid",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Token is not valid",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/TokenService.java:63:58" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserPersonalAccountResetPasswordByEmailVMValidation",
+  "keys" : [ {
+    "id" : "password_fields_are_not_identical",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password fields are not identical",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/validation/UserPersonalAccountResetPasswordByEmailVMValidation.java:43:56" ]
+  }, {
+    "id" : "token_is_not_valid",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Token is not valid",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/validation/UserPersonalAccountResetPasswordByEmailVMValidation.java:51:55" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.utils.ValidationInterfaceResult",
+  "keys" : [ {
+    "id" : "unknown_error",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Unknown error",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/utils/ValidationInterfaceResult.java:35:104" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.SelectableOptionValidator",
+  "keys" : [ {
+    "id" : "selection_is_required",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Selection is required",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/SelectableOptionValidator.java:40:69" ]
+  }, {
+    "id" : "at_least_one_option_is_not_allowed",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "At least one option is not allowed",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/SelectableOptionValidator.java:65:66" ]
+  }, {
+    "id" : "option_is_not_allowed",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Option is not allowed",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/SelectableOptionValidator.java:65:129" ]
+  }, {
+    "id" : "field_not_found",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Field not found",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/SelectableOptionValidator.java:73:62" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.api.rest.interceptors.StatusInterceptor",
+  "keys" : [ {
+    "id" : "technical_problems:_only_users_with_special_rights_have_access",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Technical Problems: Only users with special rights have access",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/interceptors/StatusInterceptor.java:42:61" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserLoginVMValidation",
+  "keys" : [ {
+    "id" : "your_account_is_blocked_until_{blockeduntil}",
+    "placeholders" : [ "blockedUntil" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Your account is blocked until {blockedUntil}",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/validation/UserLoginVMValidation.java:51:56" ]
+  }, {
+    "id" : "the_combination_of_email_and_password_is_not_valid",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "The combination of email and password is not valid",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/api/rest/validation/UserLoginVMValidation.java:59:60" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.ActorPersonalNotificationService",
+  "keys" : [ {
+    "id" : "personal_notification_with_id_{id}_not_found",
+    "placeholders" : [ "id" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Personal Notification with id {id} not found",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/ActorPersonalNotificationService.java:78:62" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UserEmailNotExistsValidator",
+  "keys" : [ {
+    "id" : "e-mail_already_exists",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail already exists",
+    "codeLocations" : [ "%BE_CORE%/src/main/java/com/webharmony/core/service/data/validation/fieldvalidators/UserEmailNotExistsValidator.java:37:65" ]
+  } ],
+  "location" : "BACKEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "WebContentUtils",
+  "keys" : [ {
+    "id" : "box",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Box",
+    "codeLocations" : [ "%FE_CORE%/utils/WebContentUtils.ts:2:8", "%FE_CORE%/utils/WebContentUtils.ts:11:50", "%FE_CORE%/utils/WebContentUtils.ts:14:29", "%FE_CORE%/utils/WebContentUtils.ts:16:31", "%FE_CORE%/utils/WebContentUtils.ts:19:30" ]
+  }, {
+    "id" : "title",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Title",
+    "codeLocations" : [ "%FE_CORE%/utils/WebContentUtils.ts:2:70", "%FE_CORE%/utils/WebContentUtils.ts:24:50", "%FE_CORE%/utils/WebContentUtils.ts:27:29", "%FE_CORE%/utils/WebContentUtils.ts:28:47", "%FE_CORE%/utils/WebContentUtils.ts:31:30", "%FE_CORE%/utils/WebContentUtils.ts:52:29" ]
+  }, {
+    "id" : "text",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Text",
+    "codeLocations" : [ "%FE_CORE%/utils/WebContentUtils.ts:2:54", "%FE_CORE%/utils/WebContentUtils.ts:36:50", "%FE_CORE%/utils/WebContentUtils.ts:39:29", "%FE_CORE%/utils/WebContentUtils.ts:40:54", "%FE_CORE%/utils/WebContentUtils.ts:43:30", "%FE_CORE%/utils/WebContentUtils.ts:51:29", "%FE_CORE%/utils/WebContentUtils.ts:55:30" ]
+  }, {
+    "id" : "image",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Image",
+    "codeLocations" : [ "%FE_CORE%/utils/WebContentUtils.ts:2:37", "%FE_CORE%/utils/WebContentUtils.ts:48:50", "%FE_CORE%/utils/WebContentUtils.ts:51:34", "%FE_CORE%/utils/WebContentUtils.ts:52:37" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "registryItems-index",
+  "keys" : [ {
+    "id" : "unique_name",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Unique Name",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/registryItems/index.vue:16:29" ]
+  }, {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/registryItems/index.vue:20:29" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/registryItems/index.vue:24:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "web-language-page",
+  "keys" : [ {
+    "id" : "language",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Language",
+    "codeLocations" : [ "%FE_CORE%/pages/language.vue:4:26", "%FE_CORE%/pages/language.vue:5:5", "%FE_CORE%/pages/language.vue:12:7" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "cronJobs[id]",
+  "keys" : [ {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/cronJobs/[id].vue:8:68" ]
+  }, {
+    "id" : "is_currently_running",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Is currently running",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/cronJobs/[id].vue:10:79" ]
+  }, {
+    "id" : "last_executed_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Last executed at",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/cronJobs/[id].vue:11:77" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/cronJobs/[id].vue:12:73" ]
+  }, {
+    "id" : "java_class",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Java Class",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/cronJobs/[id].vue:13:72" ]
+  }, {
+    "id" : "cron_trigger",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Cron Trigger",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/cronJobs/[id].vue:14:74" ]
+  }, {
+    "id" : "run",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Run",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/cronJobs/[id].vue:10:44", "%FE_CORE%/pages/app/admin/cronJobs/[id].vue:18:62", "%FE_CORE%/pages/app/admin/cronJobs/[id].vue:40:17", "%FE_CORE%/pages/app/admin/cronJobs/[id].vue:44:8" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "UserAccountGeneralSettingsStep",
+  "keys" : [ {
+    "id" : "general",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "General",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountGeneralSettingsStep.vue:2:44", "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountGeneralSettingsStep.vue:39:33" ]
+  }, {
+    "id" : "e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountGeneralSettingsStep.vue:16:72" ]
+  }, {
+    "id" : "firstname",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Firstname",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountGeneralSettingsStep.vue:17:76", "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountGeneralSettingsStep.vue:18:75" ]
+  }, {
+    "id" : "account_successfully_updated",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Account successfully updated",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountGeneralSettingsStep.vue:55:57" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "resetPasswordByEmail",
+  "keys" : [ {
+    "id" : "e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail",
+    "codeLocations" : [ "%FE_CORE%/pages/resetPasswordByEmail.vue:11:72" ]
+  }, {
+    "id" : "new_password",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "New Password",
+    "codeLocations" : [ "%FE_CORE%/pages/resetPasswordByEmail.vue:12:53", "%FE_CORE%/pages/resetPasswordByEmail.vue:13:53" ]
+  }, {
+    "id" : "new_password_again",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "New Password Again",
+    "codeLocations" : [ "%FE_CORE%/pages/resetPasswordByEmail.vue:13:53" ]
+  }, {
+    "id" : "reset",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Reset",
+    "codeLocations" : [ "%FE_CORE%/pages/resetPasswordByEmail.vue:9:30", "%FE_CORE%/pages/resetPasswordByEmail.vue:15:54", "%FE_CORE%/pages/resetPasswordByEmail.vue:58:65" ]
+  }, {
+    "id" : "you_can_now_use_your_new_password",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "You can now use your new password",
+    "codeLocations" : [ "%FE_CORE%/pages/resetPasswordByEmail.vue:19:31" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "keyEntries[id]",
+  "keys" : [ {
+    "id" : "next",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Next",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:4:62", "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:39:10", "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:40:73" ]
+  }, {
+    "id" : "class_id",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Class ID",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:6:68" ]
+  }, {
+    "id" : "key",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Key",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:2:85", "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:7:64", "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:40:52" ]
+  }, {
+    "id" : "placeholders",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Placeholders",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:8:73" ]
+  }, {
+    "id" : "code_location",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Code Location",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:9:75" ]
+  }, {
+    "id" : "code_lines",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Code Lines",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:10:70" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:11:71" ]
+  }, {
+    "id" : "translations",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Translations",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/[id].vue:12:89" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyTableCardRepresentation",
+  "keys" : [ {
+    "id" : "sorting",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Sorting",
+    "codeLocations" : [ "%FE_CORE%/components/base/table/HarmonyTableCardRepresentation.vue:3:26", "%FE_CORE%/components/base/table/HarmonyTableCardRepresentation.vue:94:9", "%FE_CORE%/components/base/table/HarmonyTableCardRepresentation.vue:115:12", "%FE_CORE%/components/base/table/HarmonyTableCardRepresentation.vue:117:12" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "about",
+  "keys" : [ {
+    "id" : "about",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "About",
+    "codeLocations" : [ "%FE_CORE%/pages/about.vue:4:27" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonySelectField",
+  "keys" : [ {
+    "id" : "search...",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Search...",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonySelectField.vue:8:132" ]
+  }, {
+    "id" : "cancel",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Cancel",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonySelectField.vue:11:55", "%FE_CORE%/components/base/HarmonySelectField.vue:144:8" ]
+  }, {
+    "id" : "apply",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Apply",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonySelectField.vue:12:55", "%FE_CORE%/components/base/HarmonySelectField.vue:145:8" ]
+  }, {
+    "id" : "single_element_selected",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Single element selected",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonySelectField.vue:130:29" ]
+  }, {
+    "id" : "{count}_elements_selected",
+    "placeholders" : [ "count" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "{count} elements selected",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonySelectField.vue:132:29" ]
+  }, {
+    "id" : "nothing_selected",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Nothing selected",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonySelectField.vue:135:27" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "SelectFieldFilter",
+  "keys" : [ {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/components/base/utils/filter/SelectFieldFilter.vue:101:27" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "actorRights-index",
+  "keys" : [ {
+    "id" : "search",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Search",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actorRights/index.vue:4:71" ]
+  }, {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actorRights/index.vue:21:29" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actorRights/index.vue:25:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "LanguageSettings",
+  "keys" : [ {
+    "id" : "please_select_your_preferred_language",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Please select your preferred language",
+    "codeLocations" : [ "%FE_CORE%/components/view/LanguageSettings.vue:2:23" ]
+  }, {
+    "id" : "language",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Language",
+    "codeLocations" : [ "%FE_CORE%/components/view/LanguageSettings.vue:4:32", "%FE_CORE%/components/view/LanguageSettings.vue:5:22", "%FE_CORE%/components/view/LanguageSettings.vue:6:22", "%FE_CORE%/components/view/LanguageSettings.vue:22:8", "%FE_CORE%/components/view/LanguageSettings.vue:24:22", "%FE_CORE%/components/view/LanguageSettings.vue:30:59", "%FE_CORE%/components/view/LanguageSettings.vue:31:15", "%FE_CORE%/components/view/LanguageSettings.vue:33:13", "%FE_CORE%/components/view/LanguageSettings.vue:40:13", "%FE_CORE%/components/view/LanguageSettings.vue:41:13", "%FE_CORE%/components/view/LanguageSettings.vue:42:8", "%FE_CORE%/components/view/LanguageSettings.vue:46:12" ]
+  }, {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/components/view/LanguageSettings.vue:36:27" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyFileSelector",
+  "keys" : [ {
+    "id" : "add",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Add",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyFileSelector.vue:15:28" ]
+  }, {
+    "id" : "drop_files_here_or_click_here_to_upload",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Drop files here or click here to upload",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyFileSelector.vue:27:29" ]
+  }, {
+    "id" : "you_need_to_select_at_least_{min}_file(s",
+    "placeholders" : [ "min" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "You need to select at least {min} file(s",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyFileSelector.vue:141:49" ]
+  }, {
+    "id" : "you_are_not_allowed_to_select_more_than_{max}_file(s",
+    "placeholders" : [ "max" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "You are not allowed to select more than {max} file(s",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyFileSelector.vue:146:49" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "webContentAreas[id]",
+  "keys" : [ {
+    "id" : "unique_name",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Unique Name",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContentAreas/[id].vue:6:72" ]
+  }, {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContentAreas/[id].vue:7:66" ]
+  }, {
+    "id" : "only_one_content_instance_allowed",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Only one content instance allowed",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContentAreas/[id].vue:8:88" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContentAreas/[id].vue:9:71" ]
+  }, {
+    "id" : "required_read_right",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Required Read Right",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContentAreas/[id].vue:10:80" ]
+  }, {
+    "id" : "required_write_right",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Required Write Right",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContentAreas/[id].vue:11:81" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "entityAttributes[id]",
+  "keys" : [ {
+    "id" : "next",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Next",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/[id].vue:4:62", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/[id].vue:34:10", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/[id].vue:35:80" ]
+  }, {
+    "id" : "entity_class",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Entity Class",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/[id].vue:6:72" ]
+  }, {
+    "id" : "attribute_name",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Attribute Name",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/[id].vue:7:70" ]
+  }, {
+    "id" : "translations",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Translations",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/[id].vue:8:77" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "ErrorBanner",
+  "keys" : [ {
+    "id" : "details",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Details",
+    "codeLocations" : [ "%FE_CORE%/components/banner/impl/ErrorBanner.vue:5:76", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:9:28", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:75:12" ]
+  }, {
+    "id" : "java_stacktrace",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Java Stacktrace",
+    "codeLocations" : [ "%FE_CORE%/components/banner/impl/ErrorBanner.vue:18:28" ]
+  }, {
+    "id" : "error",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Error",
+    "codeLocations" : [ "%FE_CORE%/components/banner/impl/ErrorBanner.vue:5:16", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:10:20", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:11:28", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:12:31", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:13:30", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:14:35", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:32:37", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:34:11", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:38:22", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:54:101", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:56:9", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:59:23", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:60:29", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:62:11", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:63:5", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:64:8", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:65:31", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:67:22", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:68:13", "%FE_CORE%/components/banner/impl/ErrorBanner.vue:69:30" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "notifications[id]",
+  "keys" : [ {
+    "id" : "caption",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Caption",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/[id].vue:3:69" ]
+  }, {
+    "id" : "send_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Send At",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/[id].vue:4:68" ]
+  }, {
+    "id" : "recipient",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Recipient",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/[id].vue:5:71" ]
+  }, {
+    "id" : "text_message",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Text Message",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/[id].vue:6:71" ]
+  }, {
+    "id" : "read",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Read",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/[id].vue:7:63" ]
+  }, {
+    "id" : "payload",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Payload",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/[id].vue:8:67" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "harmonyEvents[id]",
+  "keys" : [ {
+    "id" : "created_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Created At",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/harmonyEvents/[id].vue:10:76" ]
+  }, {
+    "id" : "created_by",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Created By",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/harmonyEvents/[id].vue:13:76" ]
+  }, {
+    "id" : "java_type",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Java Type",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/harmonyEvents/[id].vue:17:71" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "serverTasks-index",
+  "keys" : [ {
+    "id" : "id",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "ID",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/serverTasks/index.vue:16:29" ]
+  }, {
+    "id" : "name",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Name",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/serverTasks/index.vue:19:13", "%FE_CORE%/pages/app/admin/serverTasks/index.vue:20:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "ServerNotReachable",
+  "keys" : [ {
+    "id" : "server_not_reachable",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Server not reachable",
+    "codeLocations" : [ "%FE_CORE%/components/view/ServerNotReachable.vue:2:43", "%FE_CORE%/components/view/ServerNotReachable.vue:37:17" ]
+  }, {
+    "id" : "unfortunately,_the_server_is_currently_unavailable._please_try_again_later.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Unfortunately, the server is currently unavailable. Please try again later.",
+    "codeLocations" : [ "%FE_CORE%/components/view/ServerNotReachable.vue:3:25" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "emails[id]",
+  "keys" : [ {
+    "id" : "created_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Created At",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/[id].vue:6:76" ]
+  }, {
+    "id" : "last_sending",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Last sending",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/[id].vue:9:78" ]
+  }, {
+    "id" : "from",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "From",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/[id].vue:13:72" ]
+  }, {
+    "id" : "to",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "To",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/[id].vue:14:70" ]
+  }, {
+    "id" : "subject",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Subject",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/[id].vue:15:70" ]
+  }, {
+    "id" : "html_message",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "HTML Message",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/[id].vue:16:73" ]
+  }, {
+    "id" : "preview",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Preview",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/[id].vue:19:62", "%FE_CORE%/pages/app/admin/emails/[id].vue:23:30", "%FE_CORE%/pages/app/admin/emails/[id].vue:24:31", "%FE_CORE%/pages/app/admin/emails/[id].vue:44:10", "%FE_CORE%/pages/app/admin/emails/[id].vue:47:20", "%FE_CORE%/pages/app/admin/emails/[id].vue:49:12", "%FE_CORE%/pages/app/admin/emails/[id].vue:50:6" ]
+  }, {
+    "id" : "send",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Send",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/[id].vue:9:43", "%FE_CORE%/pages/app/admin/emails/[id].vue:20:62", "%FE_CORE%/pages/app/admin/emails/[id].vue:53:17", "%FE_CORE%/pages/app/admin/emails/[id].vue:55:8", "%FE_CORE%/pages/app/admin/emails/[id].vue:58:13" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyYesNoModal",
+  "keys" : [ {
+    "id" : "yes",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Yes",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyYesNoModal.vue:7:48", "%FE_CORE%/components/base/HarmonyYesNoModal.vue:21:9", "%FE_CORE%/components/base/HarmonyYesNoModal.vue:36:29", "%FE_CORE%/components/base/HarmonyYesNoModal.vue:43:10" ]
+  }, {
+    "id" : "no",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "No",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyYesNoModal.vue:8:48", "%FE_CORE%/components/base/HarmonyYesNoModal.vue:22:9", "%FE_CORE%/components/base/HarmonyYesNoModal.vue:36:32", "%FE_CORE%/components/base/HarmonyYesNoModal.vue:48:10" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "FormSelectFieldCreateResourceWrapper",
+  "keys" : [ {
+    "id" : "cancel",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Cancel",
+    "codeLocations" : [ "%FE_CORE%/components/form/fields/utils/FormSelectFieldCreateResourceWrapper.vue:4:34", "%FE_CORE%/components/form/fields/utils/FormSelectFieldCreateResourceWrapper.vue:6:18", "%FE_CORE%/components/form/fields/utils/FormSelectFieldCreateResourceWrapper.vue:30:9", "%FE_CORE%/components/form/fields/utils/FormSelectFieldCreateResourceWrapper.vue:46:8" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "registrations[id]",
+  "keys" : [ {
+    "id" : "the_user_is_currently_waiting_for_an_admin_confirmation",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "The user is currently waiting for an admin confirmation",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/[id].vue:8:28" ]
+  }, {
+    "id" : "confirm",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Confirm",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/[id].vue:9:48", "%FE_CORE%/pages/app/users/registrations/[id].vue:39:8" ]
+  }, {
+    "id" : "e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/[id].vue:11:66" ]
+  }, {
+    "id" : "state",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "State",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/[id].vue:12:68", "%FE_CORE%/pages/app/users/registrations/[id].vue:13:69", "%FE_CORE%/pages/app/users/registrations/[id].vue:44:36" ]
+  }, {
+    "id" : "state_data",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "State Data",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/[id].vue:13:69" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyJsonEditor",
+  "keys" : [ {
+    "id" : "enter_json_here...",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Enter JSON here...",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyJsonEditor.vue:5:38" ]
+  }, {
+    "id" : "valid_json",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Valid JSON",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyJsonEditor.vue:9:65" ]
+  }, {
+    "id" : "json_not_valid",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "JSON not valid",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyJsonEditor.vue:51:36" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "personalNotifications-index",
+  "keys" : [ {
+    "id" : "search",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Search",
+    "codeLocations" : [ "%FE_CORE%/pages/app/personalNotifications/index.vue:4:71" ]
+  }, {
+    "id" : "send_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Send at",
+    "codeLocations" : [ "%FE_CORE%/pages/app/personalNotifications/index.vue:30:29" ]
+  }, {
+    "id" : "caption",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Caption",
+    "codeLocations" : [ "%FE_CORE%/pages/app/personalNotifications/index.vue:34:29" ]
+  }, {
+    "id" : "type",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Type",
+    "codeLocations" : [ "%FE_CORE%/pages/app/personalNotifications/index.vue:23:49", "%FE_CORE%/pages/app/personalNotifications/index.vue:38:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyTableCardRepresentationSortingModal",
+  "keys" : [ {
+    "id" : "apply",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Apply",
+    "codeLocations" : [ "%FE_CORE%/components/base/utils/HarmonyTableCardRepresentationSortingModal.vue:18:48", "%FE_CORE%/components/base/utils/HarmonyTableCardRepresentationSortingModal.vue:33:9", "%FE_CORE%/components/base/utils/HarmonyTableCardRepresentationSortingModal.vue:86:8", "%FE_CORE%/components/base/utils/HarmonyTableCardRepresentationSortingModal.vue:88:10" ]
+  }, {
+    "id" : "cancel",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Cancel",
+    "codeLocations" : [ "%FE_CORE%/components/base/utils/HarmonyTableCardRepresentationSortingModal.vue:19:48", "%FE_CORE%/components/base/utils/HarmonyTableCardRepresentationSortingModal.vue:94:8" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "startupLogs-index",
+  "keys" : [ {
+    "id" : "started_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Started At",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/logs/startupLogs/index.vue:20:29" ]
+  }, {
+    "id" : "duration_milliseconds",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Duration Milliseconds",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/logs/startupLogs/index.vue:24:29" ]
+  }, {
+    "id" : "duration",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Duration",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/logs/startupLogs/index.vue:24:29", "%FE_CORE%/pages/app/admin/logs/startupLogs/index.vue:28:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "users[id]",
+  "keys" : [ {
+    "id" : "e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/users/[id].vue:3:67" ]
+  }, {
+    "id" : "firstname",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Firstname",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/users/[id].vue:4:71" ]
+  }, {
+    "id" : "lastname",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Lastname",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/users/[id].vue:5:70" ]
+  }, {
+    "id" : "access",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Access",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/users/[id].vue:6:73", "%FE_CORE%/pages/app/users/users/[id].vue:7:30" ]
+  }, {
+    "id" : "is_admin",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Is Admin",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/users/[id].vue:8:70" ]
+  }, {
+    "id" : "main_role",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Main Role",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/users/[id].vue:9:75" ]
+  }, {
+    "id" : "roles",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Roles",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/users/[id].vue:12:38", "%FE_CORE%/pages/app/users/users/[id].vue:13:37" ]
+  }, {
+    "id" : "additional_rights",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Additional Rights",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/users/[id].vue:20:83" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "WebContentImageComponent",
+  "keys" : [ {
+    "id" : "image_to_upload",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Image to upload",
+    "codeLocations" : [ "%FE_CORE%/components/webcontent/views/WebContentImageComponent.vue:22:69" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "reportUserErrors[id]",
+  "keys" : [ {
+    "id" : "page",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Page",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/reportUserErrors/[id].vue:3:65" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/reportUserErrors/[id].vue:4:71" ]
+  }, {
+    "id" : "attachments",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Attachments",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/reportUserErrors/[id].vue:5:75" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "secureKeys-index",
+  "keys" : [ {
+    "id" : "id",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "ID",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/secureKeys/index.vue:19:29" ]
+  }, {
+    "id" : "name",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Name",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/secureKeys/index.vue:23:29" ]
+  }, {
+    "id" : "key",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Key",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/secureKeys/index.vue:2:82", "%FE_CORE%/pages/app/admin/secureKeys/index.vue:14:28", "%FE_CORE%/pages/app/admin/secureKeys/index.vue:27:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyUserWebModal",
+  "keys" : [ {
+    "id" : "edit_profile",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Edit Profile",
+    "codeLocations" : [ "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:7:81" ]
+  }, {
+    "id" : "open_app",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Open App",
+    "codeLocations" : [ "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:14:38" ]
+  }, {
+    "id" : "logout",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Logout",
+    "codeLocations" : [ "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:19:38", "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:20:22", "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:96:8" ]
+  }, {
+    "id" : "login",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Login",
+    "codeLocations" : [ "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:28:38", "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:29:22", "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:91:8" ]
+  }, {
+    "id" : "no_account?",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "No Account?",
+    "codeLocations" : [ "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:33:29" ]
+  }, {
+    "id" : "please_a_create_a_new_account_here",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Please a create a new account here",
+    "codeLocations" : [ "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:34:80" ]
+  }, {
+    "id" : "about",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "About",
+    "codeLocations" : [ "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:40:79" ]
+  }, {
+    "id" : "imprint",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Imprint",
+    "codeLocations" : [ "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:43:81" ]
+  }, {
+    "id" : "privacy_notice",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Privacy Notice",
+    "codeLocations" : [ "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:46:87" ]
+  }, {
+    "id" : "language",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Language",
+    "codeLocations" : [ "%FE_CORE%/components/view/web/HarmonyUserWebModal.vue:49:82" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyViewModelForm",
+  "keys" : [ {
+    "id" : "error",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Error",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/HarmonyViewModelForm.vue:5:47" ]
+  }, {
+    "id" : "data_could_not_be_loaded",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Data could not be loaded",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/HarmonyViewModelForm.vue:6:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "notificationEventTypes[id]",
+  "keys" : [ {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/eventTypes/[id].vue:3:66" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/eventTypes/[id].vue:4:71" ]
+  }, {
+    "id" : "is_active",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Is Active",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/eventTypes/[id].vue:5:67" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "actors[id]",
+  "keys" : [ {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actors/[id].vue:3:71" ]
+  }, {
+    "id" : "type",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Type",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actors/[id].vue:4:65" ]
+  }, {
+    "id" : "user_id",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "User ID",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actors/[id].vue:5:67" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "confirmEmail",
+  "keys" : [ {
+    "id" : "not_allowed",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Not allowed",
+    "codeLocations" : [ "%FE_CORE%/pages/confirmEmail.vue:5:47" ]
+  }, {
+    "id" : "it_is_currently_not_allowed_to_create_a_new_account.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "It is currently not allowed to create a new account.",
+    "codeLocations" : [ "%FE_CORE%/pages/confirmEmail.vue:6:29" ]
+  }, {
+    "id" : "homepage",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Homepage",
+    "codeLocations" : [ "%FE_CORE%/pages/confirmEmail.vue:8:52", "%FE_CORE%/pages/confirmEmail.vue:22:56", "%FE_CORE%/pages/confirmEmail.vue:29:56", "%FE_CORE%/pages/confirmEmail.vue:36:54", "%FE_CORE%/pages/confirmEmail.vue:84:14" ]
+  }, {
+    "id" : "confirm_e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Confirm E-Mail",
+    "codeLocations" : [ "%FE_CORE%/pages/confirmEmail.vue:13:47" ]
+  }, {
+    "id" : "confirmation_in_process...",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Confirmation in process...",
+    "codeLocations" : [ "%FE_CORE%/pages/confirmEmail.vue:15:31" ]
+  }, {
+    "id" : "confirmation_was_successful.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Confirmation was successful.",
+    "codeLocations" : [ "%FE_CORE%/pages/confirmEmail.vue:18:31" ]
+  }, {
+    "id" : "please_wait_for_the_admin_confirmation.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Please wait for the admin confirmation.",
+    "codeLocations" : [ "%FE_CORE%/pages/confirmEmail.vue:20:33" ]
+  }, {
+    "id" : "you_are_now_allowed_to_login_to_the_application.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "You are now allowed to login to the application.",
+    "codeLocations" : [ "%FE_CORE%/pages/confirmEmail.vue:26:33" ]
+  }, {
+    "id" : "login",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Login",
+    "codeLocations" : [ "%FE_CORE%/pages/confirmEmail.vue:28:56", "%FE_CORE%/pages/confirmEmail.vue:85:10" ]
+  }, {
+    "id" : "unfortunately_something_went_wrong._please_get_in_contact_with_the_administrator_of_this_application.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Unfortunately something went wrong. Please get in contact with the administrator of this application.",
+    "codeLocations" : [ "%FE_CORE%/pages/confirmEmail.vue:34:31" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "registrations-index",
+  "keys" : [ {
+    "id" : "send_invitation",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Send Invitation",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/index.vue:9:36" ]
+  }, {
+    "id" : "e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/index.vue:36:29" ]
+  }, {
+    "id" : "state",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "State",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/index.vue:40:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "FormFieldWrapper",
+  "keys" : [ {
+    "id" : "close",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Close",
+    "codeLocations" : [ "%FE_CORE%/components/form/fields/FormFieldWrapper.vue:8:48" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "notifications-index",
+  "keys" : [ {
+    "id" : "search",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Search",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/index.vue:4:71" ]
+  }, {
+    "id" : "send_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Send at",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/index.vue:21:29" ]
+  }, {
+    "id" : "recipient",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Recipient",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/index.vue:25:29" ]
+  }, {
+    "id" : "caption",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Caption",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/index.vue:29:29" ]
+  }, {
+    "id" : "read",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Read",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/index.vue:33:29" ]
+  }, {
+    "id" : "type",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Type",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/notifications/index.vue:14:49", "%FE_CORE%/pages/app/admin/notifications/notifications/index.vue:37:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyAuthenticatedNavbar",
+  "keys" : [ {
+    "id" : "account",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Account",
+    "codeLocations" : [ "%FE_CORE%/components/view/app/HarmonyAppViewHeader.vue:22:142" ]
+  }, {
+    "id" : "language",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Language",
+    "codeLocations" : [ "%FE_CORE%/components/view/app/HarmonyAppViewHeader.vue:25:138" ]
+  }, {
+    "id" : "logout",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Logout",
+    "codeLocations" : [ "%FE_CORE%/components/view/app/HarmonyAppViewHeader.vue:28:62", "%FE_CORE%/components/view/app/HarmonyAppViewHeader.vue:30:30", "%FE_CORE%/components/view/app/HarmonyAppViewHeader.vue:69:8" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "applicationExceptions[id]",
+  "keys" : [ {
+    "id" : "exception_type",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Exception Type",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/[id].vue:3:74" ]
+  }, {
+    "id" : "message",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Message",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/[id].vue:4:68" ]
+  }, {
+    "id" : "timestamp",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Timestamp",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/[id].vue:5:70" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/[id].vue:6:71" ]
+  }, {
+    "id" : "stacktrace",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Stacktrace",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/[id].vue:7:70" ]
+  }, {
+    "id" : "log",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Log",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/[id].vue:8:63" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "entityAttributes-index",
+  "keys" : [ {
+    "id" : "import",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Import",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:4:62", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:33:28", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:35:112", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:37:81", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:41:30", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:100:21", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:102:8", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:112:8", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:121:4", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:136:12", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:137:20", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:142:48" ]
+  }, {
+    "id" : "export",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Export",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:5:62", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:49:28", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:51:112", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:52:118", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:55:48", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:103:8", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:105:27", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:106:30", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:126:8", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:127:64" ]
+  }, {
+    "id" : "entity_class",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Entity Class",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:10:80", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:84:29" ]
+  }, {
+    "id" : "text",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Text",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:13:73", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:63:7" ]
+  }, {
+    "id" : "attribute",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Attribute",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:2:71", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:16:78", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:77:28", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:88:29", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:133:66", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:144:52" ]
+  }, {
+    "id" : "is_core_entry",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Is Core Entry",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:21:83", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:92:29" ]
+  }, {
+    "id" : "is_project_entry",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Is Project Entry",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:24:86" ]
+  }, {
+    "id" : "translated_entries:_{countoftranslatedentries}",
+    "placeholders" : [ "countOfTranslatedEntries" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Translated Entries: {countOfTranslatedEntries}",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:29:79" ]
+  }, {
+    "id" : "not_translated_entries:_{countofnottranslatedentries}",
+    "placeholders" : [ "countOfNotTranslatedEntries" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Not Translated Entries: {countOfNotTranslatedEntries}",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:29:234" ]
+  }, {
+    "id" : "select_import_json_file",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Select import json file",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:35:53" ]
+  }, {
+    "id" : "upload",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Upload",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:34:20", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:37:49", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:41:72", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:42:71", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:44:80", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:108:10", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:115:6", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:119:12", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:120:6", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:142:12", "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:144:92" ]
+  }, {
+    "id" : "imported_elements",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Imported Elements",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:41:30" ]
+  }, {
+    "id" : "ignored_elements",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Ignored Elements",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:42:30" ]
+  }, {
+    "id" : "close",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Close",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:44:49" ]
+  }, {
+    "id" : "include_core_entries",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Include Core Entries",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:51:50" ]
+  }, {
+    "id" : "include_project_entries",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Include Project Entries",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:52:50" ]
+  }, {
+    "id" : "attribute_name",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Attribute Name",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:88:29" ]
+  }, {
+    "id" : "count_of_translations",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Count of Translations",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/entityAttributes/index.vue:96:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "users-index",
+  "keys" : [ {
+    "id" : "e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/users/index.vue:16:29" ]
+  }, {
+    "id" : "firstname",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Firstname",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/users/index.vue:20:29" ]
+  }, {
+    "id" : "lastname",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Lastname",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/users/index.vue:24:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "webContentAreas-index",
+  "keys" : [ {
+    "id" : "unique_name",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Unique Name",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContentAreas/index.vue:16:29" ]
+  }, {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContentAreas/index.vue:20:29" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContentAreas/index.vue:24:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "SaveAndRevertButton",
+  "keys" : [ {
+    "id" : "revert_changes",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Revert changes",
+    "codeLocations" : [ "%FE_CORE%/components/utils/SaveAndRevertButton.vue:3:65" ]
+  }, {
+    "id" : "save",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Save",
+    "codeLocations" : [ "%FE_CORE%/components/utils/SaveAndRevertButton.vue:4:67", "%FE_CORE%/components/utils/SaveAndRevertButton.vue:14:22", "%FE_CORE%/components/utils/SaveAndRevertButton.vue:29:9", "%FE_CORE%/components/utils/SaveAndRevertButton.vue:36:8", "%FE_CORE%/components/utils/SaveAndRevertButton.vue:37:10" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "webContents-index",
+  "keys" : [ {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContents/index.vue:16:29" ]
+  }, {
+    "id" : "area",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Area",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContents/index.vue:20:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "userRoles[id]",
+  "keys" : [ {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/userRoles/[id].vue:3:66" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/userRoles/[id].vue:4:71" ]
+  }, {
+    "id" : "rights",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Rights",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/userRoles/[id].vue:5:43" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "userRoles-index",
+  "keys" : [ {
+    "id" : "search",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Search",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/userRoles/index.vue:4:71" ]
+  }, {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/userRoles/index.vue:21:29" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/userRoles/index.vue:25:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "useBannerContext",
+  "keys" : [ {
+    "id" : "server_error",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Server error",
+    "codeLocations" : [ "%FE_CORE%/composables/useBannerContext.ts:66:44" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "pageNotFound",
+  "keys" : [ {
+    "id" : "page_not_found",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Page not found",
+    "codeLocations" : [ "%FE_CORE%/pages/pageNotFound.vue:2:43" ]
+  }, {
+    "id" : "unfortunately_this_page_does_not_exists",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Unfortunately this page does not exists",
+    "codeLocations" : [ "%FE_CORE%/pages/pageNotFound.vue:3:25" ]
+  }, {
+    "id" : "back",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Back",
+    "codeLocations" : [ "%FE_CORE%/pages/pageNotFound.vue:5:68", "%FE_CORE%/pages/pageNotFound.vue:24:8" ]
+  }, {
+    "id" : "home",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Home",
+    "codeLocations" : [ "%FE_CORE%/pages/pageNotFound.vue:6:55", "%FE_CORE%/pages/pageNotFound.vue:28:8" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "reportUserErrors-index",
+  "keys" : [ {
+    "id" : "search",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Search",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/reportUserErrors/index.vue:4:71" ]
+  }, {
+    "id" : "page",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Page",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/reportUserErrors/index.vue:21:29" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/reportUserErrors/index.vue:25:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "actorRights[id]",
+  "keys" : [ {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actorRights/[id].vue:3:66" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actorRights/[id].vue:4:71" ]
+  }, {
+    "id" : "is_allowed_for_system_actor",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Is allowed for System Actor",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actorRights/[id].vue:6:84" ]
+  }, {
+    "id" : "is_allowed_for_unknown_public_actor",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Is allowed for unknown public actor",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actorRights/[id].vue:7:91" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "keyEntries-index",
+  "keys" : [ {
+    "id" : "import",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Import",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:4:62", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:36:28", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:38:112", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:40:81", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:106:8", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:118:21", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:119:8", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:141:12", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:142:20", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:148:48" ]
+  }, {
+    "id" : "export",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Export",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:5:62", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:52:28", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:54:112", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:55:118", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:58:48", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:107:8", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:109:27", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:110:30", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:131:8", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:132:64" ]
+  }, {
+    "id" : "class_id",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Class ID",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:10:76", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:86:29" ]
+  }, {
+    "id" : "text",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Text",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:13:73", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:66:7" ]
+  }, {
+    "id" : "code_location",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Code Location",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:16:83", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:94:29" ]
+  }, {
+    "id" : "is_core_entry",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Is Core Entry",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:21:83", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:98:29" ]
+  }, {
+    "id" : "is_project_entry",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Is Project Entry",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:24:86" ]
+  }, {
+    "id" : "key",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Key",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:2:65", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:27:72", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:90:29", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:138:60", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:149:23" ]
+  }, {
+    "id" : "translated_entries:_{countoftranslatedentries}",
+    "placeholders" : [ "countOfTranslatedEntries" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Translated Entries: {countOfTranslatedEntries}",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:32:79" ]
+  }, {
+    "id" : "not_translated_entries:_{countofnottranslatedentries}",
+    "placeholders" : [ "countOfNotTranslatedEntries" ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Not Translated Entries: {countOfNotTranslatedEntries}",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:32:234" ]
+  }, {
+    "id" : "select_import_json_file",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Select import json file",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:38:53" ]
+  }, {
+    "id" : "upload",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Upload",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:37:20", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:40:49", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:44:72", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:45:71", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:47:80", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:112:10", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:122:6", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:126:12", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:127:6", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:148:12", "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:149:62" ]
+  }, {
+    "id" : "included_elements",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Included Elements",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:44:30" ]
+  }, {
+    "id" : "ignored_elements",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Ignored Elements",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:45:30" ]
+  }, {
+    "id" : "close",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Close",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:47:49" ]
+  }, {
+    "id" : "include_core_entries",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Include Core Entries",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:54:50" ]
+  }, {
+    "id" : "include_project_entries",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Include Project Entries",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:55:50" ]
+  }, {
+    "id" : "count_of_translations",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Count Of Translations",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/i18n/keyEntries/index.vue:102:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyTable",
+  "keys" : [ {
+    "id" : "yes",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "yes",
+    "codeLocations" : [ "%FE_CORE%/components/base/table/HarmonyTable.vue:217:41" ]
+  }, {
+    "id" : "no",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "no",
+    "codeLocations" : [ "%FE_CORE%/components/base/table/HarmonyTable.vue:42:55", "%FE_CORE%/components/base/table/HarmonyTable.vue:70:55", "%FE_CORE%/components/base/table/HarmonyTable.vue:167:6", "%FE_CORE%/components/base/table/HarmonyTable.vue:169:91", "%FE_CORE%/components/base/table/HarmonyTable.vue:216:58", "%FE_CORE%/components/base/table/HarmonyTable.vue:217:73", "%FE_CORE%/components/base/table/HarmonyTable.vue:294:11", "%FE_CORE%/components/base/table/HarmonyTable.vue:299:22", "%FE_CORE%/components/base/table/HarmonyTable.vue:300:19" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "applicationStatus-index",
+  "keys" : [ {
+    "id" : "reset",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Reset",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:5:92", "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:41:8", "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:60:8", "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:61:4", "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:63:4" ]
+  }, {
+    "id" : "user_message",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "User Message",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:13:73" ]
+  }, {
+    "id" : "technical_message",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Technical Message",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:14:78" ]
+  }, {
+    "id" : "status",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Status",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:15:51", "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:37:33", "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:43:57", "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:51:57", "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:62:36" ]
+  }, {
+    "id" : "status_successfully_updated",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Status successfully updated",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/applicationStatus/index.vue:51:57" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "logs-index",
+  "keys" : [ {
+    "id" : "reload",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Reload",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/logs/api/index.vue:5:49", "%FE_CORE%/pages/app/admin/logs/api/index.vue:30:8", "%FE_CORE%/pages/app/admin/logs/api/index.vue:35:4", "%FE_CORE%/pages/app/admin/logs/api/index.vue:38:4", "%FE_CORE%/pages/app/admin/logs/api/index.vue:45:8" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "imprint",
+  "keys" : [ {
+    "id" : "imprint",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Imprint",
+    "codeLocations" : [ "%FE_CORE%/pages/imprint.vue:4:26" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "files[id]",
+  "keys" : [ {
+    "id" : "file_name",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "File Name",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/files/[id].vue:4:71" ]
+  }, {
+    "id" : "is_temporary",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Is temporary",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/files/[id].vue:5:67" ]
+  }, {
+    "id" : "download",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Download",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/files/[id].vue:8:62", "%FE_CORE%/pages/app/admin/files/[id].vue:30:8" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "harmonyEvents-index",
+  "keys" : [ {
+    "id" : "search",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Search",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/harmonyEvents/index.vue:4:71" ]
+  }, {
+    "id" : "created_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Created At",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/harmonyEvents/index.vue:21:29" ]
+  }, {
+    "id" : "java_type",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Java Type",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/harmonyEvents/index.vue:25:29" ]
+  }, {
+    "id" : "created_by",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Created By",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/harmonyEvents/index.vue:29:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "GenericResourceDetailView",
+  "keys" : [ {
+    "id" : "delete",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Delete",
+    "codeLocations" : [ "%FE_CORE%/components/view/GenericResourceDetailView.vue:6:47", "%FE_CORE%/components/view/GenericResourceDetailView.vue:82:9", "%FE_CORE%/components/view/GenericResourceDetailView.vue:87:5", "%FE_CORE%/components/view/GenericResourceDetailView.vue:93:7", "%FE_CORE%/components/view/GenericResourceDetailView.vue:140:53", "%FE_CORE%/components/view/GenericResourceDetailView.vue:149:12" ]
+  }, {
+    "id" : "do_you_really_want_to_delete_this_item?",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Do you really want to delete this item?",
+    "codeLocations" : [ "%FE_CORE%/components/view/GenericResourceDetailView.vue:25:32" ]
+  }, {
+    "id" : "successfully_created",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Successfully created",
+    "codeLocations" : [ "%FE_CORE%/components/view/GenericResourceDetailView.vue:107:59" ]
+  }, {
+    "id" : "successfully_updated",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Successfully updated",
+    "codeLocations" : [ "%FE_CORE%/components/view/GenericResourceDetailView.vue:109:59" ]
+  }, {
+    "id" : "new",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "New",
+    "codeLocations" : [ "%FE_CORE%/components/view/GenericResourceDetailView.vue:88:48", "%FE_CORE%/components/view/GenericResourceDetailView.vue:94:50", "%FE_CORE%/components/view/GenericResourceDetailView.vue:100:52", "%FE_CORE%/components/view/GenericResourceDetailView.vue:104:9", "%FE_CORE%/components/view/GenericResourceDetailView.vue:125:32", "%FE_CORE%/components/view/GenericResourceDetailView.vue:126:20", "%FE_CORE%/components/view/GenericResourceDetailView.vue:140:100" ]
+  }, {
+    "id" : "successfully_deleted",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Successfully deleted",
+    "codeLocations" : [ "%FE_CORE%/components/view/GenericResourceDetailView.vue:157:57" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "login",
+  "keys" : [ {
+    "id" : "e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail",
+    "codeLocations" : [ "%FE_CORE%/pages/login.vue:11:75" ]
+  }, {
+    "id" : "password",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password",
+    "codeLocations" : [ "%FE_CORE%/pages/login.vue:12:76", "%FE_CORE%/pages/login.vue:13:119" ]
+  }, {
+    "id" : "forgot_password",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Forgot Password",
+    "codeLocations" : [ "%FE_CORE%/pages/login.vue:13:112" ]
+  }, {
+    "id" : "login",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Login",
+    "codeLocations" : [ "%FE_CORE%/pages/login.vue:10:32", "%FE_CORE%/pages/login.vue:11:138", "%FE_CORE%/pages/login.vue:12:172", "%FE_CORE%/pages/login.vue:15:54", "%FE_CORE%/pages/login.vue:44:50", "%FE_CORE%/pages/login.vue:48:8", "%FE_CORE%/pages/login.vue:55:19", "%FE_CORE%/pages/login.vue:84:25" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "error",
+  "keys" : [ {
+    "id" : "error",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Error",
+    "codeLocations" : [ "%FE_CORE%/error.vue:3:45", "%FE_CORE%/error.vue:49:19" ]
+  }, {
+    "id" : "unfortunately_something_went_wrong",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Unfortunately something went wrong",
+    "codeLocations" : [ "%FE_CORE%/error.vue:4:27" ]
+  }, {
+    "id" : "back",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Back",
+    "codeLocations" : [ "%FE_CORE%/error.vue:14:70", "%FE_CORE%/error.vue:41:10" ]
+  }, {
+    "id" : "home",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Home",
+    "codeLocations" : [ "%FE_CORE%/error.vue:15:57", "%FE_CORE%/error.vue:45:10" ]
+  }, {
+    "id" : "details",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Details",
+    "codeLocations" : [ "%FE_CORE%/error.vue:5:49", "%FE_CORE%/error.vue:6:14", "%FE_CORE%/error.vue:16:118", "%FE_CORE%/error.vue:51:12", "%FE_CORE%/error.vue:53:14" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "sendInvitation",
+  "keys" : [ {
+    "id" : "send",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Send",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/sendInvitation.vue:8:36", "%FE_CORE%/pages/app/users/registrations/sendInvitation.vue:9:20", "%FE_CORE%/pages/app/users/registrations/sendInvitation.vue:10:42", "%FE_CORE%/pages/app/users/registrations/sendInvitation.vue:52:46", "%FE_CORE%/pages/app/users/registrations/sendInvitation.vue:53:17", "%FE_CORE%/pages/app/users/registrations/sendInvitation.vue:58:8" ]
+  }, {
+    "id" : "e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/sendInvitation.vue:20:70" ]
+  }, {
+    "id" : "message",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Message",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/sendInvitation.vue:21:71" ]
+  }, {
+    "id" : "the_current_workflow_does_not_allow_sending_of_invitations",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "The current workflow does not allow sending of invitations",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/registrations/sendInvitation.vue:26:25" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "actors-index",
+  "keys" : [ {
+    "id" : "unique_name",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Unique Name",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actors/index.vue:4:75", "%FE_CORE%/pages/app/users/actors/index.vue:21:29" ]
+  }, {
+    "id" : "type",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Type",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actors/index.vue:14:49", "%FE_CORE%/pages/app/users/actors/index.vue:25:29" ]
+  }, {
+    "id" : "user_id",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "User ID",
+    "codeLocations" : [ "%FE_CORE%/pages/app/users/actors/index.vue:29:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "UserAccountPasswordSettingsStep",
+  "keys" : [ {
+    "id" : "password",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:2:42", "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:16:55", "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:17:55", "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:18:55", "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:35:33", "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:37:71", "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:51:57" ]
+  }, {
+    "id" : "old_password",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Old Password",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:16:51" ]
+  }, {
+    "id" : "new_password",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "New Password",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:17:51", "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:18:51" ]
+  }, {
+    "id" : "new_password_again",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "New Password Again",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:18:51" ]
+  }, {
+    "id" : "password_successfully_updated",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password successfully updated",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountPasswordSettingsStep.vue:51:57" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "startupLogs[id]",
+  "keys" : [ {
+    "id" : "started_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Started At",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/logs/startupLogs/[id].vue:3:70" ]
+  }, {
+    "id" : "duration_milliseconds",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Duration Milliseconds",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/logs/startupLogs/[id].vue:4:77" ]
+  }, {
+    "id" : "duration",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Duration",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/logs/startupLogs/[id].vue:4:77", "%FE_CORE%/pages/app/admin/logs/startupLogs/[id].vue:5:73" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "emails-index",
+  "keys" : [ {
+    "id" : "search",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Search",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/index.vue:4:71" ]
+  }, {
+    "id" : "created_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Created At",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/index.vue:21:29" ]
+  }, {
+    "id" : "last_send_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Last Send At",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/index.vue:25:29" ]
+  }, {
+    "id" : "state",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "State",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/index.vue:29:29" ]
+  }, {
+    "id" : "to",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "To",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/index.vue:33:29" ]
+  }, {
+    "id" : "subject",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Subject",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/emails/index.vue:37:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "registryItems[id]",
+  "keys" : [ {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/registryItems/[id].vue:8:66" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/registryItems/[id].vue:9:71" ]
+  }, {
+    "id" : "value",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Value",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/registryItems/[id].vue:11:32", "%FE_CORE%/pages/app/admin/registryItems/[id].vue:34:54", "%FE_CORE%/pages/app/admin/registryItems/[id].vue:35:57" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyLazyLoadingTable",
+  "keys" : [ {
+    "id" : "total:",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Total:",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyLazyLoadingTable.vue:20:56" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "privacyNotice",
+  "keys" : [ {
+    "id" : "privacy_notice",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Privacy Notice",
+    "codeLocations" : [ "%FE_CORE%/pages/privacyNotice.vue:4:26" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keys" : [ {
+    "id" : "clear",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Clear",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:13:47", "%FE_CORE%/components/base/HarmonyDatepicker.vue:145:8" ]
+  }, {
+    "id" : "cancel",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Cancel",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:15:61" ]
+  }, {
+    "id" : "apply",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Apply",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:16:61", "%FE_CORE%/components/base/HarmonyDatepicker.vue:140:8" ]
+  }, {
+    "id" : "mon",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Mon",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:22:26", "%FE_CORE%/components/base/HarmonyDatepicker.vue:23:33", "%FE_CORE%/components/base/HarmonyDatepicker.vue:24:26", "%FE_CORE%/components/base/HarmonyDatepicker.vue:29:36", "%FE_CORE%/components/base/HarmonyDatepicker.vue:33:31", "%FE_CORE%/components/base/HarmonyDatepicker.vue:94:13", "%FE_CORE%/components/base/HarmonyDatepicker.vue:98:18", "%FE_CORE%/components/base/HarmonyDatepicker.vue:123:12", "%FE_CORE%/components/base/HarmonyDatepicker.vue:124:44", "%FE_CORE%/components/base/HarmonyDatepicker.vue:127:16", "%FE_CORE%/components/base/HarmonyDatepicker.vue:128:54", "%FE_CORE%/components/base/HarmonyDatepicker.vue:133:104", "%FE_CORE%/components/base/HarmonyDatepicker.vue:137:113", "%FE_CORE%/components/base/HarmonyDatepicker.vue:150:10", "%FE_CORE%/components/base/HarmonyDatepicker.vue:151:13", "%FE_CORE%/components/base/HarmonyDatepicker.vue:152:11", "%FE_CORE%/components/base/HarmonyDatepicker.vue:155:11", "%FE_CORE%/components/base/HarmonyDatepicker.vue:159:10", "%FE_CORE%/components/base/HarmonyDatepicker.vue:160:13", "%FE_CORE%/components/base/HarmonyDatepicker.vue:161:11", "%FE_CORE%/components/base/HarmonyDatepicker.vue:164:11" ]
+  }, {
+    "id" : "tue",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Tue",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:99:18" ]
+  }, {
+    "id" : "wed",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Wed",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:100:18" ]
+  }, {
+    "id" : "thu",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Thu",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:101:18" ]
+  }, {
+    "id" : "fri",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Fri",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:102:18" ]
+  }, {
+    "id" : "sat",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Sat",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:103:18" ]
+  }, {
+    "id" : "sun",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Sun",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:104:18" ]
+  }, {
+    "id" : "january",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "January",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:108:18" ]
+  }, {
+    "id" : "february",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "February",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:109:18" ]
+  }, {
+    "id" : "march",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "March",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:110:18" ]
+  }, {
+    "id" : "april",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "April",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:111:18" ]
+  }, {
+    "id" : "may",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "May",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:112:18" ]
+  }, {
+    "id" : "june",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "June",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:113:18" ]
+  }, {
+    "id" : "july",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "July",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:114:18" ]
+  }, {
+    "id" : "august",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "August",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:115:18" ]
+  }, {
+    "id" : "september",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "September",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:116:18" ]
+  }, {
+    "id" : "october",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "October",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:117:18" ]
+  }, {
+    "id" : "november",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "November",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:118:18" ]
+  }, {
+    "id" : "december",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "December",
+    "codeLocations" : [ "%FE_CORE%/components/base/HarmonyDatepicker.vue:119:18" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "files-index",
+  "keys" : [ {
+    "id" : "search",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Search",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/files/index.vue:4:71" ]
+  }, {
+    "id" : "upload",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Upload",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/files/index.vue:7:47", "%FE_CORE%/pages/app/admin/files/index.vue:10:27", "%FE_CORE%/pages/app/admin/files/index.vue:11:54", "%FE_CORE%/pages/app/admin/files/index.vue:12:93", "%FE_CORE%/pages/app/admin/files/index.vue:14:47", "%FE_CORE%/pages/app/admin/files/index.vue:32:8", "%FE_CORE%/pages/app/admin/files/index.vue:34:13", "%FE_CORE%/pages/app/admin/files/index.vue:59:8", "%FE_CORE%/pages/app/admin/files/index.vue:60:4", "%FE_CORE%/pages/app/admin/files/index.vue:65:8", "%FE_CORE%/pages/app/admin/files/index.vue:66:39", "%FE_CORE%/pages/app/admin/files/index.vue:67:14", "%FE_CORE%/pages/app/admin/files/index.vue:68:23", "%FE_CORE%/pages/app/admin/files/index.vue:71:10", "%FE_CORE%/pages/app/admin/files/index.vue:72:9", "%FE_CORE%/pages/app/admin/files/index.vue:73:4" ]
+  }, {
+    "id" : "upload_new_file",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Upload new file",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/files/index.vue:11:54" ]
+  }, {
+    "id" : "file_to_upload",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "File to upload",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/files/index.vue:12:51" ]
+  }, {
+    "id" : "filename",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Filename",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/files/index.vue:43:29" ]
+  }, {
+    "id" : "is_temporary",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Is Temporary",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/files/index.vue:47:29" ]
+  }, {
+    "id" : "created_at",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Created At",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/files/index.vue:51:29" ]
+  }, {
+    "id" : "created_by",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Created By",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/files/index.vue:55:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "FormSelectField",
+  "keys" : [ {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/components/form/fields/FormSelectField.vue:57:29", "%FE_CORE%/components/form/fields/FormSelectField.vue:89:8", "%FE_CORE%/components/form/fields/FormSelectField.vue:99:14", "%FE_CORE%/components/form/fields/FormSelectField.vue:133:44", "%FE_CORE%/components/form/fields/FormSelectField.vue:141:21", "%FE_CORE%/components/form/fields/FormSelectField.vue:151:21", "%FE_CORE%/components/form/fields/FormSelectField.vue:173:21" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "notificationEventTypes-index",
+  "keys" : [ {
+    "id" : "search",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Search",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/eventTypes/index.vue:4:71" ]
+  }, {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/eventTypes/index.vue:21:29" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/notifications/eventTypes/index.vue:25:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "webContents[id]",
+  "keys" : [ {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContents/[id].vue:7:66" ]
+  }, {
+    "id" : "area",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Area",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/webContent/webContents/[id].vue:8:67", "%FE_CORE%/pages/app/admin/webContent/webContents/[id].vue:18:15" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "HarmonyAuthenticatedSidebar",
+  "keys" : [ {
+    "id" : "logout",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Logout",
+    "codeLocations" : [ "%FE_CORE%/components/view/app/HarmonyAppViewSidebar.vue:14:36", "%FE_CORE%/components/view/app/HarmonyAppViewSidebar.vue:16:29", "%FE_CORE%/components/view/app/HarmonyAppViewSidebar.vue:92:8" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "GenericResourceOverview",
+  "keys" : [ {
+    "id" : "add",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Add",
+    "codeLocations" : [ "%FE_CORE%/components/view/GenericResourceOverview.vue:6:45", "%FE_CORE%/components/view/GenericResourceOverview.vue:7:52", "%FE_CORE%/components/view/GenericResourceOverview.vue:134:9", "%FE_CORE%/components/view/GenericResourceOverview.vue:136:8", "%FE_CORE%/components/view/GenericResourceOverview.vue:137:9" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "forbidden",
+  "keys" : [ {
+    "id" : "access_denied",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Access Denied",
+    "codeLocations" : [ "%FE_CORE%/pages/forbidden.vue:2:43" ]
+  }, {
+    "id" : "unfortunately_you_are_not_allowed_to_visit_this_page",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Unfortunately you are not allowed to visit this page",
+    "codeLocations" : [ "%FE_CORE%/pages/forbidden.vue:3:25" ]
+  }, {
+    "id" : "home",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Home",
+    "codeLocations" : [ "%FE_CORE%/pages/forbidden.vue:5:48" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "forgot-password",
+  "keys" : [ {
+    "id" : "e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail",
+    "codeLocations" : [ "%FE_CORE%/pages/forgotPassword.vue:7:72" ]
+  }, {
+    "id" : "reset",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Reset",
+    "codeLocations" : [ "%FE_CORE%/pages/forgotPassword.vue:5:30", "%FE_CORE%/pages/forgotPassword.vue:9:54" ]
+  }, {
+    "id" : "if_your_address_is_correct_you_will_receive_a_email_to_reset_your_password.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "If your address is correct you will receive a email to reset your password.",
+    "codeLocations" : [ "%FE_CORE%/pages/forgotPassword.vue:13:31" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "applicationExceptions-index",
+  "keys" : [ {
+    "id" : "search",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Search",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/index.vue:4:71" ]
+  }, {
+    "id" : "delete_all",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Delete all",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/index.vue:7:62" ]
+  }, {
+    "id" : "do_you_want_to_delete_all_exceptions?",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Do you want to delete all exceptions?",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/index.vue:12:32" ]
+  }, {
+    "id" : "timestamp",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Timestamp",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/index.vue:34:29" ]
+  }, {
+    "id" : "exception_type",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Exception Type",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/index.vue:38:29" ]
+  }, {
+    "id" : "code_location",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Code Location",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/index.vue:42:29" ]
+  }, {
+    "id" : "message",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Message",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/error/applicationExceptions/index.vue:46:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "ReportBugWindow",
+  "keys" : [ {
+    "id" : "report_bug",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Report Bug",
+    "codeLocations" : [ "%FE_CORE%/components/utils/ReportBugWindow.vue:2:25" ]
+  }, {
+    "id" : "page",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Page",
+    "codeLocations" : [ "%FE_CORE%/components/utils/ReportBugWindow.vue:3:46", "%FE_CORE%/components/utils/ReportBugWindow.vue:26:13", "%FE_CORE%/components/utils/ReportBugWindow.vue:36:9", "%FE_CORE%/components/utils/ReportBugWindow.vue:43:17" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/components/utils/ReportBugWindow.vue:4:45" ]
+  }, {
+    "id" : "attachments",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Attachments",
+    "codeLocations" : [ "%FE_CORE%/components/utils/ReportBugWindow.vue:5:49" ]
+  }, {
+    "id" : "report",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Report",
+    "codeLocations" : [ "%FE_CORE%/components/utils/ReportBugWindow.vue:2:25", "%FE_CORE%/components/utils/ReportBugWindow.vue:7:45", "%FE_CORE%/components/utils/ReportBugWindow.vue:20:22", "%FE_CORE%/components/utils/ReportBugWindow.vue:23:12", "%FE_CORE%/components/utils/ReportBugWindow.vue:40:8", "%FE_CORE%/components/utils/ReportBugWindow.vue:42:19", "%FE_CORE%/components/utils/ReportBugWindow.vue:48:15" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "UserAccountDeleteAccountSettingsStep",
+  "keys" : [ {
+    "id" : "delete_account",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Delete Account",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountDeleteAccountSettingsStep.vue:2:42" ]
+  }, {
+    "id" : "if_you_really_want_to_delete_your_account._please_enter_your_password_below.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "If you really want to delete your account. Please enter your password below.",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountDeleteAccountSettingsStep.vue:7:27" ]
+  }, {
+    "id" : "password",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password",
+    "codeLocations" : [ "%FE_CORE%/components/form/viewmodel/useraccount/UserAccountDeleteAccountSettingsStep.vue:8:49" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "secureKeys[id]",
+  "keys" : [ {
+    "id" : "name",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Name",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/secureKeys/[id].vue:4:67" ]
+  }, {
+    "id" : "key",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Key",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/secureKeys/[id].vue:2:88", "%FE_CORE%/pages/app/admin/secureKeys/[id].vue:5:66", "%FE_CORE%/pages/app/admin/secureKeys/[id].vue:16:28" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "serverTasks[id]",
+  "keys" : [ {
+    "id" : "execute",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Execute",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/serverTasks/[id].vue:8:58", "%FE_CORE%/pages/app/admin/serverTasks/[id].vue:42:8" ]
+  }, {
+    "id" : "id",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "ID",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/serverTasks/[id].vue:11:69", "%FE_CORE%/pages/app/admin/serverTasks/[id].vue:45:52" ]
+  }, {
+    "id" : "taskname",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "taskName",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/serverTasks/[id].vue:3:38", "%FE_CORE%/pages/app/admin/serverTasks/[id].vue:12:35" ]
+  }, {
+    "id" : "last_execution",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Last Execution",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/serverTasks/[id].vue:13:76" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "registerByInvitation",
+  "keys" : [ {
+    "id" : "not_allowed",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Not allowed",
+    "codeLocations" : [ "%FE_CORE%/pages/registerByInvitation.vue:4:45" ]
+  }, {
+    "id" : "it_is_currently_not_allowed_to_create_a_new_account.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "It is currently not allowed to create a new account.",
+    "codeLocations" : [ "%FE_CORE%/pages/registerByInvitation.vue:5:27" ]
+  }, {
+    "id" : "homepage",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Homepage",
+    "codeLocations" : [ "%FE_CORE%/pages/registerByInvitation.vue:7:50", "%FE_CORE%/pages/registerByInvitation.vue:38:52", "%FE_CORE%/pages/registerByInvitation.vue:105:14" ]
+  }, {
+    "id" : "e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail",
+    "codeLocations" : [ "%FE_CORE%/pages/registerByInvitation.vue:21:74", "%FE_CORE%/pages/registerByInvitation.vue:35:61" ]
+  }, {
+    "id" : "firstname",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Firstname",
+    "codeLocations" : [ "%FE_CORE%/pages/registerByInvitation.vue:22:78" ]
+  }, {
+    "id" : "lastname",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Lastname",
+    "codeLocations" : [ "%FE_CORE%/pages/registerByInvitation.vue:23:77" ]
+  }, {
+    "id" : "password",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password",
+    "codeLocations" : [ "%FE_CORE%/pages/registerByInvitation.vue:24:78", "%FE_CORE%/pages/registerByInvitation.vue:25:83" ]
+  }, {
+    "id" : "password_again",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password again",
+    "codeLocations" : [ "%FE_CORE%/pages/registerByInvitation.vue:25:83" ]
+  }, {
+    "id" : "submit",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Submit",
+    "codeLocations" : [ "%FE_CORE%/pages/registerByInvitation.vue:19:47", "%FE_CORE%/pages/registerByInvitation.vue:27:56", "%FE_CORE%/pages/registerByInvitation.vue:87:8" ]
+  }, {
+    "id" : "thank_you_for_signing_up",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Thank you for signing up",
+    "codeLocations" : [ "%FE_CORE%/pages/registerByInvitation.vue:34:47" ]
+  }, {
+    "id" : "pleas_confirm_that_this_is_your_e-mail_by_clicking_on_the_confirmation_link.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Pleas confirm that this is your E-Mail by clicking on the confirmation link.",
+    "codeLocations" : [ "%FE_CORE%/pages/registerByInvitation.vue:35:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "WebContentBoxComponent",
+  "keys" : [ {
+    "id" : "do_you_want_to_delete_this_component?",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Do you want to delete this component?",
+    "codeLocations" : [ "%FE_CORE%/components/webcontent/views/WebContentBoxComponent.vue:39:34" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "cronJobs-index",
+  "keys" : [ {
+    "id" : "label",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Label",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/cronJobs/index.vue:16:29" ]
+  }, {
+    "id" : "description",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Description",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/cronJobs/index.vue:20:29" ]
+  }, {
+    "id" : "cron_trigger",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Cron Trigger",
+    "codeLocations" : [ "%FE_CORE%/pages/app/admin/cronJobs/index.vue:24:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+}, {
+  "classId" : "register",
+  "keys" : [ {
+    "id" : "not_allowed",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Not allowed",
+    "codeLocations" : [ "%FE_CORE%/pages/register.vue:4:45" ]
+  }, {
+    "id" : "it_is_currently_not_allowed_to_create_a_new_account.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "It is currently not allowed to create a new account.",
+    "codeLocations" : [ "%FE_CORE%/pages/register.vue:5:27" ]
+  }, {
+    "id" : "homepage",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Homepage",
+    "codeLocations" : [ "%FE_CORE%/pages/register.vue:7:50", "%FE_CORE%/pages/register.vue:36:52", "%FE_CORE%/pages/register.vue:91:14" ]
+  }, {
+    "id" : "e-mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "E-Mail",
+    "codeLocations" : [ "%FE_CORE%/pages/register.vue:19:74", "%FE_CORE%/pages/register.vue:33:61" ]
+  }, {
+    "id" : "firstname",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Firstname",
+    "codeLocations" : [ "%FE_CORE%/pages/register.vue:20:78" ]
+  }, {
+    "id" : "lastname",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Lastname",
+    "codeLocations" : [ "%FE_CORE%/pages/register.vue:21:77" ]
+  }, {
+    "id" : "password",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password",
+    "codeLocations" : [ "%FE_CORE%/pages/register.vue:22:78", "%FE_CORE%/pages/register.vue:23:83" ]
+  }, {
+    "id" : "password_again",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Password again",
+    "codeLocations" : [ "%FE_CORE%/pages/register.vue:23:83" ]
+  }, {
+    "id" : "submit",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Submit",
+    "codeLocations" : [ "%FE_CORE%/pages/register.vue:17:47", "%FE_CORE%/pages/register.vue:25:56", "%FE_CORE%/pages/register.vue:73:8" ]
+  }, {
+    "id" : "thank_you_for_signing_up",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Thank you for signing up",
+    "codeLocations" : [ "%FE_CORE%/pages/register.vue:32:47" ]
+  }, {
+    "id" : "pleas_confirm_that_this_is_your_e-mail_by_clicking_on_the_confirmation_link.",
+    "placeholders" : [ ],
+    "isCoreEntry" : true,
+    "englishDefaultValue" : "Pleas confirm that this is your E-Mail by clicking on the confirmation link.",
+    "codeLocations" : [ "%FE_CORE%/pages/register.vue:33:29" ]
+  } ],
+  "location" : "FRONTEND",
+  "isCoreClass" : true
+} ]

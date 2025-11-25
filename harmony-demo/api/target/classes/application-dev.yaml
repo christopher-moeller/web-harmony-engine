@@ -1,0 +1,2 @@
+db:
+  allow-clean-with-flyway: true

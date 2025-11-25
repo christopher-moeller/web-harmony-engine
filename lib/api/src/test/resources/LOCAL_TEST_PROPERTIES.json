@@ -1,0 +1,20 @@
+{
+  "secureKeys": {
+    "importEntries": true,
+    "entries": [
+      {
+        "name": "E_MAIL_SERVER_MAIL_ADDRESS",
+        "key": "testmail@@example.com"
+      },
+      {
+        "name": "E_MAIL_SERVER_HOST",
+        "key": "example..example.example"
+      },
+      {
+        "name": "E_MAIL_SERVER_PASSWORD",
+        "key": "password"
+      }
+    ]
+  },
+  "defaultAdminPassword": "*"
+}

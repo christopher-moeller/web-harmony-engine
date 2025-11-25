@@ -1,0 +1,26 @@
+[ {
+  "classId" : "com.webharmony.core.api.rest.controller.utils.dispacher.InMemoryDtoCrudDispatcher",
+  "location" : "BACKEND",
+  "keys" : [ {
+    "id" : "Notimplementedyet",
+    "placeholders" : [ ],
+    "isCoreEntry" : true
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.controller.utils.dispacher.EntityCrudDispatcher",
+  "location" : "BACKEND",
+  "keys" : [ {
+    "id" : "Notimplemented{test}yet",
+    "placeholders" : [ "test" ],
+    "isCoreEntry" : true
+  } ]
+},{
+  "classId" : "UserOverview",
+  "location" : "FRONTEND",
+  "keys" : [ {
+    "id" : "E-Mail",
+    "placeholders" : [ ],
+    "isCoreEntry" : true
+  } ]
+}
+]

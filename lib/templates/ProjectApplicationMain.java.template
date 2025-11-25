@@ -1,0 +1,15 @@
+package {{packagePath}};
+
+import com.webharmony.core.AbstractAppMain;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@SpringBootApplication
+public class {{className}} extends AbstractAppMain {
+
+	public static void main(String[] args) {
+		new {{className}}().run(args);
+	}
+
+}

@@ -1,0 +1,1363 @@
+[ {
+  "classId" : "com.webharmony.core.data.jpa.model.notifications.AppActorNotificationEventType",
+  "keyId" : "label",
+  "uniqueName" : "APPLICATION_STARTED",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Application started"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Anwendung gestartet"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.notifications.AppActorNotificationEventType",
+  "keyId" : "description",
+  "uniqueName" : "APPLICATION_STARTED",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Benachrichtigung wenn die Anwendung gestartet ist."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Notification if the application is started"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.notifications.AppActorNotificationEventType",
+  "keyId" : "label",
+  "uniqueName" : "APPLICATION_CRON_JOB_EXECUTED",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Cron-Job ausgeführt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Cron Job executed"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.notifications.AppActorNotificationEventType",
+  "keyId" : "description",
+  "uniqueName" : "APPLICATION_CRON_JOB_EXECUTED",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Benachrichtigung wenn ein Cron-Job ausgeführt wurde."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Notification if a cron job was executed"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "description",
+  "uniqueName" : "BLOCK_ALL_HTTP_REQUESTS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Wenn der Wert auf 'true' gesetzt ist, werden alle Requests geblockt. Ausnahme sind Requests von Usern mit bestimmten Rechten."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "If set to true, all requests are blocked except for users with special rights"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "label",
+  "uniqueName" : "BLOCK_ALL_HTTP_REQUESTS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Blockie alle HTTP Requests"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Block all http request"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "description",
+  "uniqueName" : "EMAIL_SEND_MAILS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "If set to false no email will be sent, but the entry in the database will be created."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Wenn der Wert auf 'false' steht, werden keine E-Mails versendet. Der Datenbank Eintrag wird aber dennoch erzeugt."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "label",
+  "uniqueName" : "EMAIL_SEND_MAILS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Send E-Mails"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mails senden"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "description",
+  "uniqueName" : "I18N_DEFAULT_LANGUAGE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Standard Sprache der Anwendung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Default language for the application"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "label",
+  "uniqueName" : "I18N_DEFAULT_LANGUAGE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Standard Sprache"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Default language"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "description",
+  "uniqueName" : "PASSWORD_VALIDATION_TYPE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Type of password validation"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Typ der Passwort-Validierung"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "label",
+  "uniqueName" : "PASSWORD_VALIDATION_TYPE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Password validation type"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwort Validierungs-Typ"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "description",
+  "uniqueName" : "USER_REGISTRATION_TOKEN_EXPIRES_IN_DAYS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Amount of days after the token is expired"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Anzahl der Tage nachdem ein Token abläuft."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "label",
+  "uniqueName" : "USER_REGISTRATION_TOKEN_EXPIRES_IN_DAYS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "User registration token expires in days"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "User-Registration-Token Ablauftage"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "description",
+  "uniqueName" : "USER_REGISTRATION_WORKFLOW",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Workflow des aktuellen Prozesses zur Registrierung neuer Benutzer."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The workflow if the current registration process."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "label",
+  "uniqueName" : "USER_REGISTRATION_WORKFLOW",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "User-Registration Workflow"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "User registration workflow"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "description",
+  "uniqueName" : "USER_RESET_PASSWORD_TOKEN_EXPIRES_IN_DAYS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Anzahl der Tage nachdem der Token abläuft."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Amount of days after the token is expired"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppRegistryItem",
+  "keyId" : "label",
+  "uniqueName" : "USER_RESET_PASSWORD_TOKEN_EXPIRES_IN_DAYS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "User reset token expires in days"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "User-Reset-Token Ablauftage"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.webcontent.AppWebContentArea",
+  "keyId" : "description",
+  "uniqueName" : "CORE_IMPRINT_PAGE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "This content is responsible for the imprint page."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.webcontent.AppWebContentArea",
+  "keyId" : "label",
+  "uniqueName" : "CORE_IMPRINT_PAGE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Imprint page"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.webcontent.AppWebContentArea",
+  "keyId" : "description",
+  "uniqueName" : "CORE_PRIVACY_NOTICE_PAGE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "This content is responsible for the privacy notice page."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.webcontent.AppWebContentArea",
+  "keyId" : "label",
+  "uniqueName" : "CORE_PRIVACY_NOTICE_PAGE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Privacy notice page"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.webcontent.AppWebContentArea",
+  "keyId" : "description",
+  "uniqueName" : "CORE_ABOUT_US_PAGE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "This content is responsible for the about us page."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.webcontent.AppWebContentArea",
+  "keyId" : "label",
+  "uniqueName" : "CORE_ABOUT_US_PAGE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "About us page"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppUserRole",
+  "keyId" : "label",
+  "uniqueName" : "STANDARD_USER",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Standard User"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Standard Benutzer"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppUserRole",
+  "keyId" : "description",
+  "uniqueName" : "STANDARD_USER",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Beinhaltet Rechte für Standard-Benutzer. Diese Rolle wird neuen Benutzer nach der Registrierung automatisch zugewiesen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Contains rights for the standard User. This role is automatically applied on new users after registration."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppUserRole",
+  "keyId" : "label",
+  "uniqueName" : "ADMIN_USER",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Admin Benutzer"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Admin User"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppUserRole",
+  "keyId" : "description",
+  "uniqueName" : "ADMIN_USER",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Beinhaltet Rechte für Admin-Benutzer. Diese Rolle ist nicht entscheidend für technische Admins. Diese Benutzer besitzen alle Rechte automatisch."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Contains all rights for admin Users. If a user is marked as admin, he don't need this role, because the flag indicates that the user is a technical admin, which automatically has all rights of the application.'"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppCronJob",
+  "keyId" : "description",
+  "uniqueName" : "com.webharmony.core.service.cron.jobs.SleepAWhileJob",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Test Job, der einfach 30 Sekunden schläft."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Test cron job that sleeps for 30 seconds"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppCronJob",
+  "keyId" : "label",
+  "uniqueName" : "com.webharmony.core.service.cron.jobs.SleepAWhileJob",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Schlaf eine Weile"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Sleep a while job"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppCronJob",
+  "keyId" : "description",
+  "uniqueName" : "com.webharmony.core.service.cron.jobs.TmpFileCleanCronJob",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Dieser Job löscht alle abgelaufene temporäre Dateien."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "This job cleans all expired temp files"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppCronJob",
+  "keyId" : "label",
+  "uniqueName" : "com.webharmony.core.service.cron.jobs.TmpFileCleanCronJob",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Temp File Clean Cron Job"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Temp File Clean Cron Job"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppCronJob",
+  "keyId" : "description",
+  "uniqueName" : "com.webharmony.core.service.cron.jobs.TokenCleanCronJob",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "This job cleans all expired tokens"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Dieser Job löscht alle abgelaufene Token."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.AppCronJob",
+  "keyId" : "label",
+  "uniqueName" : "com.webharmony.core.service.cron.jobs.TokenCleanCronJob",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Token Clean Cron Job"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Token Clean Cron Job"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_ACTOR_READ_ALL_ACTORS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Actors des Systems sehen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Actors read all"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_ACTOR_READ_ALL_ACTORS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to read all actors of the system."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf alle Actors des Systems sehen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_ACTOR_RIGHTS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Actor-Rights CRUD"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Actor-Rights CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_ACTOR_RIGHTS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Actor-Rights' auszuführen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Actor-Rights"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_APPLICATION_EXCEPTIONS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Application-Exceptions CRUD"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Application-Exceptions CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_APPLICATION_EXCEPTIONS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Application-Exceptions"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Application-Exceptions' auszuführen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_APPLICATION_STATUS_RESET",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Application-Status reset"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Application-Status zurücksetzten"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_APPLICATION_STATUS_RESET",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf den Application Status zurücksetzten."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to reset application status."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_APPLICATION_STATUS_SAVE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Application-Status update"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Application-Status aktualisieren"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_APPLICATION_STATUS_SAVE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf den Application-Status aktualisieren."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to update application status."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_APP_ACCESS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "App-Access"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "App-Access"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_APP_ACCESS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf auf den 'App-Bereich' des Systems zugreifen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to access the 'App-Layer' of the system."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_AUTHENTICATION_OWN_ACTOR",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Load own Actor"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Lade eigenen Actor"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_AUTHENTICATION_OWN_ACTOR",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf alle Information über den eigenen Actor laden."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to load all information to his own Actor instance."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_CRON_JOBS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Cron-Jobs CRUD"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Cron-Jobs CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_CRON_JOBS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Cron-Jobs"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Cron-Jobs' auszuführen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_CRON_JOBS_EXECUTE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Cron-Job execution"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Cron-Job ausführung"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_CRON_JOBS_EXECUTE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to execute a specific Cron-Job manually."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf Cron-Jobs manuell starten."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_EMAIL_CRUD_RIGHTS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "E-Mails CRUD"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mails CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_EMAIL_CRUD_RIGHTS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'E-Mails auszuführen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on E-Mails."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_EMAIL_SEND_BY_ENTITY",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "E-Mail von Entity senden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "E-Mails send by Entity"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_EMAIL_SEND_BY_ENTITY",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf E-Mails versenden die als Entity in der Datenbank existieren."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to send or resend a E-Mail by a specific Entity representation in the Database."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_ERROR_MESSAGE_FOR_VALIDATION_READ",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Validierungsfehler-Nachricht lesen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "error message for validation read"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_ERROR_MESSAGE_FOR_VALIDATION_READ",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Benutzer darf die Fehlermeldung von Validierungsfehlern lesen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "actor is allowed to see the message for validation errors"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_ERROR_MESSAGE_DETAIL_READ",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Fehlermeldungs-Details lesen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Error-Message details read"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_ERROR_MESSAGE_DETAIL_READ",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to read more detailed information from a Error-Message."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf die Details von Fehlermeldungen lesen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_ERROR_JAVA_STACKTRACE_READ",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Java-Stacktrace lesen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Error-Message Java Stacktrace read "
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_ERROR_JAVA_STACKTRACE_READ",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf den Java-Stacktrace von Fehlermeldungen lesen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to read the Java Stacktrace from a Error-Message."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_FILES_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Files CRUD"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Files CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_FILES_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Files."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Files' auszuführen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_HARMONY_EVENT_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Harmony-Event CRUD"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Harmony-Event CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_HARMONY_EVENT_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Harmony-Event' auszuführen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Harmony-Event."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_HOME_ACCESS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Home access"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Home Zugang"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_HOME_ACCESS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to access the page 'home' in the 'App-Layer'."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf die \"Home\" Seite im App-Bereich sehen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_I18N_ENTITY_ATTRIBUTE_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "I18n-Entity-Attribute CRUD "
+  }, {
+    "language" : "GERMAN",
+    "translation" : "I18n-Entity-Attribute CRUD "
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_I18N_ENTITY_ATTRIBUTE_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on I18n-Entity-Attribute."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'I18n-Attribute' auszuführen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_I18N_KEY_ENTRY_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "I18n-Key-Entry CRUD"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "I18n-Key-Entry CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_I18N_KEY_ENTRY_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on I18n-Key-Entry."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'I18n-Key-Entry' auszuführen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_LOAD_SELECTABLE_RIGHTS_FOR_OPTION_CONTAINER",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Selectable Actor-Rights via option container"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Auswählbare Actor-Rights über Option-Container"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_LOAD_SELECTABLE_RIGHTS_FOR_OPTION_CONTAINER",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf die auswählbaren Actor-Rights über den Option-Container laden."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to load all selectable Actor-Rights via the option container."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_LOAD_SELECTABLE_ROLES_FOR_OPTION_CONTAINER",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Auswählbare User-Roles über Option-Container"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Selectable User-Roles via option container"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_LOAD_SELECTABLE_ROLES_FOR_OPTION_CONTAINER",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf die auswählbaren User-Roles über den Option-Container laden."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to load all selectable User-Roles via the option container."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_LOGS_READ",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Api-Logs lesen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Api-Logs read"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_LOGS_READ",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf die API-Log Einträge lesen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to read all Api-Logs."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_NOTIFICATIONS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Notifications CRUD"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Notifications CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_NOTIFICATIONS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Notifications' auszuführen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Notifications."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_NOTIFICATION_EVENT_TYPE_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Notification-Event-Type CRUD"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Notification-Event-Type CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_NOTIFICATION_EVENT_TYPE_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Notification-Event-Type' auszuführen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Notification-Event-Type."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_PERSONAL_NOTIFICATIONS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Personal-Notifications CRUD"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Personal-Notifications CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_PERSONAL_NOTIFICATIONS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Personal-Notifications."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Personal-Notifications' auszuführen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_REGISTRATION_ADMIN_CONFIRMATION",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Registration-Request confirmation"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Admin confirmation of Registration-Requests"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_REGISTRATION_ADMIN_CONFIRMATION",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der User darf Registration-Requests für neue Benutzer bestätigen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to confirm Registration-Requests for new users."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_REGISTRATION_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Registrations CRUD"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Registrations CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_REGISTRATION_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Registrations' auszuführen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Registrations."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_REGISTRATION_SEND_INVITATIONS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Send invitation for Registration"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Registrierungs-Einladung versenden"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_REGISTRATION_SEND_INVITATIONS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf Registrierungs-Einladungen versenden."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to send a invitation to Registrations."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_REGISTRY_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Registry CRUD"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Registry CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_REGISTRY_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Registry-Items."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Registry-Items' auszuführen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_REPORT_USER_ERRORS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Reported-User-Errors CRUD"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Reported-User-Errors CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_REPORT_USER_ERRORS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Reported-User-Errors."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Reported-User-Errors' auszuführen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_SERVER_TASKS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Server-Tasks CRUD"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Server-Tasks CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_SERVER_TASKS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Server-Tasks."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Server-Tasks' auszuführen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_SERVER_TASKS_EXECUTE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Server-Tasks execute"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Server-Tasks ausführen"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_SERVER_TASKS_EXECUTE",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf Server-Tasks ausführen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to execute a Server-Task."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_SERVER_INFO_READ",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Server info read"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Server Info lesen"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_SERVER_INFO_READ",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to read the server info (e.g. versions)."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer darf Server-Infos lesen (z.B. Versionen)."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_SERVER_STATUS_NOT_OK_USER_HAS_ACCESS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Application access on maintenance mode"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Anwendungszugang im Wartungsmodus"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_SERVER_STATUS_NOT_OK_USER_HAS_ACCESS",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Wenn der Anwendungsstatus nicht in Ordnung ist, entscheidet dieses Recht, ob der Benutzer immer noch Zugriff auf nicht öffentliche APIs hat."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "If the server status is not ok, this right controls if the user has still access to to non public APIs."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_STARTUP_LOGS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Startup-Logs CRUD"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Startup-Logs CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_STARTUP_LOGS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Startup-Logs."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Startup-Logs' auszuführen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_USERS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Users CRUD"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Users CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_USERS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Users' auszuführen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Users."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_USER_PERSONAL_ACCOUNT_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Personal User-Account CRUD"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Personal user-Account CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_USER_PERSONAL_ACCOUNT_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Personal-User-Account' auszuführen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on the personal User-Account."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_USER_ROLES_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "User-Roles CRUD"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "User-Roles CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_USER_ROLES_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'User-Roles' auszuführen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on User-Roles."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_SECURE_KEYS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Secured-Keys CRUD"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Secured-Keys CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_SECURE_KEYS_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer hat das Recht um alle CRUD Operationen für 'Secured-Keys' auszuführen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Secured-Keys."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_WEB_CONTENT_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Web-Content CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_WEB_CONTENT_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Web-Contents."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "label",
+  "uniqueName" : "CORE_WEB_CONTENT_AREA_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Web-Content-Area CRUD"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.data.jpa.model.user.AppActorRight",
+  "keyId" : "description",
+  "uniqueName" : "CORE_WEB_CONTENT_AREA_CRUD",
+  "isCoreEntry" : true,
+  "translations" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is allowed to apply all CRUD operations on Web-Content-Areas."
+  } ]
+} ]

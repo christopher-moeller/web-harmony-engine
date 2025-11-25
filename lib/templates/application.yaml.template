@@ -1,0 +1,23 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    default: prod
+  datasource:
+    url: {{dataSourceUrl}}
+    username: {{dataSourceUsername}}
+    password: {{dataSourcePassword}}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: true
+
+app:
+  version: @project.version@
+  artifactId: @project.artifactId@
+  name: @project.name@
+  shortName: {{appShortName}}
+  longName: {{appLongName}}
+
+email:
+  sendEmails: true

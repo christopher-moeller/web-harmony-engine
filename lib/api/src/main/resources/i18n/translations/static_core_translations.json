@@ -1,0 +1,6444 @@
+[ {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.LimitTextLengthValidator",
+  "keyId" : "max._text_length_is_{maxlength}",
+  "placeholders" : [ "maxLength" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "max. text length is {maxLength}"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "maximale Textlänge ist {maxLength}"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserPersonalAccountChangePasswordVMValidation",
+  "keyId" : "password_fields_are_not_identical",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Password fields are not identical"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwörter sind nicht identisch"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.TokenService",
+  "keyId" : "token_'{tokenvalue}'_not_found",
+  "placeholders" : [ "tokenValue" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Token '{tokenValue}' konnte nicht gefunden werden."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Token '{tokenValue}' not found"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.TokenService",
+  "keyId" : "token_is_not_valid",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Token ist nicht valide"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Token is not valid"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserCrudService",
+  "keyId" : "user_with_email_'{email}'_not_found",
+  "placeholders" : [ "email" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Benutzer mit E-Mail '{email}' konnte nicht gefunden werden."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "User with email '{email}' not found"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserCrudService",
+  "keyId" : "actor_{actorname}_is_not_connected_to_a_user",
+  "placeholders" : [ "actorName" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Actor {actorName} ist nicht mit einem Benutzer verknüpft"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Actor {actorName} is not connected to a user"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserCrudService",
+  "keyId" : "actor_{actorname}_is_not_a_user",
+  "placeholders" : [ "actorName" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Actor {actorName} ist kein Benutzer"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Actor {actorName} is not a user"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserCrudService",
+  "keyId" : "reset_your_password_for_{appname}",
+  "placeholders" : [ "appName" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Reste das Passwort für {appName}"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Reset your password for {appName}"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserCrudService",
+  "keyId" : "reset_password",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Reset Password"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwort zurücksetzten"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserCrudService",
+  "keyId" : "you_have_created_a_reset_request_for_your_password._if_you_want_to_change_your_password_click_on_the_link_below.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "You have created a reset request for your password. If you want to change your password click on the link below."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Du hast eine Resetanfrage für dein Passwort gestellt. Wenn du dein Passwort ändern möchtest, klicke bitten auf den folgenden Link."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserCrudService",
+  "keyId" : "reset",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Reset"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Reset"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.utils.ValidationInterfaceResult",
+  "keyId" : "unknown_error",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Unbekannter Fehler"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Unknown error"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserDtoValidation",
+  "keyId" : "main_role_must_be_set,_when_roles_are_set",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Main Role must be set, when roles are set"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Hauptrolle muss gesetzt sein, wenn Rollen ausgewählt sind."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserDtoValidation",
+  "keyId" : "main_role_not_exists_in_all_roles",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Main Role not exists in all roles"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Hauptrolle existiert nicht in ausgewählten Rollen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.NotEmptyTextFieldValidator",
+  "keyId" : "field_cannot_be_empty",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Field cannot be empty"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Feld darf nicht leer sein"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UserEmailOnlyExistsInRegistrationValidator",
+  "keyId" : "e-mail_already_exists",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "E-Mail Adresse existiert bereits"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail already exists"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UserEmailOnlyExistsInRegistrationValidator",
+  "keyId" : "e-mail_is_not_allowed_for_registration",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "E-Mail ist nicht aktiviert für Registrierungen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail is not allowed for registration"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.authentication.AuthenticationService",
+  "keyId" : "technical_problems:_only_users_with_special_rights_have_access",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Technical Problems: Only users with special rights have access"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Technische Probleme: Nur Benutzer mit speziellen Rechten haben Zugriff"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.interceptors.AuthorizationInterceptor",
+  "keyId" : "at_least_one_of_the_following_rights_are_required:_{missingrights}",
+  "placeholders" : [ "missingRights" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "At least one of the following rights are required: {missingRights}"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Mindestens einer der Rechte sind vorausgesetzt: {missingRights}"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.interceptors.AuthorizationInterceptor",
+  "keyId" : "following_rights_are_required:_{missingrights}",
+  "placeholders" : [ "missingRights" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Folgende Rechte sind notwendig: {missingRights}"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Following rights are required: {missingRights}"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.utils.notifications.events.CronJobExecutedNotification",
+  "keyId" : "cron_job_{label}_was_successfully_executed",
+  "placeholders" : [ "label" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Cron Job {label} was successfully executed"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Cron Job {label} wurde erfolgreich ausgeführt."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.utils.notifications.events.CronJobExecutedNotification",
+  "keyId" : "cron_job_{label}_finished_with_errors",
+  "placeholders" : [ "label" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Cron Job {label} wurde mit Fehlern beendet."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Cron Job {label} finished with errors"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UniqueResourceI18nFieldValidator",
+  "keyId" : "field_is_not_unique",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Field is not unique"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Feld ist nicht eindeutig"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UserEmailNotExistsValidator",
+  "keyId" : "e-mail_already_exists",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail already exists"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mail existiert bereits"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.tasks.ServerTaskService",
+  "keyId" : "servertask_with_id_'{id}'_does_not_exist",
+  "placeholders" : [ "id" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "ServerTask mit ID '{id}' existiert nicht"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "ServerTask with id '{id}' does not exist"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.WebContentDtoValidator",
+  "keyId" : "content_area_not_found",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Content area not found"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.WebContentDtoValidator",
+  "keyId" : "content_area_is_already_used",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Content area is already used"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.SelectableOptionValidator",
+  "keyId" : "selection_is_required",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Auswahl notwendig"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Selection is required"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.SelectableOptionValidator",
+  "keyId" : "at_least_one_option_is_not_allowed",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "At least one option is not allowed"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Min. eine Option ist nicht erlaubt."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.SelectableOptionValidator",
+  "keyId" : "option_is_not_allowed",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Option nicht erlaubt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Option is not allowed"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.SelectableOptionValidator",
+  "keyId" : "field_not_found",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Field not found"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Feld nicht gefunden"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.CronTriggerFieldValidator",
+  "keyId" : "not_a_valid_cron_expression",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Not a valid cron expression"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Keine gültige Cron Expression"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.utils.AbstractEntityCrudService",
+  "keyId" : "entity_'{entityclass}'_with_id_'{entityid}'_not_found",
+  "placeholders" : [ "entityClass", "entityId" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Entity '{entityClass}' with id '{entityId}' not found"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Die Entity '{entityClass}' mit der ID '{entityId}' konnte nicht gefunden werden."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.appviewmodels.ViewModelService",
+  "keyId" : "viewmodel_with_name_'{viewmodelname}'_not_found",
+  "placeholders" : [ "viewModelName" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "ViewModel with name '{viewModelName}' not found"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "ViewModel mit Namen '{viewModelName}' konnte nicht gefunden werden"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.utils.PasswordValidationMethods",
+  "keyId" : "password_must_be_less_than_20_and_more_than_8_characters_in_length.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Password must be less than 20 and more than 8 characters in length."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwort muss mind. 8 und max. 20 Zeichen besitzen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.utils.PasswordValidationMethods",
+  "keyId" : "password_must_have_at_least_one_uppercase_character",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Password must have at least one uppercase character"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwort muss mind. einen Großbuchstaben besitzen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.utils.PasswordValidationMethods",
+  "keyId" : "password_must_have_at_least_one_lowercase_character",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Password must have at least one lowercase character"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwort muss mindestens einen Kleinbuchstaben besitzen."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.utils.PasswordValidationMethods",
+  "keyId" : "password_must_have_at_least_one_number",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Passwort muss mind. eine Ziffer besitzen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Password must have at least one number"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.utils.PasswordValidationMethods",
+  "keyId" : "password_must_have_at_least_one_special_character_among_@#$%",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Password must have at least one special character among @#$%"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwort muss mind. einen der folgenden Zeichen enthalten: @#$%"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.utils.PasswordValidationMethods",
+  "keyId" : "password_is_empty",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Password is empty"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwort ist leer"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.controller.utils.RestRequestParams",
+  "keyId" : "invalid_parameter_'{parameter}'._type_'{type}'_cannot_be_converted_to_number.",
+  "placeholders" : [ "parameter", "type" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Ungültiger Parameter '{parameter}'. Typ '{type}' kann nicht in eine Zahl umgewandelt werden."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Invalid parameter '{parameter}'. Type '{type}' cannot be converted to number."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.HexColorTextFieldValidator",
+  "keyId" : "field_cannot_be_empty",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Feld darf nicht leer sein."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Field cannot be empty"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.HexColorTextFieldValidator",
+  "keyId" : "value_is_not_a_valid_hex_color",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Value is not a valid hex color"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Wert ist keine gültige Hex-Farbe"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UniqueResourceFieldValidator",
+  "keyId" : "field_is_not_unique",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Field is not unique"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Feld ist nicht eindeutig"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.ServerTaskCrudService",
+  "keyId" : "not_executed_yet",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Aktuell nicht ausgeführt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Not executed yet"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.appresources.AppResourceService",
+  "keyId" : "resource_with_name_'{resourcename}'_not_found",
+  "placeholders" : [ "resourceName" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Resource mit Namen '{resourceName}'  konnte nicht gefunden werden."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Resource with name '{resourceName}' not found"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserRegistrationVMValidation",
+  "keyId" : "password_fields_are_not_identical",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Passwort Felder nicht sind identisch"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Password fields are not identical"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.XmlStringFieldValidator",
+  "keyId" : "xml_is_not_valid",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "XML is not valid"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "XML ist nicht valide"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserPersonalAccountResetPasswordByEmailVMValidation",
+  "keyId" : "password_fields_are_not_identical",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Password fields are not identical"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwörter sind nicht identisch"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserPersonalAccountResetPasswordByEmailVMValidation",
+  "keyId" : "token_is_not_valid",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Token ist nicht valide"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Token is not valid"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.NotNullFieldValidator",
+  "keyId" : "field_cannot_be_empty",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Field cannot be empty"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Feld darf nicht leer sein."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.ActorPersonalNotificationService",
+  "keyId" : "personal_notification_with_id_{id}_not_found",
+  "placeholders" : [ "id" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nachricht mit {id} konnte nicht gefunden werden."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Personal Notification with id {id} not found"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserLoginVMValidation",
+  "keyId" : "your_account_is_blocked_until_{blockeduntil}",
+  "placeholders" : [ "blockedUntil" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Dein Account ist bis {blockedUntil} geblockt."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Your account is blocked until {blockedUntil}"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.validation.UserLoginVMValidation",
+  "keyId" : "the_combination_of_email_and_password_is_not_valid",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The combination of email and password is not valid"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Die Kombination von E-Mail und Passwort ist nicht korrekt."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.FileService",
+  "keyId" : "size_of_all_files_is_too_large",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Size of all files is too large"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Gesamtgröße aller Dateien zu groß"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.FileService",
+  "keyId" : "file_'{filename}_is_too_large'",
+  "placeholders" : [ "fileName" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Datei '{fileName}' ist zu groß"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "File '{fileName}' is too large"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.interceptors.StatusInterceptor",
+  "keyId" : "technical_problems:_only_users_with_special_rights_have_access",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Technische Probleme: Nur Benutzer mit speziellen Rechten haben Zugriff"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Technical Problems: Only users with special rights have access"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.EmailFieldValidator",
+  "keyId" : "e-mail_is_not_valid!",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail is not valid!"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mail ist nicht valide"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.api.rest.controller.utils.dispacher.InMemoryDtoCrudDispatcher",
+  "keyId" : "entry_with_id_'{id}'_not_found",
+  "placeholders" : [ "id" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Entry with id '{id}' not found"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Eintrag mit ID '{id}' konnte nicht gefunden werden"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "invitation_to_{appname}",
+  "placeholders" : [ "appName" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Einladung {appName}"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Invitation to {appName}"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "invitation",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Einladung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Invitation"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "sign_up",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Registrieren"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Sign Up"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "wrong_email_address_for_registration",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Falsche E-Mail Adresse für Registrierung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Wrong email address for registration"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "confirm_your_account",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Confirm your account"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Bestätige deinen Account"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "confirm_your_e-mail_address",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Confirm your E-Mail address"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Bestätige deine E-Mail Adresse"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "to_confirm_your_account,_please_click_on_the_link_below",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Zum Bestätigen deines Accounts, klicke bitte unten auf den Link"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "To confirm your account, please click on the link below"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "confirm",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bestätigen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Confirm"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "confirm_registration_request",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bestätigung Registrierungsanfrage"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Confirm registration request"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "registration_request_for_new_user",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Registrierungsanfrage für neuen Benutzer"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Registration request for new user"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "please_confirm_the_request_by_clicking_on_the_link_below.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bitte bestätige die Anfrage, indem du auf den folgenden Link klickst."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Please confirm the request by clicking on the link below."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "to_request",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Zur Anfrage"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "To Request"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "your_account_is_now_created",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Dein Account ist jetzt erstellt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Your account is now created"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "you_can_now_login_to_the_application.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "You can now login to the application."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Du kannst dich nun anmelden."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "to_{appname}",
+  "placeholders" : [ "appName" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "To {appName}"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zu {appName}"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "new_user_account_created",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Neuer Account erstellt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "New user account created"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "the_user_with_the_e-mail_{email}_has_now_an_active_account.",
+  "placeholders" : [ "email" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user with the E-Mail {email} has now an active account."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer mit der E-Mail Adresse {email} besitzt nun einen aktiven Account."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "registration_is_in_wrong_state._expected:_{expected}_actual:_{actual}",
+  "placeholders" : [ "expected", "actual" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Registration is in wrong state. Expected: {expected} Actual: {actual}"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Registrierung im falschen Zustand: Erwartet: {expected} Aktuell: {actual}"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "someone",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "someone"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Unbekannt"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.UserRegistrationService",
+  "keyId" : "welcome,_{firstnameofinvitor}_invited_you_to_the_core_app._if_you_want_to_accept_the_invitation_you_can_click_on_the_button_bellow.",
+  "placeholders" : [ "firstnameOfInvitor" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Welcome,\n\n{firstnameOfInvitor} invited you to the core app. If you want to accept the invitation you can click on the button bellow."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Willkommen, \n\n{firstnameOfInvitor} hat dich eingeladen. Wenn du die Einladung annehmen möchtest, klicke auf den Link."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.context.AppStatusHolder",
+  "keyId" : "application_is_starting",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Application is starting"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Anwendung startet"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.context.AppStatusHolder",
+  "keyId" : "currently_all_non-public_http_requests_are_blocked_for_non_admins._please_change_this_in_the_registry.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Aktuell sind alle HTTP Requests geblockt für Nicht-Admins. Bitte ändere diese Einstellung in der Registry."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Currently all non-public HTTP Requests are blocked for non admins. Please change this in the registry."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.context.AppStatusHolder",
+  "keyId" : "secure_key_'{key}'_is_empty",
+  "placeholders" : [ "key" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Secure key '{key}' ist leer"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Secure key '{key}' is empty"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.context.AppStatusHolder",
+  "keyId" : "there_are_{count}_not_translated_i18n_key_entries",
+  "placeholders" : [ "count" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Es gibt {count} nicht übersetzte I18n Schlüsseleinträge"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "There are {count} not translated i18n key entries"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.context.AppStatusHolder",
+  "keyId" : "there_are_{count}_not_translated_i18n_entity_attributes",
+  "placeholders" : [ "count" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Es gibt {count} nicht übersetzte I18N Entity Attribute"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "There are {count} not translated i18n entity attributes"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.context.AppStatusHolder",
+  "keyId" : "technical_problems:_please_log_in_as_administrator_to_grant_access_to_the_application.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Technical Problems: Please log in as administrator to grant access to the application."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Technische Probleme: Bitte melde dich als Administrator an um Zugriff zur Anwendung zu erhalten."
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UserPasswordValidator",
+  "keyId" : "password_is_incorrect",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Passwort ist nicht korrekt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Password is incorrect"
+  } ]
+}, {
+  "classId" : "com.webharmony.core.service.data.validation.fieldvalidators.UserPasswordValidator",
+  "keyId" : "current_actor_{actorid}_is_not_a_user",
+  "placeholders" : [ "actorId" ],
+  "description" : null,
+  "codeLocation" : "BACKEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Current actor {actorId} is not a user"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Aktueller Akteur {actorId} ist kein Benutzer"
+  } ]
+}, {
+  "classId" : "WebContentUtils",
+  "keyId" : "box",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Box"
+  } ]
+}, {
+  "classId" : "WebContentUtils",
+  "keyId" : "title",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Title"
+  } ]
+}, {
+  "classId" : "WebContentUtils",
+  "keyId" : "text",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Text"
+  } ]
+}, {
+  "classId" : "WebContentUtils",
+  "keyId" : "image",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Image"
+  } ]
+}, {
+  "classId" : "registryItems-index",
+  "keyId" : "unique_name",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Eindeutiger Name"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Unique Name"
+  } ]
+}, {
+  "classId" : "registryItems-index",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  } ]
+}, {
+  "classId" : "registryItems-index",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  } ]
+}, {
+  "classId" : "web-language-page",
+  "keyId" : "language",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Language"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Sprache"
+  } ]
+}, {
+  "classId" : "cronJobs[id]",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "cronJobs[id]",
+  "keyId" : "is_currently_running",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Läuft aktuell"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Is currently running"
+  } ]
+}, {
+  "classId" : "cronJobs[id]",
+  "keyId" : "last_executed_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Last executed at"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zuletzt ausgeführt am"
+  } ]
+}, {
+  "classId" : "cronJobs[id]",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  } ]
+}, {
+  "classId" : "cronJobs[id]",
+  "keyId" : "java_class",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Java Klasse"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Java Class"
+  } ]
+}, {
+  "classId" : "cronJobs[id]",
+  "keyId" : "cron_trigger",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Cron Trigger"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Cron Auslöser"
+  } ]
+}, {
+  "classId" : "cronJobs[id]",
+  "keyId" : "run",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Starten"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Run"
+  } ]
+}, {
+  "classId" : "UserAccountGeneralSettingsStep",
+  "keyId" : "general",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Allgemein"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "General"
+  } ]
+}, {
+  "classId" : "UserAccountGeneralSettingsStep",
+  "keyId" : "e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mail"
+  } ]
+}, {
+  "classId" : "UserAccountGeneralSettingsStep",
+  "keyId" : "firstname",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Vorname"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Firstname"
+  } ]
+}, {
+  "classId" : "UserAccountGeneralSettingsStep",
+  "keyId" : "account_successfully_updated",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Account erfolgreich aktualisiert"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Account successfully updated"
+  } ]
+}, {
+  "classId" : "resetPasswordByEmail",
+  "keyId" : "e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "E-Mail"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail"
+  } ]
+}, {
+  "classId" : "resetPasswordByEmail",
+  "keyId" : "new_password",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "New Password"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Neues Passwort"
+  } ]
+}, {
+  "classId" : "resetPasswordByEmail",
+  "keyId" : "new_password_again",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "New Password Again"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Neues Passwort erneut"
+  } ]
+}, {
+  "classId" : "resetPasswordByEmail",
+  "keyId" : "reset",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Zurücksetzen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Reset"
+  } ]
+}, {
+  "classId" : "resetPasswordByEmail",
+  "keyId" : "you_can_now_use_your_new_password",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "You can now use your new password"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Du kannst nun dein neues Passwort nutzen"
+  } ]
+}, {
+  "classId" : "keyEntries[id]",
+  "keyId" : "next",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Next"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Weiter"
+  } ]
+}, {
+  "classId" : "keyEntries[id]",
+  "keyId" : "class_id",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Klassen ID"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Class ID"
+  } ]
+}, {
+  "classId" : "keyEntries[id]",
+  "keyId" : "key",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Key"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Schlüssel"
+  } ]
+}, {
+  "classId" : "keyEntries[id]",
+  "keyId" : "placeholders",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Platzhalter"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Placeholders"
+  } ]
+}, {
+  "classId" : "keyEntries[id]",
+  "keyId" : "code_location",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Code Stelle"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Code Location"
+  } ]
+}, {
+  "classId" : "keyEntries[id]",
+  "keyId" : "code_lines",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Code Lines"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Code Zeilen"
+  } ]
+}, {
+  "classId" : "keyEntries[id]",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  } ]
+}, {
+  "classId" : "keyEntries[id]",
+  "keyId" : "translations",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Translations"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Übersetzungen"
+  } ]
+}, {
+  "classId" : "HarmonyTableCardRepresentation",
+  "keyId" : "sorting",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Sortierung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Sorting"
+  } ]
+}, {
+  "classId" : "about",
+  "keyId" : "about",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "About"
+  } ]
+}, {
+  "classId" : "HarmonySelectField",
+  "keyId" : "search...",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Suche..."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Search..."
+  } ]
+}, {
+  "classId" : "HarmonySelectField",
+  "keyId" : "cancel",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Cancel"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Abbrechen"
+  } ]
+}, {
+  "classId" : "HarmonySelectField",
+  "keyId" : "apply",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Apply"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Anwenden"
+  } ]
+}, {
+  "classId" : "HarmonySelectField",
+  "keyId" : "single_element_selected",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Einzelner Eintrag ausgewählt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Single element selected"
+  } ]
+}, {
+  "classId" : "HarmonySelectField",
+  "keyId" : "{count}_elements_selected",
+  "placeholders" : [ "count" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "{count} elements selected"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "{count} Elemente ausgewählt"
+  } ]
+}, {
+  "classId" : "HarmonySelectField",
+  "keyId" : "nothing_selected",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nichts ausgewählt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Nothing selected"
+  } ]
+}, {
+  "classId" : "SelectFieldFilter",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "actorRights-index",
+  "keyId" : "search",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Search"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Suche"
+  } ]
+}, {
+  "classId" : "actorRights-index",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  } ]
+}, {
+  "classId" : "actorRights-index",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  } ]
+}, {
+  "classId" : "LanguageSettings",
+  "keyId" : "please_select_your_preferred_language",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bitte wähle deine gewünschte Sprache aus"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Please select your preferred language"
+  } ]
+}, {
+  "classId" : "LanguageSettings",
+  "keyId" : "language",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Sprache"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Language"
+  } ]
+}, {
+  "classId" : "LanguageSettings",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  } ]
+}, {
+  "classId" : "HarmonyFileSelector",
+  "keyId" : "add",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Hinzufügen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Add"
+  } ]
+}, {
+  "classId" : "HarmonyFileSelector",
+  "keyId" : "drop_files_here_or_click_here_to_upload",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Drop files here or click here to upload"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Dateien ziehen oder klicken zum Hochladen"
+  } ]
+}, {
+  "classId" : "HarmonyFileSelector",
+  "keyId" : "you_need_to_select_at_least_{min}_file(s",
+  "placeholders" : [ "min" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Du musst mind. {min} Dateien auswählen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "You need to select at least {min} file(s)"
+  } ]
+}, {
+  "classId" : "HarmonyFileSelector",
+  "keyId" : "you_are_not_allowed_to_select_more_than_{max}_file(s",
+  "placeholders" : [ "max" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Du darfst nicht mehr als {max} Dateien auswählen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "You are not allowed to select more than {max} file(s)"
+  } ]
+}, {
+  "classId" : "webContentAreas[id]",
+  "keyId" : "unique_name",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Unique Name"
+  } ]
+}, {
+  "classId" : "webContentAreas[id]",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "webContentAreas[id]",
+  "keyId" : "only_one_content_instance_allowed",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Only one content instance allowed"
+  } ]
+}, {
+  "classId" : "webContentAreas[id]",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  } ]
+}, {
+  "classId" : "webContentAreas[id]",
+  "keyId" : "required_read_right",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Required Read Right"
+  } ]
+}, {
+  "classId" : "webContentAreas[id]",
+  "keyId" : "required_write_right",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Required Write Right"
+  } ]
+}, {
+  "classId" : "entityAttributes[id]",
+  "keyId" : "next",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Weiter"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Next"
+  } ]
+}, {
+  "classId" : "entityAttributes[id]",
+  "keyId" : "entity_class",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Entity Class"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Entity Klasse"
+  } ]
+}, {
+  "classId" : "entityAttributes[id]",
+  "keyId" : "attribute_name",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Attribute Name"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Attribute Name"
+  } ]
+}, {
+  "classId" : "entityAttributes[id]",
+  "keyId" : "translations",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Translations"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Übersetzungen"
+  } ]
+}, {
+  "classId" : "ErrorBanner",
+  "keyId" : "details",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Details"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Detail"
+  } ]
+}, {
+  "classId" : "ErrorBanner",
+  "keyId" : "java_stacktrace",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Java Stacktrace"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Java Stacktrace"
+  } ]
+}, {
+  "classId" : "ErrorBanner",
+  "keyId" : "error",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Error"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Fehler"
+  } ]
+}, {
+  "classId" : "notifications[id]",
+  "keyId" : "caption",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Caption"
+  } ]
+}, {
+  "classId" : "notifications[id]",
+  "keyId" : "send_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Gesendet am"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Send At"
+  } ]
+}, {
+  "classId" : "notifications[id]",
+  "keyId" : "recipient",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Empfänger"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Recipient"
+  } ]
+}, {
+  "classId" : "notifications[id]",
+  "keyId" : "text_message",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Text Nachricht"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Text Message"
+  } ]
+}, {
+  "classId" : "notifications[id]",
+  "keyId" : "read",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Gelesen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Read"
+  } ]
+}, {
+  "classId" : "notifications[id]",
+  "keyId" : "payload",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Payload"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Nutzlast"
+  } ]
+}, {
+  "classId" : "harmonyEvents[id]",
+  "keyId" : "created_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Erstellt am"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Created At"
+  } ]
+}, {
+  "classId" : "harmonyEvents[id]",
+  "keyId" : "created_by",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Created By"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Erstellt von"
+  } ]
+}, {
+  "classId" : "harmonyEvents[id]",
+  "keyId" : "java_type",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Java Typ"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Java Type"
+  } ]
+}, {
+  "classId" : "serverTasks-index",
+  "keyId" : "id",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "ID"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "ID"
+  } ]
+}, {
+  "classId" : "serverTasks-index",
+  "keyId" : "name",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Name"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Name"
+  } ]
+}, {
+  "classId" : "ServerNotReachable",
+  "keyId" : "server_not_reachable",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Server not reachable"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Server nicht erreichbar"
+  } ]
+}, {
+  "classId" : "ServerNotReachable",
+  "keyId" : "unfortunately,_the_server_is_currently_unavailable._please_try_again_later.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Unfortunately, the server is currently unavailable. Please try again later."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Leider ist der Server momentan nicht erreichbar. Bitte versuche es später erneut"
+  } ]
+}, {
+  "classId" : "emails[id]",
+  "keyId" : "created_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Created At"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Erstellt am"
+  } ]
+}, {
+  "classId" : "emails[id]",
+  "keyId" : "last_sending",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Zuletzt gesendet"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Last sending"
+  } ]
+}, {
+  "classId" : "emails[id]",
+  "keyId" : "from",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "From"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Von"
+  } ]
+}, {
+  "classId" : "emails[id]",
+  "keyId" : "to",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "An"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "To"
+  } ]
+}, {
+  "classId" : "emails[id]",
+  "keyId" : "subject",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Subject"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Thema"
+  } ]
+}, {
+  "classId" : "emails[id]",
+  "keyId" : "html_message",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "HTML Nachricht"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "HTML Message"
+  } ]
+}, {
+  "classId" : "emails[id]",
+  "keyId" : "preview",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Preview"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Vorschau"
+  } ]
+}, {
+  "classId" : "emails[id]",
+  "keyId" : "send",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Senden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Send"
+  } ]
+}, {
+  "classId" : "HarmonyYesNoModal",
+  "keyId" : "yes",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Yes"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Ja"
+  } ]
+}, {
+  "classId" : "HarmonyYesNoModal",
+  "keyId" : "no",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nein"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "No"
+  } ]
+}, {
+  "classId" : "FormSelectFieldCreateResourceWrapper",
+  "keyId" : "cancel",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Abbrechen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Cancel"
+  } ]
+}, {
+  "classId" : "registrations[id]",
+  "keyId" : "the_user_is_currently_waiting_for_an_admin_confirmation",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "The user is currently waiting for an admin confirmation"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Der Benutzer wartet aktuell auf die Bestätigung des Administrators"
+  } ]
+}, {
+  "classId" : "registrations[id]",
+  "keyId" : "confirm",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Confirm"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Bestätigen"
+  } ]
+}, {
+  "classId" : "registrations[id]",
+  "keyId" : "e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "E-Mail"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail"
+  } ]
+}, {
+  "classId" : "registrations[id]",
+  "keyId" : "state",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "State"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zustand"
+  } ]
+}, {
+  "classId" : "registrations[id]",
+  "keyId" : "state_data",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "State Data"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zustandsdaten"
+  } ]
+}, {
+  "classId" : "HarmonyJsonEditor",
+  "keyId" : "enter_json_here...",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Enter JSON here..."
+  } ]
+}, {
+  "classId" : "HarmonyJsonEditor",
+  "keyId" : "valid_json",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Valid JSON"
+  } ]
+}, {
+  "classId" : "HarmonyJsonEditor",
+  "keyId" : "json_not_valid",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "JSON not valid"
+  } ]
+}, {
+  "classId" : "personalNotifications-index",
+  "keyId" : "search",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Suche"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Search"
+  } ]
+}, {
+  "classId" : "personalNotifications-index",
+  "keyId" : "send_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Send at"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Gesendet am"
+  } ]
+}, {
+  "classId" : "personalNotifications-index",
+  "keyId" : "caption",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Caption"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Titel"
+  } ]
+}, {
+  "classId" : "personalNotifications-index",
+  "keyId" : "type",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Typ"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Type"
+  } ]
+}, {
+  "classId" : "HarmonyTableCardRepresentationSortingModal",
+  "keyId" : "apply",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Anwenden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Apply"
+  } ]
+}, {
+  "classId" : "HarmonyTableCardRepresentationSortingModal",
+  "keyId" : "cancel",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Cancel"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Abbrechen"
+  } ]
+}, {
+  "classId" : "startupLogs-index",
+  "keyId" : "started_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Gestartet am"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Started At"
+  } ]
+}, {
+  "classId" : "startupLogs-index",
+  "keyId" : "duration_milliseconds",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Dauer in Millisekunden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Duration Milliseconds"
+  } ]
+}, {
+  "classId" : "startupLogs-index",
+  "keyId" : "duration",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Duration"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Dauer"
+  } ]
+}, {
+  "classId" : "users[id]",
+  "keyId" : "e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mail"
+  } ]
+}, {
+  "classId" : "users[id]",
+  "keyId" : "firstname",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Firstname"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Vorname"
+  } ]
+}, {
+  "classId" : "users[id]",
+  "keyId" : "lastname",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nachname"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Lastname"
+  } ]
+}, {
+  "classId" : "users[id]",
+  "keyId" : "access",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Zugang"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Access"
+  } ]
+}, {
+  "classId" : "users[id]",
+  "keyId" : "is_admin",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Is Admin?"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Ist Administrator?"
+  } ]
+}, {
+  "classId" : "users[id]",
+  "keyId" : "main_role",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Main Role"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Hauptrolle"
+  } ]
+}, {
+  "classId" : "users[id]",
+  "keyId" : "roles",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Roles"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Rollen"
+  } ]
+}, {
+  "classId" : "users[id]",
+  "keyId" : "additional_rights",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Additional Rights"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zusätzliche Rechte"
+  } ]
+}, {
+  "classId" : "WebContentImageComponent",
+  "keyId" : "image_to_upload",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Image to upload"
+  } ]
+}, {
+  "classId" : "reportUserErrors[id]",
+  "keyId" : "page",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Page"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Seite"
+  } ]
+}, {
+  "classId" : "reportUserErrors[id]",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  } ]
+}, {
+  "classId" : "reportUserErrors[id]",
+  "keyId" : "attachments",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Attachments"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Anhänge"
+  } ]
+}, {
+  "classId" : "secureKeys-index",
+  "keyId" : "id",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "ID"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "ID"
+  } ]
+}, {
+  "classId" : "secureKeys-index",
+  "keyId" : "name",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Name"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Name"
+  } ]
+}, {
+  "classId" : "secureKeys-index",
+  "keyId" : "key",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Schlüssel"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Key"
+  } ]
+}, {
+  "classId" : "HarmonyUserWebModal",
+  "keyId" : "edit_profile",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Profil bearbeiten"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Edit Profile"
+  } ]
+}, {
+  "classId" : "HarmonyUserWebModal",
+  "keyId" : "open_app",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Open App"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "App öffnen"
+  } ]
+}, {
+  "classId" : "HarmonyUserWebModal",
+  "keyId" : "logout",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Logout"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Abmelden"
+  } ]
+}, {
+  "classId" : "HarmonyUserWebModal",
+  "keyId" : "login",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Anmelden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Login"
+  } ]
+}, {
+  "classId" : "HarmonyUserWebModal",
+  "keyId" : "no_account?",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Kein Account?"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "No Account?"
+  } ]
+}, {
+  "classId" : "HarmonyUserWebModal",
+  "keyId" : "please_a_create_a_new_account_here",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bitte erstelle hier einen neuen Account"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Please a create a new account here"
+  } ]
+}, {
+  "classId" : "HarmonyUserWebModal",
+  "keyId" : "about",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "About"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Über uns"
+  } ]
+}, {
+  "classId" : "HarmonyUserWebModal",
+  "keyId" : "imprint",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Imprint"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Impressum"
+  } ]
+}, {
+  "classId" : "HarmonyUserWebModal",
+  "keyId" : "privacy_notice",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Datenschutzerklärung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Privacy Notice"
+  } ]
+}, {
+  "classId" : "HarmonyUserWebModal",
+  "keyId" : "language",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Language"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Sprache"
+  } ]
+}, {
+  "classId" : "HarmonyViewModelForm",
+  "keyId" : "error",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Error"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Fehler"
+  } ]
+}, {
+  "classId" : "HarmonyViewModelForm",
+  "keyId" : "data_could_not_be_loaded",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Daten konnten nicht geladen werden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Data could not be loaded"
+  } ]
+}, {
+  "classId" : "notificationEventTypes[id]",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "notificationEventTypes[id]",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  } ]
+}, {
+  "classId" : "notificationEventTypes[id]",
+  "keyId" : "is_active",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Is Active"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Ist Aktiv"
+  } ]
+}, {
+  "classId" : "actors[id]",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "actors[id]",
+  "keyId" : "type",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Type"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Typ"
+  } ]
+}, {
+  "classId" : "actors[id]",
+  "keyId" : "user_id",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "User ID"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Benutzer ID"
+  } ]
+}, {
+  "classId" : "confirmEmail",
+  "keyId" : "not_allowed",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nicht erlaubt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Not allowed"
+  } ]
+}, {
+  "classId" : "confirmEmail",
+  "keyId" : "it_is_currently_not_allowed_to_create_a_new_account.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Es ist aktuell nicht erlaubt neue Accounts anzulegen."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "It is currently not allowed to create a new account."
+  } ]
+}, {
+  "classId" : "confirmEmail",
+  "keyId" : "homepage",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Homepage"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Startseite"
+  } ]
+}, {
+  "classId" : "confirmEmail",
+  "keyId" : "confirm_e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "E-Mail bestätigen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Confirm E-Mail"
+  } ]
+}, {
+  "classId" : "confirmEmail",
+  "keyId" : "confirmation_in_process...",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bestätigung läuft..."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Confirmation in process..."
+  } ]
+}, {
+  "classId" : "confirmEmail",
+  "keyId" : "confirmation_was_successful.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bestätigung war erfolgreich."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Confirmation was successful."
+  } ]
+}, {
+  "classId" : "confirmEmail",
+  "keyId" : "please_wait_for_the_admin_confirmation.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bitte warte auf die Bestätigung des Administrators"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Please wait for the admin confirmation."
+  } ]
+}, {
+  "classId" : "confirmEmail",
+  "keyId" : "you_are_now_allowed_to_login_to_the_application.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Du darfst dich jetzt anmelden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "You are now allowed to login to the application."
+  } ]
+}, {
+  "classId" : "confirmEmail",
+  "keyId" : "login",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Login"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Anmelden"
+  } ]
+}, {
+  "classId" : "confirmEmail",
+  "keyId" : "unfortunately_something_went_wrong._please_get_in_contact_with_the_administrator_of_this_application.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Unfortunately something went wrong. Please get in contact with the administrator of this application."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Leider ist etwas schiefgelaufen. Bitte wenden sich an den Administrator der Anwendung."
+  } ]
+}, {
+  "classId" : "registrations-index",
+  "keyId" : "send_invitation",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Einladung versenden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Send Invitation"
+  } ]
+}, {
+  "classId" : "registrations-index",
+  "keyId" : "e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mail"
+  } ]
+}, {
+  "classId" : "registrations-index",
+  "keyId" : "state",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "State"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zustand"
+  } ]
+}, {
+  "classId" : "FormFieldWrapper",
+  "keyId" : "close",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Schließen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Close"
+  } ]
+}, {
+  "classId" : "notifications-index",
+  "keyId" : "search",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Search"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Suche"
+  } ]
+}, {
+  "classId" : "notifications-index",
+  "keyId" : "send_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Gesendet am"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Send at"
+  } ]
+}, {
+  "classId" : "notifications-index",
+  "keyId" : "recipient",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Recipient"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Empfänger"
+  } ]
+}, {
+  "classId" : "notifications-index",
+  "keyId" : "caption",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Caption"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Titel"
+  } ]
+}, {
+  "classId" : "notifications-index",
+  "keyId" : "read",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Gelesen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Read"
+  } ]
+}, {
+  "classId" : "notifications-index",
+  "keyId" : "type",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Typ"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Type"
+  } ]
+}, {
+  "classId" : "HarmonyAuthenticatedNavbar",
+  "keyId" : "account",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Konto"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Account"
+  } ]
+}, {
+  "classId" : "HarmonyAuthenticatedNavbar",
+  "keyId" : "language",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Sprache"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Language"
+  } ]
+}, {
+  "classId" : "HarmonyAuthenticatedNavbar",
+  "keyId" : "logout",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Abmelden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Logout"
+  } ]
+}, {
+  "classId" : "applicationExceptions[id]",
+  "keyId" : "exception_type",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Exception Type"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Exception Typ"
+  } ]
+}, {
+  "classId" : "applicationExceptions[id]",
+  "keyId" : "message",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nachricht"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Message"
+  } ]
+}, {
+  "classId" : "applicationExceptions[id]",
+  "keyId" : "timestamp",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Zeitpunkt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Timestamp"
+  } ]
+}, {
+  "classId" : "applicationExceptions[id]",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  } ]
+}, {
+  "classId" : "applicationExceptions[id]",
+  "keyId" : "stacktrace",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Stacktrace"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Stacktrace"
+  } ]
+}, {
+  "classId" : "applicationExceptions[id]",
+  "keyId" : "log",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Log"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Log"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "import",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Importieren"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Import"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "export",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Export"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Export"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "entity_class",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Entity Class"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Entity Klasse"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "text",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Text"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Text"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "attribute",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Attribute"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Attribut"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "is_core_entry",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Is Core Entry"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Ist Core-Eintrag"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "is_project_entry",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Ist Projekt-Eintrag"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Is Project Entry"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "translated_entries:_{countoftranslatedentries}",
+  "placeholders" : [ "countOfTranslatedEntries" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Translated Entries: {countOfTranslatedEntries}"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Übersetzte Einträge: {countOfTranslatedEntries}"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "not_translated_entries:_{countofnottranslatedentries}",
+  "placeholders" : [ "countOfNotTranslatedEntries" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nicht übersetzte Einträge: {countOfNotTranslatedEntries}"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Not Translated Entries: {countOfNotTranslatedEntries}"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "select_import_json_file",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Select import json file"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "JSON-Import Datei auswählen"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "upload",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Upload"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Hochladen"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "imported_elements",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Importiere Elemente"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Imported Elements"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "ignored_elements",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Ignorierte Elemente"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Ignored Elements"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "close",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Schließen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Close"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "include_core_entries",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Include Core Entries"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Core-Einträge einschließen"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "include_project_entries",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Projekt-Einträge einschließen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Include Project Entries"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "attribute_name",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Attribute Name"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Attribut Name"
+  } ]
+}, {
+  "classId" : "entityAttributes-index",
+  "keyId" : "count_of_translations",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Anzahl Übersetzungen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Count of Translations"
+  } ]
+}, {
+  "classId" : "users-index",
+  "keyId" : "e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mail"
+  } ]
+}, {
+  "classId" : "users-index",
+  "keyId" : "firstname",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Firstname"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Vorname"
+  } ]
+}, {
+  "classId" : "users-index",
+  "keyId" : "lastname",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Lastname"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Nachname"
+  } ]
+}, {
+  "classId" : "webContentAreas-index",
+  "keyId" : "unique_name",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Unique Name"
+  } ]
+}, {
+  "classId" : "webContentAreas-index",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "webContentAreas-index",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  } ]
+}, {
+  "classId" : "SaveAndRevertButton",
+  "keyId" : "revert_changes",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Revert changes"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zurücksetzten"
+  } ]
+}, {
+  "classId" : "SaveAndRevertButton",
+  "keyId" : "save",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Speichern"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Save"
+  } ]
+}, {
+  "classId" : "webContents-index",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "webContents-index",
+  "keyId" : "area",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Area"
+  } ]
+}, {
+  "classId" : "userRoles[id]",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "userRoles[id]",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  } ]
+}, {
+  "classId" : "userRoles[id]",
+  "keyId" : "rights",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Rights"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Rechte"
+  } ]
+}, {
+  "classId" : "userRoles-index",
+  "keyId" : "search",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Search"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Suche"
+  } ]
+}, {
+  "classId" : "userRoles-index",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "userRoles-index",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  } ]
+}, {
+  "classId" : "useBannerContext",
+  "keyId" : "server_error",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Serverfehler"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Server error"
+  } ]
+}, {
+  "classId" : "pageNotFound",
+  "keyId" : "page_not_found",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Seite nicht gefunden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Page not found"
+  } ]
+}, {
+  "classId" : "pageNotFound",
+  "keyId" : "unfortunately_this_page_does_not_exists",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Diese Seite existiert nicht"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Unfortunately this page does not exists"
+  } ]
+}, {
+  "classId" : "pageNotFound",
+  "keyId" : "back",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Back"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zurück"
+  } ]
+}, {
+  "classId" : "pageNotFound",
+  "keyId" : "home",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Start"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Home"
+  } ]
+}, {
+  "classId" : "reportUserErrors-index",
+  "keyId" : "search",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Search"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Suche"
+  } ]
+}, {
+  "classId" : "reportUserErrors-index",
+  "keyId" : "page",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Page"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Seite"
+  } ]
+}, {
+  "classId" : "reportUserErrors-index",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  } ]
+}, {
+  "classId" : "actorRights[id]",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "actorRights[id]",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  } ]
+}, {
+  "classId" : "actorRights[id]",
+  "keyId" : "is_allowed_for_system_actor",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Is allowed for System Actor"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Ist für System Actor erlaubt"
+  } ]
+}, {
+  "classId" : "actorRights[id]",
+  "keyId" : "is_allowed_for_unknown_public_actor",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Ist erlaubt für unbekannte Nutzer"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Is allowed for unknown public actor"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "import",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Import"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Importieren"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "export",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Export"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Exportieren"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "class_id",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Class ID"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Klassen ID"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "text",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Text"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Text"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "code_location",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Code Stelle"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Code Location"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "is_core_entry",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Ist Core-Eintrag"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Is Core Entry"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "is_project_entry",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Ist Projekt-Entry"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Is Project Entry"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "key",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Key"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Schlüssel"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "translated_entries:_{countoftranslatedentries}",
+  "placeholders" : [ "countOfTranslatedEntries" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Übersetzte Einträge: {countOfTranslatedEntries}"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Translated Entries: {countOfTranslatedEntries}"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "not_translated_entries:_{countofnottranslatedentries}",
+  "placeholders" : [ "countOfNotTranslatedEntries" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Not Translated Entries: {countOfNotTranslatedEntries}"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Nicht übersetzte Einträge: {countOfNotTranslatedEntries}"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "select_import_json_file",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "JSON-Import Datei auswählen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Select import json file"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "upload",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Hochladen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Upload"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "included_elements",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Inbegriffene Elemente"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Included Elements"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "ignored_elements",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Ignored Elements"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Ignorierte Elemente"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "close",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Schließen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Close"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "include_core_entries",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Einschließlich Core-Einträge"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Include Core Entries"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "include_project_entries",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Einschließlich Projekt-Einträge"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Include Project Entries"
+  } ]
+}, {
+  "classId" : "keyEntries-index",
+  "keyId" : "count_of_translations",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Count Of Translations"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Anzahl Übersetzungen"
+  } ]
+}, {
+  "classId" : "HarmonyTable",
+  "keyId" : "yes",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "yes"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Ja"
+  } ]
+}, {
+  "classId" : "HarmonyTable",
+  "keyId" : "no",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nein"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "no"
+  } ]
+}, {
+  "classId" : "applicationStatus-index",
+  "keyId" : "reset",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Reset"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zurücksetzen"
+  } ]
+}, {
+  "classId" : "applicationStatus-index",
+  "keyId" : "user_message",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Benutzer Nachricht"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "User Message"
+  } ]
+}, {
+  "classId" : "applicationStatus-index",
+  "keyId" : "technical_message",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Technische Nachricht"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Technical Message"
+  } ]
+}, {
+  "classId" : "applicationStatus-index",
+  "keyId" : "status",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Status"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Status"
+  } ]
+}, {
+  "classId" : "applicationStatus-index",
+  "keyId" : "status_successfully_updated",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Status successfully updated"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Status erfolgreich aktualisiert"
+  } ]
+}, {
+  "classId" : "logs-index",
+  "keyId" : "reload",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Reload"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Neu laden"
+  } ]
+}, {
+  "classId" : "imprint",
+  "keyId" : "imprint",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Imprint"
+  } ]
+}, {
+  "classId" : "files[id]",
+  "keyId" : "file_name",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Dateiname"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "File Name"
+  } ]
+}, {
+  "classId" : "files[id]",
+  "keyId" : "is_temporary",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Is temporary"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Ist temporär"
+  } ]
+}, {
+  "classId" : "files[id]",
+  "keyId" : "download",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Herunterladen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Download"
+  } ]
+}, {
+  "classId" : "harmonyEvents-index",
+  "keyId" : "search",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Suche"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Search"
+  } ]
+}, {
+  "classId" : "harmonyEvents-index",
+  "keyId" : "created_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Created At"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Erstellt am"
+  } ]
+}, {
+  "classId" : "harmonyEvents-index",
+  "keyId" : "java_type",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Java Type"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Java Typ"
+  } ]
+}, {
+  "classId" : "harmonyEvents-index",
+  "keyId" : "created_by",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Erstellt von"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Created By"
+  } ]
+}, {
+  "classId" : "GenericResourceDetailView",
+  "keyId" : "delete",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Delete"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Löschen"
+  } ]
+}, {
+  "classId" : "GenericResourceDetailView",
+  "keyId" : "do_you_really_want_to_delete_this_item?",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Do you really want to delete this item?"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Möchtest du diesen Eintrag wirklich löschen?"
+  } ]
+}, {
+  "classId" : "GenericResourceDetailView",
+  "keyId" : "successfully_created",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Successfully created"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Erfolgreich erstellt"
+  } ]
+}, {
+  "classId" : "GenericResourceDetailView",
+  "keyId" : "successfully_updated",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Successfully updated"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Erfolgreich aktualisiert"
+  } ]
+}, {
+  "classId" : "GenericResourceDetailView",
+  "keyId" : "new",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "New"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Neu"
+  } ]
+}, {
+  "classId" : "GenericResourceDetailView",
+  "keyId" : "successfully_deleted",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Successfully deleted"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Erfolgreich gelöscht"
+  } ]
+}, {
+  "classId" : "login",
+  "keyId" : "e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mail"
+  } ]
+}, {
+  "classId" : "login",
+  "keyId" : "password",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Passwort"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Password"
+  } ]
+}, {
+  "classId" : "login",
+  "keyId" : "forgot_password",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Passwort vergessen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Forgot Password"
+  } ]
+}, {
+  "classId" : "login",
+  "keyId" : "login",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Login"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Einloggen"
+  } ]
+}, {
+  "classId" : "error",
+  "keyId" : "error",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Error"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Fehler"
+  } ]
+}, {
+  "classId" : "error",
+  "keyId" : "unfortunately_something_went_wrong",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Leider ist etwas schiefgelaufen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Unfortunately something went wrong"
+  } ]
+}, {
+  "classId" : "error",
+  "keyId" : "back",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Zurück"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Back"
+  } ]
+}, {
+  "classId" : "error",
+  "keyId" : "home",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Home"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Startseite"
+  } ]
+}, {
+  "classId" : "error",
+  "keyId" : "details",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Detail"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Details"
+  } ]
+}, {
+  "classId" : "sendInvitation",
+  "keyId" : "send",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Senden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Send"
+  } ]
+}, {
+  "classId" : "sendInvitation",
+  "keyId" : "e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mail"
+  } ]
+}, {
+  "classId" : "sendInvitation",
+  "keyId" : "message",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Message"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Nachricht"
+  } ]
+}, {
+  "classId" : "sendInvitation",
+  "keyId" : "the_current_workflow_does_not_allow_sending_of_invitations",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Der aktuelle Workflow erlaubt das Senden von Einladungen nicht."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "The current workflow does not allow sending of invitations"
+  } ]
+}, {
+  "classId" : "actors-index",
+  "keyId" : "unique_name",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Eindeutiger Name"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Unique Name"
+  } ]
+}, {
+  "classId" : "actors-index",
+  "keyId" : "type",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Type"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Typ"
+  } ]
+}, {
+  "classId" : "actors-index",
+  "keyId" : "user_id",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Benutzer ID"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "User ID"
+  } ]
+}, {
+  "classId" : "UserAccountPasswordSettingsStep",
+  "keyId" : "password",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Passwort"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Password"
+  } ]
+}, {
+  "classId" : "UserAccountPasswordSettingsStep",
+  "keyId" : "old_password",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Old Password"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Altes Passwort"
+  } ]
+}, {
+  "classId" : "UserAccountPasswordSettingsStep",
+  "keyId" : "new_password",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "New Password"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Neues Passwort"
+  } ]
+}, {
+  "classId" : "UserAccountPasswordSettingsStep",
+  "keyId" : "new_password_again",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "New Password Again"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Neues Passwort erneut"
+  } ]
+}, {
+  "classId" : "UserAccountPasswordSettingsStep",
+  "keyId" : "password_successfully_updated",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Password successfully updated"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwort erfolgreich aktualisiert"
+  } ]
+}, {
+  "classId" : "startupLogs[id]",
+  "keyId" : "started_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Started At"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Gestartet am"
+  } ]
+}, {
+  "classId" : "startupLogs[id]",
+  "keyId" : "duration_milliseconds",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Dauer in Millisekunden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Duration Milliseconds"
+  } ]
+}, {
+  "classId" : "startupLogs[id]",
+  "keyId" : "duration",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Duration"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Dauer"
+  } ]
+}, {
+  "classId" : "emails-index",
+  "keyId" : "search",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Suche"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Search"
+  } ]
+}, {
+  "classId" : "emails-index",
+  "keyId" : "created_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Erstellt am"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Created At"
+  } ]
+}, {
+  "classId" : "emails-index",
+  "keyId" : "last_send_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Zuletzt gesendet"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Last Send At"
+  } ]
+}, {
+  "classId" : "emails-index",
+  "keyId" : "state",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Zustand"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "State"
+  } ]
+}, {
+  "classId" : "emails-index",
+  "keyId" : "to",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "An"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "To"
+  } ]
+}, {
+  "classId" : "emails-index",
+  "keyId" : "subject",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Subject"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Titel"
+  } ]
+}, {
+  "classId" : "registryItems[id]",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "registryItems[id]",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  } ]
+}, {
+  "classId" : "registryItems[id]",
+  "keyId" : "value",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Wert"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Value"
+  } ]
+}, {
+  "classId" : "HarmonyLazyLoadingTable",
+  "keyId" : "total:",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Total:"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Total:"
+  } ]
+}, {
+  "classId" : "privacyNotice",
+  "keyId" : "privacy_notice",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Privacy Notice"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "clear",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Clear"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Löschen"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "cancel",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Abbrechen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Cancel"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "apply",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Anwenden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Apply"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "mon",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Mo."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Mon"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "tue",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Di."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Tue"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "wed",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Mi."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Wed"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "thu",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Thu"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Do."
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "fri",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Fr."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Fri"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "sat",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Sat"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Sa."
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "sun",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "So."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Sun"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "january",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "January"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Januar"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "february",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Februar"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "February"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "march",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "März"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "March"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "april",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "April"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "April"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "may",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "May"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Mai"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "june",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "June"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Juni"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "july",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Juli"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "July"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "august",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "August"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "August"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "september",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "September"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "September"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "october",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "October"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Oktober"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "november",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "November"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "November"
+  } ]
+}, {
+  "classId" : "HarmonyDatePicker",
+  "keyId" : "december",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "December"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Dezember"
+  } ]
+}, {
+  "classId" : "files-index",
+  "keyId" : "search",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Search"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Suche"
+  } ]
+}, {
+  "classId" : "files-index",
+  "keyId" : "upload",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Upload"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Hochladen"
+  } ]
+}, {
+  "classId" : "files-index",
+  "keyId" : "upload_new_file",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Neue Datei hochladen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Upload new file"
+  } ]
+}, {
+  "classId" : "files-index",
+  "keyId" : "file_to_upload",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Datei zum hochladen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "File to upload"
+  } ]
+}, {
+  "classId" : "files-index",
+  "keyId" : "filename",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Dateiname"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Filename"
+  } ]
+}, {
+  "classId" : "files-index",
+  "keyId" : "is_temporary",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Is Temporary"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Ist Temporär"
+  } ]
+}, {
+  "classId" : "files-index",
+  "keyId" : "created_at",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Created At"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Erstellt am"
+  } ]
+}, {
+  "classId" : "files-index",
+  "keyId" : "created_by",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Erstellt von"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Created By"
+  } ]
+}, {
+  "classId" : "FormSelectField",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "notificationEventTypes-index",
+  "keyId" : "search",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Search"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Suche"
+  } ]
+}, {
+  "classId" : "notificationEventTypes-index",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  } ]
+}, {
+  "classId" : "notificationEventTypes-index",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  } ]
+}, {
+  "classId" : "webContents[id]",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  } ]
+}, {
+  "classId" : "webContents[id]",
+  "keyId" : "area",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Area"
+  } ]
+}, {
+  "classId" : "HarmonyAuthenticatedSidebar",
+  "keyId" : "logout",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Abmelden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Logout"
+  } ]
+}, {
+  "classId" : "GenericResourceOverview",
+  "keyId" : "add",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Add"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Hinzufügen"
+  } ]
+}, {
+  "classId" : "forbidden",
+  "keyId" : "access_denied",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Access Denied"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zugriff verweigert"
+  } ]
+}, {
+  "classId" : "forbidden",
+  "keyId" : "unfortunately_you_are_not_allowed_to_visit_this_page",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Unfortunately you are not allowed to visit this page"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Leider hast du keine Berechtigung für diese Seite"
+  } ]
+}, {
+  "classId" : "forbidden",
+  "keyId" : "home",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Start"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Home"
+  } ]
+}, {
+  "classId" : "forgot-password",
+  "keyId" : "e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mail"
+  } ]
+}, {
+  "classId" : "forgot-password",
+  "keyId" : "reset",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Reset"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zurücksetzen"
+  } ]
+}, {
+  "classId" : "forgot-password",
+  "keyId" : "if_your_address_is_correct_you_will_receive_a_email_to_reset_your_password.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "If your address is correct you will receive a email to reset your password."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Wenn deine E-Mail Adresse korrekt ist, bekommst du eine E-Mail zum Zurücksetzen deines Passworts"
+  } ]
+}, {
+  "classId" : "applicationExceptions-index",
+  "keyId" : "search",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Suche"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Search"
+  } ]
+}, {
+  "classId" : "applicationExceptions-index",
+  "keyId" : "delete_all",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Alle löschen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Delete all"
+  } ]
+}, {
+  "classId" : "applicationExceptions-index",
+  "keyId" : "do_you_want_to_delete_all_exceptions?",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Möchtest du wirklich alle Exceptions löschen?"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Do you want to delete all exceptions?"
+  } ]
+}, {
+  "classId" : "applicationExceptions-index",
+  "keyId" : "timestamp",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Timestamp"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Zeitpunkt"
+  } ]
+}, {
+  "classId" : "applicationExceptions-index",
+  "keyId" : "exception_type",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Exception Type"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Exception Typ"
+  } ]
+}, {
+  "classId" : "applicationExceptions-index",
+  "keyId" : "code_location",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Code Location"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Code Stelle"
+  } ]
+}, {
+  "classId" : "applicationExceptions-index",
+  "keyId" : "message",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nachricht"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Message"
+  } ]
+}, {
+  "classId" : "ReportBugWindow",
+  "keyId" : "report_bug",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Report Bug"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Fehler melden"
+  } ]
+}, {
+  "classId" : "ReportBugWindow",
+  "keyId" : "page",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Page"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Seite"
+  } ]
+}, {
+  "classId" : "ReportBugWindow",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  } ]
+}, {
+  "classId" : "ReportBugWindow",
+  "keyId" : "attachments",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Anhänge"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Attachments"
+  } ]
+}, {
+  "classId" : "ReportBugWindow",
+  "keyId" : "report",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Melden"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Report"
+  } ]
+}, {
+  "classId" : "UserAccountDeleteAccountSettingsStep",
+  "keyId" : "delete_account",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Account löschen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Delete Account"
+  } ]
+}, {
+  "classId" : "UserAccountDeleteAccountSettingsStep",
+  "keyId" : "if_you_really_want_to_delete_your_account._please_enter_your_password_below.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "If you really want to delete your account. Please enter your password below."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Wenn du deinen Account wirklich löschen möchtest, gebe bitte dein Passwort ein."
+  } ]
+}, {
+  "classId" : "UserAccountDeleteAccountSettingsStep",
+  "keyId" : "password",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Password"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwort"
+  } ]
+}, {
+  "classId" : "secureKeys[id]",
+  "keyId" : "name",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Name"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Name"
+  } ]
+}, {
+  "classId" : "secureKeys[id]",
+  "keyId" : "key",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Schlüssel"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Key"
+  } ]
+}, {
+  "classId" : "serverTasks[id]",
+  "keyId" : "execute",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Ausführen"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Execute"
+  } ]
+}, {
+  "classId" : "serverTasks[id]",
+  "keyId" : "id",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "ID"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "ID"
+  } ]
+}, {
+  "classId" : "serverTasks[id]",
+  "keyId" : "taskname",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Taskname"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Task name"
+  } ]
+}, {
+  "classId" : "serverTasks[id]",
+  "keyId" : "last_execution",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Last Execution"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Letzte Ausführung"
+  } ]
+}, {
+  "classId" : "registerByInvitation",
+  "keyId" : "not_allowed",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nicht erlaubt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Not allowed"
+  } ]
+}, {
+  "classId" : "registerByInvitation",
+  "keyId" : "it_is_currently_not_allowed_to_create_a_new_account.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "It is currently not allowed to create a new account."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Es ist aktuell nicht erlaubt ein neues Konto zu erstellen."
+  } ]
+}, {
+  "classId" : "registerByInvitation",
+  "keyId" : "homepage",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Homepage"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Startseite"
+  } ]
+}, {
+  "classId" : "registerByInvitation",
+  "keyId" : "e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "E-Mail"
+  } ]
+}, {
+  "classId" : "registerByInvitation",
+  "keyId" : "firstname",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Firstname"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Vorname"
+  } ]
+}, {
+  "classId" : "registerByInvitation",
+  "keyId" : "lastname",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nachname"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Lastname"
+  } ]
+}, {
+  "classId" : "registerByInvitation",
+  "keyId" : "password",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Passwort"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Password"
+  } ]
+}, {
+  "classId" : "registerByInvitation",
+  "keyId" : "password_again",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Password again"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Passwort erneut"
+  } ]
+}, {
+  "classId" : "registerByInvitation",
+  "keyId" : "submit",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Submit"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Fertig"
+  } ]
+}, {
+  "classId" : "registerByInvitation",
+  "keyId" : "thank_you_for_signing_up",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Danke das du dich registriert hast"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Thank you for signing up"
+  } ]
+}, {
+  "classId" : "registerByInvitation",
+  "keyId" : "pleas_confirm_that_this_is_your_e-mail_by_clicking_on_the_confirmation_link.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Bitte bestätige deine E-Mail Adresse indem du auf den Bestätigungslink klickst."
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Please confirm that this is your E-Mail by clicking on the confirmation link."
+  } ]
+}, {
+  "classId" : "WebContentBoxComponent",
+  "keyId" : "do_you_want_to_delete_this_component?",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Do you want to delete this component?"
+  } ]
+}, {
+  "classId" : "cronJobs-index",
+  "keyId" : "label",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Label"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Bezeichnung"
+  } ]
+}, {
+  "classId" : "cronJobs-index",
+  "keyId" : "description",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Description"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Beschreibung"
+  } ]
+}, {
+  "classId" : "cronJobs-index",
+  "keyId" : "cron_trigger",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Cron Trigger"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Cron Trigger"
+  } ]
+}, {
+  "classId" : "register",
+  "keyId" : "not_allowed",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Nicht erlaubt"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Not allowed"
+  } ]
+}, {
+  "classId" : "register",
+  "keyId" : "it_is_currently_not_allowed_to_create_a_new_account.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "It is currently not allowed to create a new account."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Es ist aktuell nicht erlaubt neue Benutzerkonten zu erstellen."
+  } ]
+}, {
+  "classId" : "register",
+  "keyId" : "homepage",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Homepage"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Startseite"
+  } ]
+}, {
+  "classId" : "register",
+  "keyId" : "e-mail",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "E-Mail"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "E-Mail"
+  } ]
+}, {
+  "classId" : "register",
+  "keyId" : "firstname",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Firstname"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Vorname"
+  } ]
+}, {
+  "classId" : "register",
+  "keyId" : "lastname",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Lastname"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Nachname"
+  } ]
+}, {
+  "classId" : "register",
+  "keyId" : "password",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Passwort"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Password"
+  } ]
+}, {
+  "classId" : "register",
+  "keyId" : "password_again",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Passwort erneut"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Password again"
+  } ]
+}, {
+  "classId" : "register",
+  "keyId" : "submit",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Submit"
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Fertig"
+  } ]
+}, {
+  "classId" : "register",
+  "keyId" : "thank_you_for_signing_up",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "GERMAN",
+    "translation" : "Danke das du dich registriert hast"
+  }, {
+    "language" : "ENGLISH",
+    "translation" : "Thank you for signing up"
+  } ]
+}, {
+  "classId" : "register",
+  "keyId" : "pleas_confirm_that_this_is_your_e-mail_by_clicking_on_the_confirmation_link.",
+  "placeholders" : [ "" ],
+  "description" : null,
+  "codeLocation" : "FRONTEND",
+  "isCoreEntry" : true,
+  "translationEntries" : [ {
+    "language" : "ENGLISH",
+    "translation" : "Pleas confirm that this is your E-Mail by clicking on the confirmation link."
+  }, {
+    "language" : "GERMAN",
+    "translation" : "Bitte bestätige deine E-Mail Adresse indem du auf den Bestätigungslink klickst."
+  } ]
+} ]

@@ -1,0 +1,41 @@
+version: '2'
+services:
+  db:
+    container_name: db-{{postgresDB}}
+    image: postgres:16
+    restart: always
+    environment:
+      - POSTGRES_DB={{postgresDB}}
+      - POSTGRES_USER={{postgresUser}}
+      - POSTGRES_PASSWORD={{postgresPassword}}
+    ports:
+      - "5432"
+    volumes:
+      - database-volume:/var/lib/postgresql/data/
+  api:
+    container_name: {{apiImageName}}
+    depends_on:
+      - db
+    image: christophermoeller/{{apiImageName}}:latest
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/{{postgresDB}}
+      - SPRING_DATASOURCE_USERNAME={{postgresUser}}
+      - SPRING_DATASOURCE_PASSWORD={{postgresPassword}}
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=validate
+    ports:
+      - "8080"
+  ui:
+    container_name: {{uiImageName}}
+    depends_on:
+      - api
+    image: christophermoeller/{{uiImageName}}:latest
+    ports:
+      - "3000"
+  nginx:
+    image: christophermoeller/{{nginxImageName}}:latest
+    ports:
+      - "80:80"
+    depends_on:
+      - ui
+volumes:
+  database-volume:

@@ -1,0 +1,30 @@
+import jenkins.model.*
+import org.jenkinsci.plugins.workflow.job.WorkflowJob
+import org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition
+
+// Method to create a Jenkins pipeline job
+def createPipelineJob(String jobName, String pipelineScriptFilePath) {
+    // Load the pipeline script from the specified file
+    def pipelineScriptFile = new File(pipelineScriptFilePath)
+    def pipelineScript = pipelineScriptFile.text
+
+    // Get Jenkins instance
+    def jenkinsInstance = Jenkins.instance
+
+    // Check if the job already exists
+    if (jenkinsInstance.getItem(jobName) != null) {
+        println("Job '${jobName}' already exists. Skipping creation.")
+    } else {
+        // Create a new pipeline job
+        def job = new WorkflowJob(jenkinsInstance, jobName)
+        job.setDefinition(new CpsFlowDefinition(pipelineScript, true))
+        jenkinsInstance.add(job, jobName)
+
+        println("Job '${jobName}' created successfully.")
+    }
+}
+
+// Call the method with the job name and path to the pipeline script file
+createPipelineJob("api-build", "/var/jenkins_home/init.groovy.d/api-build-pipeline.jenkinsscript")
+createPipelineJob("ui-build", "/var/jenkins_home/init.groovy.d/ui-build-pipeline.jenkinsscript")
+createPipelineJob("nginx-build", "/var/jenkins_home/init.groovy.d/nginx-build-pipeline.jenkinsscript")

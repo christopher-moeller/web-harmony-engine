@@ -1,0 +1,10 @@
+{
+  "type": "box",
+  "align": "VERTICAL",
+  "children": [
+    {
+      "type": "text",
+      "text": "<p>Die erste Idee zur Harmony-Engine kam mir im Sommer 2022. Nach einigen Jahren in der Softwareentwicklung ist mir aufgefallen, wie viele Dinge in allen Web-Projekten wiederholt werden müssen um zur eigentlichen Kernfunktionalität zu kommen. Um diesem Umstand zu ändern habe ich angefangen mit der Überlegung wie viele Methoden man in eine eigene Library auslagern kann.</p><p><br></p><p>In den nächsten Monaten bin bereits zu einigen erfolgreichen Lösungen gekommen. Der Kernfokus lag zu beginn auf der Vereinfachung von CRUD-Logiken für verschiedenen Resourcen. Ziel war es sowohl im Frontend als auch im Backend einen Workflow zu schaffen, der es erlaubt neue Ressourcen innhalb weniger Minuten anlegen und Konfiguren zu können.&nbsp;</p><p><br></p><p>Bis zur ersten Finalen version der Harmony-Engine hat es allerdings über 2 Jahre gedauert.</p>"
+    }
+  ]
+}
